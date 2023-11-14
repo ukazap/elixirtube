@@ -1,0 +1,14 @@
+title: <%= inspect(@title) %>
+raw_title: <%= inspect(@raw_title) %>
+description: <%= inspect(@description) %>
+speakers:<%= for speaker <- @speakers do %>
+  - <%= speaker %><% end %>
+source: <%= @source %>
+source_id: <%= @source_id %>
+thumbnails:
+  xs: <%= @thumbnails.xs %>
+  s: <%= @thumbnails.s %>
+  m: <%= @thumbnails.m %>
+  l: <%= @thumbnails.l %>
+  xl: <%= @thumbnails.xl %>
+published_at: <%= @published_at %>

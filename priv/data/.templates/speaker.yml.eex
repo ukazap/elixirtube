@@ -1,0 +1,4 @@
+name: <%= @name %>
+bio: <%= @bio %>
+urls:<%= for url <- @urls do %>
+  - <%= url %><% end %>

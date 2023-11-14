@@ -1,0 +1,12 @@
+title: <%= inspect(@title) %>
+location: <%= inspect(@location) %>
+description: <%= inspect(@description) %>
+source: <%= @source %>
+source_id: <%= @source_id %>
+thumbnails:
+  xs: <%= @thumbnails.xs %>
+  s: <%= @thumbnails.s %>
+  m: <%= @thumbnails.m %>
+  l: <%= @thumbnails.l %>
+  xl: <%= @thumbnails.xl %>
+published_at: <%= @published_at %>

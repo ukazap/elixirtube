@@ -1,0 +1,4 @@
+title: <%= inspect(@title) %>
+description: <%= inspect(@description) %>
+urls:<%= for url <- @urls do %>
+  - <%= url %><% end %>
