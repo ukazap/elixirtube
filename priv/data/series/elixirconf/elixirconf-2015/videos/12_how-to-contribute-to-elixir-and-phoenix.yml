@@ -1,0 +1,14 @@
+title: "How To Contribute to Elixir and Phoenix"
+raw_title: "ElixirConf 2015 - How To Contribute to Elixir and Phoenix by Wendy Smoak"
+description: "Have you always wanted to contribute to an Open Source project, but you're not sure how? The Elixir and Phoenix Framework communities are a great place to get started. In this talk you'll learn how to navigate the ecosystem, avoid missteps due to unwritten rules, find something to work on, and make your first contribution. We'll start with the easiest things you can do, (ask a question! fix a typo in the docs!) move on to creating a bleeding edge project using the master branch of Phoenix so you can try out your changes, and go all the way through to building Elixir from source and patching the language itself."
+speakers:
+  - Wendy Smoak
+source: youtube
+source_id: uMrsJahHi3k
+thumbnails:
+  xs: https://i.ytimg.com/vi/uMrsJahHi3k/default.jpg
+  s: https://i.ytimg.com/vi/uMrsJahHi3k/mqdefault.jpg
+  m: https://i.ytimg.com/vi/uMrsJahHi3k/hqdefault.jpg
+  l: https://i.ytimg.com/vi/uMrsJahHi3k/sddefault.jpg
+  xl: https://i.ytimg.com/vi/uMrsJahHi3k/maxresdefault.jpg
+published_at: 2015-10-15T18:41:21Z

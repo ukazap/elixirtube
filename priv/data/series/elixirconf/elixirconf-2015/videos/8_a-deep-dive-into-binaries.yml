@@ -1,0 +1,14 @@
+title: "A Deep Dive into Binaries"
+raw_title: "ElixirConf 2015 - A Deep Dive into Binaries by Chris Maddox"
+description: "This talk will start with the basics of match types, sizes, units, and encodings. We'll then cover function heads and logical branching with a real life example of recursive parsing using pattern matching. Towards the end, we'll cover how to optimize binary matching for BEAM and get feedback directly from the compiler. This talk is relevant both to those new to Elixir and those looking to learn more about how to tune existing code for BEAM."
+speakers:
+  - Chris Maddox
+source: youtube
+source_id: A66JufPXA2c
+thumbnails:
+  xs: https://i.ytimg.com/vi/A66JufPXA2c/default.jpg
+  s: https://i.ytimg.com/vi/A66JufPXA2c/mqdefault.jpg
+  m: https://i.ytimg.com/vi/A66JufPXA2c/hqdefault.jpg
+  l: https://i.ytimg.com/vi/A66JufPXA2c/sddefault.jpg
+  xl: https://i.ytimg.com/vi/A66JufPXA2c/maxresdefault.jpg
+published_at: 2015-10-15T17:07:41Z
