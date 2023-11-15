@@ -1,0 +1,14 @@
+title: "Implementing Binary Protocols with Elixir"
+raw_title: "ElixirConf 2016 - Implementing Binary Protocols with Elixir by Ole Michaelis"
+description: "Implementing Binary Protocols with Elixir by Ole Michaelis\n\nBinary protocols are all around us, HTTP/2, HPACK, or DNS are only a few examples. Pretty efficient on the transport layer they reduce size dramatically and enable a set of great features. But they are often more complex to implement and reason about.\nIn this talk you will learn how you could implement a given binary protocol with Elixir. We will take a look at binary pattern matching, de- and encoding of strings and integers, binary data frames and extracting tests from RFC specs. And, we will take a look at how to implement the HPACK protocol as part of the HTTP/2 protocol so you will learn some of that along the way as well."
+speakers:
+  - Ole Michaelis
+source: youtube
+source_id: RmKA-vdi04I
+thumbnails:
+  xs: https://i.ytimg.com/vi/RmKA-vdi04I/default.jpg
+  s: https://i.ytimg.com/vi/RmKA-vdi04I/mqdefault.jpg
+  m: https://i.ytimg.com/vi/RmKA-vdi04I/hqdefault.jpg
+  l: https://i.ytimg.com/vi/RmKA-vdi04I/sddefault.jpg
+  xl: https://i.ytimg.com/vi/RmKA-vdi04I/maxresdefault.jpg
+published_at: 2016-09-27T02:27:38Z

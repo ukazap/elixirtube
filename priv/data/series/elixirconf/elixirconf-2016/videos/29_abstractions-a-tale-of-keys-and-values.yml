@@ -1,0 +1,14 @@
+title: "Abstractions: A Tale of Keys and Values"
+raw_title: "ElixirConf 2016 - Abstractions: A Tale of Keys and Values by Ernie Miller"
+description: "Due to technical difficulties the audio had to be taken from the camera. We apologize for the poor audio quality.\n\nAbstractions: A Tale of Keys and Values by Ernie Miller\n\nAs programmers, we know that the right abstraction unlocks new ways of thinking about the problems we solve. But can they do more? Can an abstraction exemplify our values? What might that look like? How would it feel to use? Do these words I'm typing right now even make any sense?\nI'd like to share a recent experience with Elixir and Phoenix that convinced me, more than ever, of the power a well-chosen abstraction can have to create a truly joyful development experience."
+speakers:
+  - Ernie Miller
+source: youtube
+source_id: eKbLOlyt11k
+thumbnails:
+  xs: https://i.ytimg.com/vi/eKbLOlyt11k/default.jpg
+  s: https://i.ytimg.com/vi/eKbLOlyt11k/mqdefault.jpg
+  m: https://i.ytimg.com/vi/eKbLOlyt11k/hqdefault.jpg
+  l: https://i.ytimg.com/vi/eKbLOlyt11k/sddefault.jpg
+  xl: https://i.ytimg.com/vi/eKbLOlyt11k/maxresdefault.jpg
+published_at: 2016-10-13T14:15:22Z
