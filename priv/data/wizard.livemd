@@ -37,7 +37,7 @@ Optional: if you choose to use GPT3.5, you also need to have an [OpenAI](https:/
 
 ## Modules and structs
 
-You may want to scroll down to [Input section](#input) to make use of these.
+You may want to scroll down to [Input](#input) section to make use of these.
 
 ```elixir
 # Entity structs
@@ -215,35 +215,115 @@ defmodule GPT do
       Do not include any explanations, only return a RFC8259 compliant JSON response adhering to the input JSON structure without deviation.
     """
 
+    max_retries = 3
+
     outputs =
-      OpenAI.completions(
-        model: "gpt-3.5-turbo-instruct",
-        max_tokens: ceil(String.length(input_json) * 1.5),
-        prompt: prompt
-      )
-      |> IO.inspect(label: "GPT result")
-      |> case do
-        {:ok, %{choices: [%{"finish_reason" => "stop", "text" => output_json}]}} ->
-          {:ok, %{"talks" => list}} = Jason.decode(output_json)
-          list
+      Enum.reduce_while(1..max_retries, [], fn nth, _ac ->
+        gpt_result =
+          OpenAI.completions(
+            model: "gpt-3.5-turbo-instruct",
+            max_tokens: ceil(String.length(input_json) * 1.5),
+            prompt: prompt
+          )
 
-        _ ->
-          input
-      end
+        with {:ok, %{choices: [%{"finish_reason" => "stop", "text" => json}]}} <- gpt_result,
+             {:ok, %{"talks" => list}} <- Jason.decode(json) do
+          {:halt, {:ok, list}}
+        else
+          error ->
+            case nth do
+              ^max_retries ->
+                {:halt, {:gpterror, error}}
 
-    videos
-    |> Enum.zip(outputs)
-    |> Enum.map(fn {v, o} ->
-      %{
-        v
-        | title: Map.get(o, "title", v.raw_title),
-          speakers: Map.get(o, "speakers", v.speakers)
-      }
-    end)
+              _ ->
+                {:cont, []}
+            end
+        end
+      end)
+
+    case outputs do
+      {:ok, list} when is_list(list) ->
+        videos =
+          videos
+          |> Enum.zip(list)
+          |> Enum.map(fn {v, o} ->
+            %{
+              v
+              | title: Map.get(o, "title", v.raw_title),
+                speakers: Map.get(o, "speakers", v.speakers)
+            }
+          end)
+
+        {:ok, videos}
+
+      {:gpterror, _} = error ->
+        error
+    end
   end
 end
 
 Kino.nothing()
+```
+
+```elixir
+defmodule SaveData do
+  @template_dir Path.join(__DIR__, ".templates")
+  @templates %{
+    Series => Path.join(@template_dir, "series.yml.eex"),
+    Speaker => Path.join(@template_dir, "speaker.yml.eex"),
+    Playlist => Path.join(@template_dir, "playlist.yml.eex"),
+    Video => Path.join(@template_dir, "video.yml.eex")
+  }
+
+  def write_all_and_replace_existing_files!(data) do
+    # Save speakers
+    dir = Path.join(__DIR__, "speakers")
+    File.mkdir_p!(dir)
+
+    Enum.each(data.speakers, fn speaker ->
+      Path.join(dir, "#{Slug.slugify(speaker.name)}.yml")
+      |> SaveData.write!(speaker)
+    end)
+
+    # Save series
+    slug = Slug.slugify(data.series.title)
+    dir = Path.join([__DIR__, "series", slug])
+    File.mkdir_p!(dir)
+
+    Path.join(dir, "series.yml")
+    |> SaveData.write!(data.series)
+
+    # Save playlist
+    slug = Slug.slugify(data.playlist.title)
+    dir = Path.join(dir, slug)
+    File.mkdir_p!(dir)
+
+    Path.join(dir, "playlist.yml")
+    |> SaveData.write!(data.playlist)
+
+    # Save videos
+    dir = Path.join(dir, "videos")
+    File.mkdir_p!(dir)
+
+    data.videos
+    |> Enum.with_index()
+    |> Enum.each(fn {video, idx} ->
+      Path.join(dir, "#{idx}_#{Slug.slugify(video.title)}.yml")
+      |> SaveData.write!(video)
+    end)
+  end
+
+  def write!(path, data) do
+    content = eval_template!(data)
+    File.write!(path, content)
+  end
+
+  def eval_template!(%strukt{} = data) do
+    template = Map.fetch!(@templates, strukt)
+    assigns = Map.from_struct(data)
+    EEx.eval_file(template, assigns: assigns)
+  end
+end
 ```
 
 ## Input
@@ -281,7 +361,7 @@ input_series_urls =
 """
 ### Video source
 
-Enter a YouTube playlist URL for an event, e.g. for `ElixirConf 2014`:
+Enter a YouTube playlist URL for an event:
 """
 |> Kino.Markdown.new()
 |> Kino.render()
@@ -309,10 +389,6 @@ data =
   |> Map.put(:series, series)
   |> Map.merge(result)
 
-Kino.Tree.new(data)
-```
-
-```elixir
 """
 ### Playlist Information
 
@@ -335,19 +411,38 @@ input_playlist_description =
 
 ```elixir
 playlist =
-  Map.merge(result.playlist, %{
-    title: input_playlist_title |> Kino.Input.read() |> String.trim(),
-    location: input_playlist_location |> Kino.Input.read() |> String.trim(),
-    description: input_playlist_description |> Kino.Input.read() |> String.trim()
-  })
+  %{
+    result.playlist
+    | title: input_playlist_title |> Kino.Input.read() |> String.trim(),
+      location: input_playlist_location |> Kino.Input.read() |> String.trim(),
+      description: input_playlist_description |> Kino.Input.read() |> String.trim()
+  }
 
 data = %{data | playlist: playlist}
+
 Kino.Tree.new(data)
 ```
 
 ```elixir
-"### Video Information"
+"### Video selection"
 |> Kino.Markdown.new()
+|> Kino.render()
+
+include_all_videos? = Kino.Input.checkbox("Include all videos from the playlist?", default: true)
+```
+
+```elixir
+Kino.Markdown.new("Select videos to include:")
+|> Kino.render()
+
+videos_to_include =
+  Enum.map(data.videos, fn video ->
+    input = Kino.Input.checkbox(video.title, default: Kino.Input.read(include_all_videos?))
+    Kino.render(input)
+    %{video: video, input: input}
+  end)
+
+Kino.Markdown.new("### Video data")
 |> Kino.render()
 
 use_gpt? = Kino.Input.checkbox("Use GPT 3.5 to set speakers and clean up video titles?")
@@ -355,12 +450,34 @@ use_gpt? = Kino.Input.checkbox("Use GPT 3.5 to set speakers and clean up video t
 
 ```elixir
 videos =
+  videos_to_include
+  |> Enum.filter(fn %{input: i} -> Kino.Input.read(i) end)
+  |> Enum.map(fn %{video: v} -> v end)
+
+videos =
   case Kino.Input.read(use_gpt?) do
-    true -> GPT.retitle_and_set_speakers(data.videos)
-    false -> data.videos
+    false ->
+      videos
+
+    true ->
+      videos
+      |> Enum.chunk_every(10)
+      |> Enum.map(fn ten_videos ->
+        Task.async(fn -> GPT.retitle_and_set_speakers(ten_videos) end)
+      end)
+      |> Enum.flat_map(fn task ->
+        case Task.await(task, :infinity) do
+          {:ok, updated_videos} when is_list(updated_videos) ->
+            updated_videos
+
+          error ->
+            Kino.Tree.new(error) |> Kino.render()
+            []
+        end
+      end)
   end
 
-Kino.nothing()
+:ok
 ```
 
 Review and edit the video data as you see fit:
@@ -400,7 +517,7 @@ video_data_inputs =
 
 video_data_inputs
 |> Enum.with_index()
-|> Enum.map(fn {%{frame: frame}, idx} -> {"##{idx + 1}", frame} end)
+|> Enum.map(fn {%{frame: frame}, idx} -> {"##{idx}", frame} end)
 |> Kino.Layout.tabs()
 ````
 
@@ -443,72 +560,14 @@ data = %{data | videos: videos, speakers: speakers}
 Kino.Tree.new(data) |> Kino.render()
 
 Kino.Markdown.new(
-  "The data above will be stored as Markdown and YAML files in `#{__DIR__}` which you can further edit using any text editor."
+  "The data above will be stored as YAML files in `#{__DIR__}` which you can further edit using any text editor."
 )
 ```
 
 ```elixir
 # Let's do this!
-# Be warned that this will replace existing files.
 
-defmodule SaveData do
-  @template_dir Path.join(__DIR__, ".templates")
-  @templates %{
-    Series => Path.join(@template_dir, "series.yml.eex"),
-    Speaker => Path.join(@template_dir, "speaker.yml.eex"),
-    Playlist => Path.join(@template_dir, "playlist.yml.eex"),
-    Video => Path.join(@template_dir, "video.yml.eex")
-  }
-
-  def write!(path, data) do
-    content = eval_template!(data)
-    File.write!(path, content)
-  end
-
-  def eval_template!(%strukt{} = data) do
-    template = Map.fetch!(@templates, strukt)
-    assigns = Map.from_struct(data)
-    EEx.eval_file(template, assigns: assigns)
-  end
-end
-
-Kino.nothing()
-
-# Save speakers
-dir = Path.join(__DIR__, "speakers")
-File.mkdir_p!(dir)
-
-Enum.each(data.speakers, fn speaker ->
-  Path.join(dir, "#{Slug.slugify(speaker.name)}.yml")
-  |> SaveData.write!(speaker)
-end)
-
-# Save series
-slug = Slug.slugify(data.series.title)
-dir = Path.join([__DIR__, "series", slug])
-File.mkdir_p!(dir)
-
-Path.join(dir, "series.yml")
-|> SaveData.write!(data.series)
-
-# Save playlist
-slug = Slug.slugify(data.playlist.title)
-dir = Path.join(dir, slug)
-File.mkdir_p!(dir)
-
-Path.join(dir, "playlist.yml")
-|> SaveData.write!(data.playlist)
-
-# Save videos
-dir = Path.join(dir, "videos")
-File.mkdir_p!(dir)
-
-data.videos
-|> Enum.with_index()
-|> Enum.each(fn {video, idx} ->
-  Path.join(dir, "#{idx}_#{Slug.slugify(video.title)}.yml")
-  |> SaveData.write!(video)
-end)
+SaveData.write_all_and_replace_existing_files!(data)
 ```
 
-<!-- livebook:{"offset":12395,"stamp":{"token":"XCP.IQ8fzETiciLDIouFESOBm1LZbqfU6Tf8tQxFdPkcM30hT_Ov3s-_xDaqmYAgPTDHzdGMviXNDtlI1oTnSltHqTTpg5wOPjCtBOTZozkmlbvaoxryISu3ApNuWSOEnYFOX73S6ZJeefT3klFM3k19Js1QVgOkQkE5q9inT422PCWApaeXKxCPMf_AavT7An8","version":2}} -->
+<!-- livebook:{"offset":13916,"stamp":{"token":"XCP.5WBRbEMQNhhmXp2zv4_LyABfAZDWg85MLEtIFDkMErCpXczeGtduIAZC3i6slPwMVBfYp8SjGs56Kc89V7t7dhnLAD_Dcb0kt3p0JLiT1zTvg1XHMLQ9ciQwlootslWQL80yhqYmPM782gguFGeAZsNfZsKrtuQ3nn6c4fZ4Rd4aZuoMb4mvSCsjSbh1hkE","version":2}} -->
