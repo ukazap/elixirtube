@@ -1,4 +1,5 @@
-name: <%= @name %>
-bio: <%= @bio %>
-urls:<%= for url <- @urls do %>
-  - <%= url %><% end %>
+speaker:
+  name: <%= @name %>
+  bio: <%= @bio %>
+  urls:<%= if Enum.empty?(@urls) do %> []<% else %><%= for url <- @urls do %>
+    - <%= url %><% end %><% end %>

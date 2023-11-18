@@ -1,0 +1,15 @@
+video:
+  title: "Building Realtime Mobile Apps with React Native and Elixir"
+  raw_title: "ElixirConf 2017 - Building Realtime Mobile Apps with React Native and Elixir - Osayame Gaius Obaseki"
+  description: ""
+  speakers:
+    - Osayame Gaius Obaseki
+  source: youtube
+  source_id: Kbhl379x1cw
+  thumbnails:
+    xs: https://i.ytimg.com/vi/Kbhl379x1cw/default.jpg
+    s: https://i.ytimg.com/vi/Kbhl379x1cw/mqdefault.jpg
+    m: https://i.ytimg.com/vi/Kbhl379x1cw/hqdefault.jpg
+    l: https://i.ytimg.com/vi/Kbhl379x1cw/sddefault.jpg
+    xl: https://i.ytimg.com/vi/Kbhl379x1cw/maxresdefault.jpg
+  published_at: 2017-09-08T23:46:58Z

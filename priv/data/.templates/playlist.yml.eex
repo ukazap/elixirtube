@@ -1,12 +1,15 @@
-title: <%= inspect(@title) %>
-location: <%= inspect(@location) %>
-description: <%= inspect(@description) %>
-source: <%= @source %>
-source_id: <%= @source_id %>
-thumbnails:
-  xs: <%= @thumbnails.xs %>
-  s: <%= @thumbnails.s %>
-  m: <%= @thumbnails.m %>
-  l: <%= @thumbnails.l %>
-  xl: <%= @thumbnails.xl %>
-published_at: <%= @published_at %>
+playlist:
+  title: <%= inspect(@title) %>
+  location: <%= inspect(@location) %>
+  description: <%= inspect(@description) %>
+  urls:<%= if Enum.empty?(@urls) do %> []<% else %><%= for url <- @urls do %>
+    - <%= url %><% end %><% end %>
+  source: <%= @source %>
+  source_id: <%= @source_id %>
+  thumbnails:
+    xs: <%= @thumbnails.xs %>
+    s: <%= @thumbnails.s %>
+    m: <%= @thumbnails.m %>
+    l: <%= @thumbnails.l %>
+    xl: <%= @thumbnails.xl %>
+  published_at: <%= @published_at %>

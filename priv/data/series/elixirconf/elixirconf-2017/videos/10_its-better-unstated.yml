@@ -1,0 +1,15 @@
+video:
+  title: "Its Better Unstated"
+  raw_title: "ElixirConf 2017 - Its Better Unstated  - TJ Stankus"
+  description: ""
+  speakers:
+    - TJ Stankus
+  source: youtube
+  source_id: S2-1Rt-R2cY
+  thumbnails:
+    xs: https://i.ytimg.com/vi/S2-1Rt-R2cY/default.jpg
+    s: https://i.ytimg.com/vi/S2-1Rt-R2cY/mqdefault.jpg
+    m: https://i.ytimg.com/vi/S2-1Rt-R2cY/hqdefault.jpg
+    l: https://i.ytimg.com/vi/S2-1Rt-R2cY/sddefault.jpg
+    xl: https://i.ytimg.com/vi/S2-1Rt-R2cY/maxresdefault.jpg
+  published_at: 2017-09-07T23:04:17Z

@@ -1,0 +1,15 @@
+video:
+  title: "Streaming Video with Elixir"
+  raw_title: "ElixirConf 2017 - Streaming Video with Elixir - John Wahba"
+  description: ""
+  speakers:
+    - John Wahba
+  source: youtube
+  source_id: eNe5dmRP9Cc
+  thumbnails:
+    xs: https://i.ytimg.com/vi/eNe5dmRP9Cc/default.jpg
+    s: https://i.ytimg.com/vi/eNe5dmRP9Cc/mqdefault.jpg
+    m: https://i.ytimg.com/vi/eNe5dmRP9Cc/hqdefault.jpg
+    l: https://i.ytimg.com/vi/eNe5dmRP9Cc/sddefault.jpg
+    xl: https://i.ytimg.com/vi/eNe5dmRP9Cc/maxresdefault.jpg
+  published_at: 2017-09-08T00:41:31Z

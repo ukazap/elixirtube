@@ -1,14 +1,15 @@
-title: "Edgelixir: Distributed Graph Processing in Elixir"
-raw_title: "ElixirConf 2016 - Edgelixir: Distributed Graph Processing in Elixir by Nathan Lapierre"
-description: "Edgelixir: Distributed Graph Processing in Elixir by Nathan Lapierre\nDistributed graph processing systems are an important part of the modern data toolkit. Graph structures are a great way to solve a lot of problems, and distributed systems let us scale our problem size. This talk walks through how some of Elixir's features (including OTP, macros, and functional programming itself) can come together to simplify writing a distributed graph system. The result is Edgelixir; an early, work-in-progress, Pregel-based graph framework."
-speakers:
-  - Nathan Lapierre
-source: youtube
-source_id: g77VhXrxUJY
-thumbnails:
-  xs: https://i.ytimg.com/vi/g77VhXrxUJY/default.jpg
-  s: https://i.ytimg.com/vi/g77VhXrxUJY/mqdefault.jpg
-  m: https://i.ytimg.com/vi/g77VhXrxUJY/hqdefault.jpg
-  l: https://i.ytimg.com/vi/g77VhXrxUJY/sddefault.jpg
-  xl: https://i.ytimg.com/vi/g77VhXrxUJY/maxresdefault.jpg
-published_at: 2016-09-27T02:54:50Z
+video:
+  title: "Edgelixir: Distributed Graph Processing in Elixir"
+  raw_title: "ElixirConf 2016 - Edgelixir: Distributed Graph Processing in Elixir by Nathan Lapierre"
+  description: "Edgelixir: Distributed Graph Processing in Elixir by Nathan Lapierre\nDistributed graph processing systems are an important part of the modern data toolkit. Graph structures are a great way to solve a lot of problems, and distributed systems let us scale our problem size. This talk walks through how some of Elixir's features (including OTP, macros, and functional programming itself) can come together to simplify writing a distributed graph system. The result is Edgelixir; an early, work-in-progress, Pregel-based graph framework."
+  speakers:
+    - Nathan Lapierre
+  source: youtube
+  source_id: g77VhXrxUJY
+  thumbnails:
+    xs: https://i.ytimg.com/vi/g77VhXrxUJY/default.jpg
+    s: https://i.ytimg.com/vi/g77VhXrxUJY/mqdefault.jpg
+    m: https://i.ytimg.com/vi/g77VhXrxUJY/hqdefault.jpg
+    l: https://i.ytimg.com/vi/g77VhXrxUJY/sddefault.jpg
+    xl: https://i.ytimg.com/vi/g77VhXrxUJY/maxresdefault.jpg
+  published_at: 2016-09-27T02:54:50Z

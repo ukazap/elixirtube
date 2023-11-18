@@ -1,0 +1,15 @@
+video:
+  title: "Elixir with Kafka"
+  raw_title: "ElixirConf 2017 - Elixir with Kafka - Mathew Gardner"
+  description: ""
+  speakers:
+    - Mathew Gardner
+  source: youtube
+  source_id: 6ijgMvXJyuo
+  thumbnails:
+    xs: https://i.ytimg.com/vi/6ijgMvXJyuo/default.jpg
+    s: https://i.ytimg.com/vi/6ijgMvXJyuo/mqdefault.jpg
+    m: https://i.ytimg.com/vi/6ijgMvXJyuo/hqdefault.jpg
+    l: https://i.ytimg.com/vi/6ijgMvXJyuo/sddefault.jpg
+    xl: https://i.ytimg.com/vi/6ijgMvXJyuo/maxresdefault.jpg
+  published_at: 2017-09-09T00:08:30Z

@@ -1,0 +1,15 @@
+video:
+  title: "Elixir by the Bellyful"
+  raw_title: "ElixirConf 2017 - Elixir by the Bellyful -  Bryan Hunter"
+  description: ""
+  speakers:
+    - Bryan Hunter
+  source: youtube
+  source_id: iswld-Rpi_g
+  thumbnails:
+    xs: https://i.ytimg.com/vi/iswld-Rpi_g/default.jpg
+    s: https://i.ytimg.com/vi/iswld-Rpi_g/mqdefault.jpg
+    m: https://i.ytimg.com/vi/iswld-Rpi_g/hqdefault.jpg
+    l: https://i.ytimg.com/vi/iswld-Rpi_g/sddefault.jpg
+    xl: https://i.ytimg.com/vi/iswld-Rpi_g/maxresdefault.jpg
+  published_at: 2017-09-07T22:53:21Z

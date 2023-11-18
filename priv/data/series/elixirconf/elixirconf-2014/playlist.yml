@@ -1,12 +1,14 @@
-title: "ElixirConf 2014"
-location: "Austin, TX"
-description: ""
-source: youtube
-source_id: PLE7tQUdRKcyakbmyFcmznq2iNtL80mCsT
-thumbnails:
-  xs: https://i.ytimg.com/vi/rt8h_xeESLg/default.jpg
-  s: https://i.ytimg.com/vi/rt8h_xeESLg/mqdefault.jpg
-  m: https://i.ytimg.com/vi/rt8h_xeESLg/hqdefault.jpg
-  l: https://i.ytimg.com/vi/rt8h_xeESLg/sddefault.jpg
-  xl: https://i.ytimg.com/vi/rt8h_xeESLg/maxresdefault.jpg
-published_at: 2014-08-07T13:42:59Z
+playlist:
+  title: "ElixirConf 2014"
+  location: "Austin, TX"
+  description: ""
+  urls: []
+  source: youtube
+  source_id: PLE7tQUdRKcyakbmyFcmznq2iNtL80mCsT
+  thumbnails:
+    xs: https://i.ytimg.com/vi/rt8h_xeESLg/default.jpg
+    s: https://i.ytimg.com/vi/rt8h_xeESLg/mqdefault.jpg
+    m: https://i.ytimg.com/vi/rt8h_xeESLg/hqdefault.jpg
+    l: https://i.ytimg.com/vi/rt8h_xeESLg/sddefault.jpg
+    xl: https://i.ytimg.com/vi/rt8h_xeESLg/maxresdefault.jpg
+  published_at: 2014-08-07T13:42:59Z

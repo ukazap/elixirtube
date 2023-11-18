@@ -1,0 +1,15 @@
+video:
+  title: "Plugging the Security Holes in Your Phoenix Application"
+  raw_title: "ElixirConf 2017 - Plugging the Security Holes in Your Phoenix Application - Griffin Byatt"
+  description: ""
+  speakers:
+    - Griffin Byatt
+  source: youtube
+  source_id: w3lKmFsmlvQ
+  thumbnails:
+    xs: https://i.ytimg.com/vi/w3lKmFsmlvQ/default.jpg
+    s: https://i.ytimg.com/vi/w3lKmFsmlvQ/mqdefault.jpg
+    m: https://i.ytimg.com/vi/w3lKmFsmlvQ/hqdefault.jpg
+    l: https://i.ytimg.com/vi/w3lKmFsmlvQ/sddefault.jpg
+    xl: https://i.ytimg.com/vi/w3lKmFsmlvQ/maxresdefault.jpg
+  published_at: 2017-09-08T23:40:17Z

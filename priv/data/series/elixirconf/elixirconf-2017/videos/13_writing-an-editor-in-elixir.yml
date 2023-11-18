@@ -1,0 +1,15 @@
+video:
+  title: "Writing an Editor in Elixir"
+  raw_title: "ElixirConf 2017 - Writing an Editor in Elixir - Ian Duggan"
+  description: ""
+  speakers:
+    - Ian Duggan
+  source: youtube
+  source_id: 6lIVWVmuPao
+  thumbnails:
+    xs: https://i.ytimg.com/vi/6lIVWVmuPao/default.jpg
+    s: https://i.ytimg.com/vi/6lIVWVmuPao/mqdefault.jpg
+    m: https://i.ytimg.com/vi/6lIVWVmuPao/hqdefault.jpg
+    l: https://i.ytimg.com/vi/6lIVWVmuPao/sddefault.jpg
+    xl: https://i.ytimg.com/vi/6lIVWVmuPao/maxresdefault.jpg
+  published_at: 2017-09-07T23:59:49Z

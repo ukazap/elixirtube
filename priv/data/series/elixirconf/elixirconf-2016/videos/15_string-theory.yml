@@ -1,15 +1,16 @@
-title: "String Theory"
-raw_title: "ElixirConf 2016 - String Theory by Nathan Long & James Edward Gray II"
-description: "String Theory by Nathan Long & James Edward Gray II\n\nElixir's strings and iolists enable great features, but do you understand them? Why is a string a binary, and what do the numbers in the binary have to do with Elixir's great Unicode support? What are iolists, and how do they enable efficient template rendering?\nIn this talk, you'll learn how to:\nUnderstand the relationship between bitstrings, binaries, and strings\nProperly compare and dissect UTF8 strings\nEfficiently build string output to write to a file or socket\nCome along for a magical journey 🌈🌠 into the bits and bytes that make these structures so powerful."
-speakers:
-  - Nathan Long
-  - James Edward Gray II
-source: youtube
-source_id: zZxBL-lV9uA
-thumbnails:
-  xs: https://i.ytimg.com/vi/zZxBL-lV9uA/default.jpg
-  s: https://i.ytimg.com/vi/zZxBL-lV9uA/mqdefault.jpg
-  m: https://i.ytimg.com/vi/zZxBL-lV9uA/hqdefault.jpg
-  l: https://i.ytimg.com/vi/zZxBL-lV9uA/sddefault.jpg
-  xl: https://i.ytimg.com/vi/zZxBL-lV9uA/maxresdefault.jpg
-published_at: 2016-09-27T21:00:53Z
+video:
+  title: "String Theory"
+  raw_title: "ElixirConf 2016 - String Theory by Nathan Long & James Edward Gray II"
+  description: "String Theory by Nathan Long & James Edward Gray II\n\nElixir's strings and iolists enable great features, but do you understand them? Why is a string a binary, and what do the numbers in the binary have to do with Elixir's great Unicode support? What are iolists, and how do they enable efficient template rendering?\nIn this talk, you'll learn how to:\nUnderstand the relationship between bitstrings, binaries, and strings\nProperly compare and dissect UTF8 strings\nEfficiently build string output to write to a file or socket\nCome along for a magical journey 🌈🌠 into the bits and bytes that make these structures so powerful."
+  speakers:
+    - Nathan Long
+    - James Edward Gray II
+  source: youtube
+  source_id: zZxBL-lV9uA
+  thumbnails:
+    xs: https://i.ytimg.com/vi/zZxBL-lV9uA/default.jpg
+    s: https://i.ytimg.com/vi/zZxBL-lV9uA/mqdefault.jpg
+    m: https://i.ytimg.com/vi/zZxBL-lV9uA/hqdefault.jpg
+    l: https://i.ytimg.com/vi/zZxBL-lV9uA/sddefault.jpg
+    xl: https://i.ytimg.com/vi/zZxBL-lV9uA/maxresdefault.jpg
+  published_at: 2016-09-27T21:00:53Z

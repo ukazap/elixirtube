@@ -1,0 +1,15 @@
+video:
+  title: "Lighting Talk - Lambda Calculus in 5 minutes"
+  raw_title: "ElixirConf 2017 Lighting Talk - Lambda Calculus in 5 mintues - Mohd Maqbool Alam"
+  description: ""
+  speakers:
+    - Mohd Maqbool Alam
+  source: youtube
+  source_id: oYFixITZyeA
+  thumbnails:
+    xs: https://i.ytimg.com/vi/oYFixITZyeA/default.jpg
+    s: https://i.ytimg.com/vi/oYFixITZyeA/mqdefault.jpg
+    m: https://i.ytimg.com/vi/oYFixITZyeA/hqdefault.jpg
+    l: https://i.ytimg.com/vi/oYFixITZyeA/sddefault.jpg
+    xl: https://i.ytimg.com/vi/oYFixITZyeA/maxresdefault.jpg
+  published_at: 2017-09-19T00:31:33Z

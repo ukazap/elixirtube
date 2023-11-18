@@ -1,0 +1,15 @@
+video:
+  title: "Lighting Talk - Databaseless"
+  raw_title: "ElixirConf 2017 Lightning Talk - Databaseless - Norberto Ortigoza"
+  description: ""
+  speakers:
+    - Norberto Ortigoza
+  source: youtube
+  source_id: 7PHSMBwC8oE
+  thumbnails:
+    xs: https://i.ytimg.com/vi/7PHSMBwC8oE/default.jpg
+    s: https://i.ytimg.com/vi/7PHSMBwC8oE/mqdefault.jpg
+    m: https://i.ytimg.com/vi/7PHSMBwC8oE/hqdefault.jpg
+    l: https://i.ytimg.com/vi/7PHSMBwC8oE/sddefault.jpg
+    xl: https://i.ytimg.com/vi/7PHSMBwC8oE/maxresdefault.jpg
+  published_at: 2017-09-19T00:46:40Z

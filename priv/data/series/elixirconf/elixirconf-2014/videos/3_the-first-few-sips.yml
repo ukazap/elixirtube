@@ -1,14 +1,15 @@
-title: "The First Few Sips"
-raw_title: "Elixir Conf 2014 - The First Few Sips by Richard Bishop"
-description: "Help us caption & translate this video!\n\nhttp://amara.org/v/FGYg/"
-speakers:
-  - Richard Bishop
-source: youtube
-source_id: ptZHBePX0oI
-thumbnails:
-  xs: https://i.ytimg.com/vi/ptZHBePX0oI/default.jpg
-  s: https://i.ytimg.com/vi/ptZHBePX0oI/mqdefault.jpg
-  m: https://i.ytimg.com/vi/ptZHBePX0oI/hqdefault.jpg
-  l: https://i.ytimg.com/vi/ptZHBePX0oI/sddefault.jpg
-  xl: https://i.ytimg.com/vi/ptZHBePX0oI/maxresdefault.jpg
-published_at: 2014-08-07T18:08:02Z
+video:
+  title: "The First Few Sips"
+  raw_title: "Elixir Conf 2014 - The First Few Sips by Richard Bishop"
+  description: "Help us caption & translate this video!\n\nhttp://amara.org/v/FGYg/"
+  speakers:
+    - Richard Bishop
+  source: youtube
+  source_id: ptZHBePX0oI
+  thumbnails:
+    xs: https://i.ytimg.com/vi/ptZHBePX0oI/default.jpg
+    s: https://i.ytimg.com/vi/ptZHBePX0oI/mqdefault.jpg
+    m: https://i.ytimg.com/vi/ptZHBePX0oI/hqdefault.jpg
+    l: https://i.ytimg.com/vi/ptZHBePX0oI/sddefault.jpg
+    xl: https://i.ytimg.com/vi/ptZHBePX0oI/maxresdefault.jpg
+  published_at: 2014-08-07T18:08:02Z

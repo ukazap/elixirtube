@@ -1,0 +1,15 @@
+video:
+  title: "Elixir Power Tracing"
+  raw_title: "ElixirConf 2017 - Elixir Power Tracing - Gabi Zuniga"
+  description: ""
+  speakers:
+    - Gabi Zuniga
+  source: youtube
+  source_id: NBmNDI9OFJk
+  thumbnails:
+    xs: https://i.ytimg.com/vi/NBmNDI9OFJk/default.jpg
+    s: https://i.ytimg.com/vi/NBmNDI9OFJk/mqdefault.jpg
+    m: https://i.ytimg.com/vi/NBmNDI9OFJk/hqdefault.jpg
+    l: https://i.ytimg.com/vi/NBmNDI9OFJk/sddefault.jpg
+    xl: https://i.ytimg.com/vi/NBmNDI9OFJk/maxresdefault.jpg
+  published_at: 2017-09-09T18:45:40Z

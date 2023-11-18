@@ -1,14 +1,15 @@
-title: "Elixir - Evaluating Performance of Language"
-raw_title: "Elixir Conf 2014 - Elixir - Evaluating Performance of Language by Filipe Varjão"
-description: "Help us caption & translate this video!\n\nhttp://amara.org/v/FGYl/"
-speakers:
-  - Filipe Varjão
-source: youtube
-source_id: zNNGTiTArJw
-thumbnails:
-  xs: https://i.ytimg.com/vi/zNNGTiTArJw/default.jpg
-  s: https://i.ytimg.com/vi/zNNGTiTArJw/mqdefault.jpg
-  m: https://i.ytimg.com/vi/zNNGTiTArJw/hqdefault.jpg
-  l: https://i.ytimg.com/vi/zNNGTiTArJw/sddefault.jpg
-  xl: https://i.ytimg.com/vi/zNNGTiTArJw/maxresdefault.jpg
-published_at: 2014-08-08T14:55:02Z
+video:
+  title: "Elixir - Evaluating Performance of Language"
+  raw_title: "Elixir Conf 2014 - Elixir - Evaluating Performance of Language by Filipe Varjão"
+  description: "Help us caption & translate this video!\n\nhttp://amara.org/v/FGYl/"
+  speakers:
+    - Filipe Varjão
+  source: youtube
+  source_id: zNNGTiTArJw
+  thumbnails:
+    xs: https://i.ytimg.com/vi/zNNGTiTArJw/default.jpg
+    s: https://i.ytimg.com/vi/zNNGTiTArJw/mqdefault.jpg
+    m: https://i.ytimg.com/vi/zNNGTiTArJw/hqdefault.jpg
+    l: https://i.ytimg.com/vi/zNNGTiTArJw/sddefault.jpg
+    xl: https://i.ytimg.com/vi/zNNGTiTArJw/maxresdefault.jpg
+  published_at: 2014-08-08T14:55:02Z

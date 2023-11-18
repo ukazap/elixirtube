@@ -1,14 +1,15 @@
-title: "Building \"learn to touch type\" glove with Elixir and Arduino"
-raw_title: "ElixirConf 2016 - Building \"learn to touch type\" glove with ... by Tetiana Dushenkivska"
-description: "Building \"learn to touch type\" glove with Elixir and Arduino by Tetiana Dushenkivska\n\nKnowledge share about building \"touch typing glove\" with Arduino and Elixir.This talk is about my journey from research, choosing tools, making flexible tiny pressure sensors, plugging them into Arduino, reading information from Arduino to the server running Elixir, rendering result in the browser."
-speakers:
-  - Tetiana Dushenkivska
-source: youtube
-source_id: j_7kqFgIK-M
-thumbnails:
-  xs: https://i.ytimg.com/vi/j_7kqFgIK-M/default.jpg
-  s: https://i.ytimg.com/vi/j_7kqFgIK-M/mqdefault.jpg
-  m: https://i.ytimg.com/vi/j_7kqFgIK-M/hqdefault.jpg
-  l: https://i.ytimg.com/vi/j_7kqFgIK-M/sddefault.jpg
-  xl: https://i.ytimg.com/vi/j_7kqFgIK-M/maxresdefault.jpg
-published_at: 2016-09-27T03:00:52Z
+video:
+  title: "Building \"learn to touch type\" glove with Elixir and Arduino"
+  raw_title: "ElixirConf 2016 - Building \"learn to touch type\" glove with ... by Tetiana Dushenkivska"
+  description: "Building \"learn to touch type\" glove with Elixir and Arduino by Tetiana Dushenkivska\n\nKnowledge share about building \"touch typing glove\" with Arduino and Elixir.This talk is about my journey from research, choosing tools, making flexible tiny pressure sensors, plugging them into Arduino, reading information from Arduino to the server running Elixir, rendering result in the browser."
+  speakers:
+    - Tetiana Dushenkivska
+  source: youtube
+  source_id: j_7kqFgIK-M
+  thumbnails:
+    xs: https://i.ytimg.com/vi/j_7kqFgIK-M/default.jpg
+    s: https://i.ytimg.com/vi/j_7kqFgIK-M/mqdefault.jpg
+    m: https://i.ytimg.com/vi/j_7kqFgIK-M/hqdefault.jpg
+    l: https://i.ytimg.com/vi/j_7kqFgIK-M/sddefault.jpg
+    xl: https://i.ytimg.com/vi/j_7kqFgIK-M/maxresdefault.jpg
+  published_at: 2016-09-27T03:00:52Z

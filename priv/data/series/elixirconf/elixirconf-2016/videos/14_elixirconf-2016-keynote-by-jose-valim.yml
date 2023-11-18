@@ -1,14 +1,15 @@
-title: "ElixirConf 2016 - Keynote by José Valim"
-raw_title: "ElixirConf 2016 - Keynote by José Valim"
-description: "Keynote by José Valim"
-speakers:
-  - José Valim
-source: youtube
-source_id: srtMWzyqdp8
-thumbnails:
-  xs: https://i.ytimg.com/vi/srtMWzyqdp8/default.jpg
-  s: https://i.ytimg.com/vi/srtMWzyqdp8/mqdefault.jpg
-  m: https://i.ytimg.com/vi/srtMWzyqdp8/hqdefault.jpg
-  l: https://i.ytimg.com/vi/srtMWzyqdp8/sddefault.jpg
-  xl: https://i.ytimg.com/vi/srtMWzyqdp8/maxresdefault.jpg
-published_at: 2016-09-27T20:56:31Z
+video:
+  title: "ElixirConf 2016 - Keynote by José Valim"
+  raw_title: "ElixirConf 2016 - Keynote by José Valim"
+  description: "Keynote by José Valim"
+  speakers:
+    - José Valim
+  source: youtube
+  source_id: srtMWzyqdp8
+  thumbnails:
+    xs: https://i.ytimg.com/vi/srtMWzyqdp8/default.jpg
+    s: https://i.ytimg.com/vi/srtMWzyqdp8/mqdefault.jpg
+    m: https://i.ytimg.com/vi/srtMWzyqdp8/hqdefault.jpg
+    l: https://i.ytimg.com/vi/srtMWzyqdp8/sddefault.jpg
+    xl: https://i.ytimg.com/vi/srtMWzyqdp8/maxresdefault.jpg
+  published_at: 2016-09-27T20:56:31Z

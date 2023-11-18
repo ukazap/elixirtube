@@ -1,14 +1,15 @@
-title: "Rise of The Phoenix - Building an Elixir Web Framework"
-raw_title: "Elixir Conf 2014 -  Rise of The Phoenix - Building an Elixir Web Framework by Chris McCord"
-description: "Help us caption & translate this video!\n\nhttp://amara.org/v/FGYD/"
-speakers:
-  - Chris McCord
-source: youtube
-source_id: 3jMbzGv_6tA
-thumbnails:
-  xs: https://i.ytimg.com/vi/3jMbzGv_6tA/default.jpg
-  s: https://i.ytimg.com/vi/3jMbzGv_6tA/mqdefault.jpg
-  m: https://i.ytimg.com/vi/3jMbzGv_6tA/hqdefault.jpg
-  l: https://i.ytimg.com/vi/3jMbzGv_6tA/sddefault.jpg
-  xl: https://i.ytimg.com/vi/3jMbzGv_6tA/maxresdefault.jpg
-published_at: 2014-08-10T14:36:20Z
+video:
+  title: "Rise of The Phoenix - Building an Elixir Web Framework"
+  raw_title: "Elixir Conf 2014 -  Rise of The Phoenix - Building an Elixir Web Framework by Chris McCord"
+  description: "Help us caption & translate this video!\n\nhttp://amara.org/v/FGYD/"
+  speakers:
+    - Chris McCord
+  source: youtube
+  source_id: 3jMbzGv_6tA
+  thumbnails:
+    xs: https://i.ytimg.com/vi/3jMbzGv_6tA/default.jpg
+    s: https://i.ytimg.com/vi/3jMbzGv_6tA/mqdefault.jpg
+    m: https://i.ytimg.com/vi/3jMbzGv_6tA/hqdefault.jpg
+    l: https://i.ytimg.com/vi/3jMbzGv_6tA/sddefault.jpg
+    xl: https://i.ytimg.com/vi/3jMbzGv_6tA/maxresdefault.jpg
+  published_at: 2014-08-10T14:36:20Z

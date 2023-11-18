@@ -1,14 +1,15 @@
-title: "Dialyzer: Optimistic Type Checking for Erlang and Elixir"
-raw_title: "ElixirConf 2016 - Dialyzer: Optimistic Type Checking for Erlang and Elixir by Jason Voegele"
-description: "Optimistic Type Checking for Erlang and Elixir by Jason Voegele\n\nStatic typing versus dynamic typing is an age-old debate amongst computer scientists and programmers, and the fact that we still argue about it suggests that there is no single right answer for all circumstances. But what if we could have the best of both worlds by combining the safety guarantees of static type systems and the freedom and flexibility of dynamic type systems? In this talk, I will present an introduction to an optimistic, gradual type system as implemented by the Dialyzer tool for Erlang and Elixir. I will highlight the differences and trade-offs between static and dynamic typing, and present optimistic, gradual typing as a good compromise."
-speakers:
-  - Jason Voegele
-source: youtube
-source_id: JT0ECYZ9FaQ
-thumbnails:
-  xs: https://i.ytimg.com/vi/JT0ECYZ9FaQ/default.jpg
-  s: https://i.ytimg.com/vi/JT0ECYZ9FaQ/mqdefault.jpg
-  m: https://i.ytimg.com/vi/JT0ECYZ9FaQ/hqdefault.jpg
-  l: https://i.ytimg.com/vi/JT0ECYZ9FaQ/sddefault.jpg
-  xl: https://i.ytimg.com/vi/JT0ECYZ9FaQ/maxresdefault.jpg
-published_at: 2016-09-28T01:32:39Z
+video:
+  title: "Dialyzer: Optimistic Type Checking for Erlang and Elixir"
+  raw_title: "ElixirConf 2016 - Dialyzer: Optimistic Type Checking for Erlang and Elixir by Jason Voegele"
+  description: "Optimistic Type Checking for Erlang and Elixir by Jason Voegele\n\nStatic typing versus dynamic typing is an age-old debate amongst computer scientists and programmers, and the fact that we still argue about it suggests that there is no single right answer for all circumstances. But what if we could have the best of both worlds by combining the safety guarantees of static type systems and the freedom and flexibility of dynamic type systems? In this talk, I will present an introduction to an optimistic, gradual type system as implemented by the Dialyzer tool for Erlang and Elixir. I will highlight the differences and trade-offs between static and dynamic typing, and present optimistic, gradual typing as a good compromise."
+  speakers:
+    - Jason Voegele
+  source: youtube
+  source_id: JT0ECYZ9FaQ
+  thumbnails:
+    xs: https://i.ytimg.com/vi/JT0ECYZ9FaQ/default.jpg
+    s: https://i.ytimg.com/vi/JT0ECYZ9FaQ/mqdefault.jpg
+    m: https://i.ytimg.com/vi/JT0ECYZ9FaQ/hqdefault.jpg
+    l: https://i.ytimg.com/vi/JT0ECYZ9FaQ/sddefault.jpg
+    xl: https://i.ytimg.com/vi/JT0ECYZ9FaQ/maxresdefault.jpg
+  published_at: 2016-09-28T01:32:39Z

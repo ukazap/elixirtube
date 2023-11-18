@@ -1,0 +1,15 @@
+video:
+  title: "Elixir Native UI"
+  raw_title: "ElixirConf 2017 - Elixir Native UI - Boyd Multerer"
+  description: ""
+  speakers:
+    - Boyd Multerer
+  source: youtube
+  source_id: 77FW-jrCyCs
+  thumbnails:
+    xs: https://i.ytimg.com/vi/77FW-jrCyCs/default.jpg
+    s: https://i.ytimg.com/vi/77FW-jrCyCs/mqdefault.jpg
+    m: https://i.ytimg.com/vi/77FW-jrCyCs/hqdefault.jpg
+    l: https://i.ytimg.com/vi/77FW-jrCyCs/sddefault.jpg
+    xl: https://i.ytimg.com/vi/77FW-jrCyCs/maxresdefault.jpg
+  published_at: 2017-09-07T19:43:39Z

@@ -1,14 +1,15 @@
-title: "Elixir in the Browser"
-raw_title: "ElixirConf 2015 - Elixir in the Browser  by Bryan Joseph"
-description: "JavaScript is king in the browser. Over the years there have been a number of compile to JavaScript languages, allowing developers to write browser code in languages other than JavaScript. Elixir is a great language. Wouldn't it be great to be able to develop for the browser with it as well? Elixirscript is an effort to accomplish that goal. This talk will give some insight into how the project started, how turning Elixir into JavaScript is currently accomplished, how some ES6 features make it easier, trying to make the browser environment mimic the Erlang environment, and the future of the project.\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/HOkW/"
-speakers:
-  - Bryan Joseph
-source: youtube
-source_id: SK6SyZV_ujw
-thumbnails:
-  xs: https://i.ytimg.com/vi/SK6SyZV_ujw/default.jpg
-  s: https://i.ytimg.com/vi/SK6SyZV_ujw/mqdefault.jpg
-  m: https://i.ytimg.com/vi/SK6SyZV_ujw/hqdefault.jpg
-  l: https://i.ytimg.com/vi/SK6SyZV_ujw/sddefault.jpg
-  xl: https://i.ytimg.com/vi/SK6SyZV_ujw/maxresdefault.jpg
-published_at: 2015-10-15T16:44:53Z
+video:
+  title: "Elixir in the Browser"
+  raw_title: "ElixirConf 2015 - Elixir in the Browser  by Bryan Joseph"
+  description: "JavaScript is king in the browser. Over the years there have been a number of compile to JavaScript languages, allowing developers to write browser code in languages other than JavaScript. Elixir is a great language. Wouldn't it be great to be able to develop for the browser with it as well? Elixirscript is an effort to accomplish that goal. This talk will give some insight into how the project started, how turning Elixir into JavaScript is currently accomplished, how some ES6 features make it easier, trying to make the browser environment mimic the Erlang environment, and the future of the project.\n\nHelp us caption & translate this video!\n\nhttp://amara.org/v/HOkW/"
+  speakers:
+    - Bryan Joseph
+  source: youtube
+  source_id: SK6SyZV_ujw
+  thumbnails:
+    xs: https://i.ytimg.com/vi/SK6SyZV_ujw/default.jpg
+    s: https://i.ytimg.com/vi/SK6SyZV_ujw/mqdefault.jpg
+    m: https://i.ytimg.com/vi/SK6SyZV_ujw/hqdefault.jpg
+    l: https://i.ytimg.com/vi/SK6SyZV_ujw/sddefault.jpg
+    xl: https://i.ytimg.com/vi/SK6SyZV_ujw/maxresdefault.jpg
+  published_at: 2015-10-15T16:44:53Z

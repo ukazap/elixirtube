@@ -1,14 +1,15 @@
-title: "Collaborative Music with Elm and Phoenix"
-raw_title: "ElixirConf 2016 - Collaborative Music with Elm and Phoenix by Josh Adams"
-description: "Collaborative Music with Elm and Phoenix by Josh Adams\nIn this talk, we'll walk through the design of a collaborative music composition environment using Elm for a frontend that interacts with a Phoenix-channels based backend. We'll see how we can use the building blocks that Phoenix provides to allow us to build collaboration and persistence features to an Elm-based frontend and represent the frontend application's data structures and actions nicely in Elixir for persistence and transfer."
-speakers:
-  - Josh Adams
-source: youtube
-source_id: UPD8yvl3MUI
-thumbnails:
-  xs: https://i.ytimg.com/vi/UPD8yvl3MUI/default.jpg
-  s: https://i.ytimg.com/vi/UPD8yvl3MUI/mqdefault.jpg
-  m: https://i.ytimg.com/vi/UPD8yvl3MUI/hqdefault.jpg
-  l: https://i.ytimg.com/vi/UPD8yvl3MUI/sddefault.jpg
-  xl: https://i.ytimg.com/vi/UPD8yvl3MUI/maxresdefault.jpg
-published_at: 2016-09-27T14:54:54Z
+video:
+  title: "Collaborative Music with Elm and Phoenix"
+  raw_title: "ElixirConf 2016 - Collaborative Music with Elm and Phoenix by Josh Adams"
+  description: "Collaborative Music with Elm and Phoenix by Josh Adams\nIn this talk, we'll walk through the design of a collaborative music composition environment using Elm for a frontend that interacts with a Phoenix-channels based backend. We'll see how we can use the building blocks that Phoenix provides to allow us to build collaboration and persistence features to an Elm-based frontend and represent the frontend application's data structures and actions nicely in Elixir for persistence and transfer."
+  speakers:
+    - Josh Adams
+  source: youtube
+  source_id: UPD8yvl3MUI
+  thumbnails:
+    xs: https://i.ytimg.com/vi/UPD8yvl3MUI/default.jpg
+    s: https://i.ytimg.com/vi/UPD8yvl3MUI/mqdefault.jpg
+    m: https://i.ytimg.com/vi/UPD8yvl3MUI/hqdefault.jpg
+    l: https://i.ytimg.com/vi/UPD8yvl3MUI/sddefault.jpg
+    xl: https://i.ytimg.com/vi/UPD8yvl3MUI/maxresdefault.jpg
+  published_at: 2016-09-27T14:54:54Z

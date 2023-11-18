@@ -1,0 +1,15 @@
+video:
+  title: "The Power of Zero"
+  raw_title: "ElixirConf 2017 - The Power of Zero - Andrew Forward"
+  description: ""
+  speakers:
+    - Andrew Forward
+  source: youtube
+  source_id: 4LIXBW58yIk
+  thumbnails:
+    xs: https://i.ytimg.com/vi/4LIXBW58yIk/default.jpg
+    s: https://i.ytimg.com/vi/4LIXBW58yIk/mqdefault.jpg
+    m: https://i.ytimg.com/vi/4LIXBW58yIk/hqdefault.jpg
+    l: https://i.ytimg.com/vi/4LIXBW58yIk/sddefault.jpg
+    xl: https://i.ytimg.com/vi/4LIXBW58yIk/maxresdefault.jpg
+  published_at: 2017-09-08T21:54:26Z

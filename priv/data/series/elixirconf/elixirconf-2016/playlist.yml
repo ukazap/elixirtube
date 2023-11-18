@@ -1,12 +1,14 @@
-title: "ElixirConf 2016"
-location: "Orlando, FL"
-description: ""
-source: youtube
-source_id: PLE7tQUdRKcyYoiEKWny0Jj72iu564bVFD
-thumbnails:
-  xs: https://i.ytimg.com/vi/_O-bLuVhcCA/default.jpg
-  s: https://i.ytimg.com/vi/_O-bLuVhcCA/mqdefault.jpg
-  m: https://i.ytimg.com/vi/_O-bLuVhcCA/hqdefault.jpg
-  l: https://i.ytimg.com/vi/_O-bLuVhcCA/sddefault.jpg
-  xl: https://i.ytimg.com/vi/_O-bLuVhcCA/maxresdefault.jpg
-published_at: 2016-09-22T16:26:40Z
+playlist:
+  title: "ElixirConf 2016"
+  location: "Orlando, FL"
+  description: ""
+  urls: []
+  source: youtube
+  source_id: PLE7tQUdRKcyYoiEKWny0Jj72iu564bVFD
+  thumbnails:
+    xs: https://i.ytimg.com/vi/_O-bLuVhcCA/default.jpg
+    s: https://i.ytimg.com/vi/_O-bLuVhcCA/mqdefault.jpg
+    m: https://i.ytimg.com/vi/_O-bLuVhcCA/hqdefault.jpg
+    l: https://i.ytimg.com/vi/_O-bLuVhcCA/sddefault.jpg
+    xl: https://i.ytimg.com/vi/_O-bLuVhcCA/maxresdefault.jpg
+  published_at: 2016-09-22T16:26:40Z

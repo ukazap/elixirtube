@@ -1,14 +1,15 @@
-title: "ElixirConf 2016 - Keynote by Chris McCord"
-raw_title: "ElixirConf 2016 - Keynote by Chris McCord"
-description: "Due to technical difficulties the audio had to be taken from the camera. We apologize for the poor audio quality"
-speakers:
-  - Chris McCord
-source: youtube
-source_id: qPiZTxUAaVM
-thumbnails:
-  xs: https://i.ytimg.com/vi/qPiZTxUAaVM/default.jpg
-  s: https://i.ytimg.com/vi/qPiZTxUAaVM/mqdefault.jpg
-  m: https://i.ytimg.com/vi/qPiZTxUAaVM/hqdefault.jpg
-  l: https://i.ytimg.com/vi/qPiZTxUAaVM/sddefault.jpg
-  xl: https://i.ytimg.com/vi/qPiZTxUAaVM/maxresdefault.jpg
-published_at: 2016-10-13T14:02:15Z
+video:
+  title: "ElixirConf 2016 - Keynote by Chris McCord"
+  raw_title: "ElixirConf 2016 - Keynote by Chris McCord"
+  description: "Due to technical difficulties the audio had to be taken from the camera. We apologize for the poor audio quality"
+  speakers:
+    - Chris McCord
+  source: youtube
+  source_id: qPiZTxUAaVM
+  thumbnails:
+    xs: https://i.ytimg.com/vi/qPiZTxUAaVM/default.jpg
+    s: https://i.ytimg.com/vi/qPiZTxUAaVM/mqdefault.jpg
+    m: https://i.ytimg.com/vi/qPiZTxUAaVM/hqdefault.jpg
+    l: https://i.ytimg.com/vi/qPiZTxUAaVM/sddefault.jpg
+    xl: https://i.ytimg.com/vi/qPiZTxUAaVM/maxresdefault.jpg
+  published_at: 2016-10-13T14:02:15Z

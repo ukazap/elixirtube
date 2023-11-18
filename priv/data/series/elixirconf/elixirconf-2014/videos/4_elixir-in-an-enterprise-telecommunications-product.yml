@@ -1,14 +1,15 @@
-title: "Elixir in an Enterprise Telecommunications Product"
-raw_title: "Elixir Conf 2014 - Elixir in an Enterprise Telecommunications Product by Stephen Pallen"
-description: "Help us caption & translate this video!\n\nhttp://amara.org/v/FGYi/"
-speakers:
-  - Stephen Pallen
-source: youtube
-source_id: aV80O9cvDDw
-thumbnails:
-  xs: https://i.ytimg.com/vi/aV80O9cvDDw/default.jpg
-  s: https://i.ytimg.com/vi/aV80O9cvDDw/mqdefault.jpg
-  m: https://i.ytimg.com/vi/aV80O9cvDDw/hqdefault.jpg
-  l: https://i.ytimg.com/vi/aV80O9cvDDw/sddefault.jpg
-  xl: https://i.ytimg.com/vi/aV80O9cvDDw/maxresdefault.jpg
-published_at: 2014-08-07T19:32:54Z
+video:
+  title: "Elixir in an Enterprise Telecommunications Product"
+  raw_title: "Elixir Conf 2014 - Elixir in an Enterprise Telecommunications Product by Stephen Pallen"
+  description: "Help us caption & translate this video!\n\nhttp://amara.org/v/FGYi/"
+  speakers:
+    - Stephen Pallen
+  source: youtube
+  source_id: aV80O9cvDDw
+  thumbnails:
+    xs: https://i.ytimg.com/vi/aV80O9cvDDw/default.jpg
+    s: https://i.ytimg.com/vi/aV80O9cvDDw/mqdefault.jpg
+    m: https://i.ytimg.com/vi/aV80O9cvDDw/hqdefault.jpg
+    l: https://i.ytimg.com/vi/aV80O9cvDDw/sddefault.jpg
+    xl: https://i.ytimg.com/vi/aV80O9cvDDw/maxresdefault.jpg
+  published_at: 2014-08-07T19:32:54Z
