@@ -1,0 +1,15 @@
+video:
+  title: "Going Multi Node"
+  raw_title: "ElixirConf 2018 - Going Multi Node - Eric Oestrich"
+  description: ""
+  speakers:
+    - Eric Oestrich
+  source: youtube
+  source_id: lCUKQnkjajo
+  thumbnails:
+    xs: https://i.ytimg.com/vi/lCUKQnkjajo/default.jpg
+    s: https://i.ytimg.com/vi/lCUKQnkjajo/mqdefault.jpg
+    m: https://i.ytimg.com/vi/lCUKQnkjajo/hqdefault.jpg
+    l: https://i.ytimg.com/vi/lCUKQnkjajo/sddefault.jpg
+    xl: https://i.ytimg.com/vi/lCUKQnkjajo/maxresdefault.jpg
+  published_at: 2018-09-07T22:23:55Z

@@ -48,7 +48,7 @@ defmodule Series do
 end
 
 defmodule Speaker do
-  defstruct [:name, bio: "No bio ☹️", urls: []]
+  defstruct [:name, bio: "", urls: []]
 end
 
 defmodule Playlist do
@@ -216,7 +216,7 @@ defmodule GPT do
       Do not include any explanations, only return a RFC8259 compliant JSON response adhering to the input JSON structure without deviation.
     """
 
-    max_retries = 3
+    max_retries = 8
 
     outputs =
       Enum.reduce_while(1..max_retries, [], fn nth, _ac ->
@@ -407,7 +407,12 @@ input_playlist_url =
 series = %Series{
   title: input_series_title |> Kino.Input.read() |> String.trim(),
   description: input_series_description |> Kino.Input.read() |> String.trim(),
-  urls: input_series_urls |> Kino.Input.read() |> String.trim() |> String.split("\n") |> Enum.map(&String.trim/1)
+  urls:
+    input_series_urls
+    |> Kino.Input.read()
+    |> String.trim()
+    |> String.split("\n")
+    |> Enum.map(&String.trim/1)
 }
 
 {:ok, %{playlist: _, videos: _} = result} =
@@ -451,7 +456,12 @@ playlist =
     | title: input_playlist_title |> Kino.Input.read() |> String.trim(),
       location: input_playlist_location |> Kino.Input.read() |> String.trim(),
       description: input_playlist_description |> Kino.Input.read() |> String.trim(),
-      urls: input_playlist_urls |> Kino.Input.read() |> String.trim() |> String.split("\n") |> Enum.map(&String.trim/1)
+      urls:
+        input_playlist_urls
+        |> Kino.Input.read()
+        |> String.trim()
+        |> String.split("\n")
+        |> Enum.map(&String.trim/1)
   }
 
 data = %{data | playlist: playlist}
@@ -481,7 +491,7 @@ videos_to_include =
 Kino.Markdown.new("### Video data")
 |> Kino.render()
 
-use_gpt? = Kino.Input.checkbox("Use GPT 3.5 to set speakers and clean up video titles?")
+use_gpt? = Kino.Input.checkbox("Use GPT 3.5 Turbo to set speakers and clean up video titles?")
 ```
 
 ```elixir
@@ -606,4 +616,4 @@ Kino.Markdown.new(
 SaveData.write_all_overwriting_duplicates!(data)
 ```
 
-<!-- livebook:{"offset":14577,"stamp":{"token":"XCP.bYhu10txIiSJe_EsViHTh8y-qrxARzaLJPGB8KTyOZpwvO0vp13jDk9F4rS1Mm-3XlmF8HU_V_HZvFzWndXk3cGFr8JwKXLkK9hYLBMURj_KwrprHJ7_qyp6C9tciLbwkiicWTQs6phwaf700G0tYL-cdUFEUbvSaDpXOen-mMjPHEA0dyR78kiz3xuDJwM","version":2}} -->
+<!-- livebook:{"offset":14682,"stamp":{"token":"XCP.whskoOP1v2w_8gI0AxD4uPRsbHbLPxcGTwgL_xBgpQm2LOv1AZS8YWhg3-MYJwr7zJaoXG1t0-4chyormulOIyWpopkaMPFChpYo-zVOrsZ-Bm6sJwGaHon5iM2RGSN4yphTUCfqHvjaSNQ6t6kQKc05o1VI0V_JY-zq-dyspKWlQQr3WTCLa3_u_jQ-k2I","version":2}} -->

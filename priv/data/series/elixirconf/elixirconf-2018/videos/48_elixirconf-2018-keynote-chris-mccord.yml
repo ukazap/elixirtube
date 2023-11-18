@@ -1,0 +1,15 @@
+video:
+  title: "ElixirConf 2018 - Keynote - Chris McCord"
+  raw_title: "ElixirConf 2018 - Keynote - Chris McCord"
+  description: ""
+  speakers:
+    - Chris McCord
+  source: youtube
+  source_id: Z2DU0qLfPIY
+  thumbnails:
+    xs: https://i.ytimg.com/vi/Z2DU0qLfPIY/default.jpg
+    s: https://i.ytimg.com/vi/Z2DU0qLfPIY/mqdefault.jpg
+    m: https://i.ytimg.com/vi/Z2DU0qLfPIY/hqdefault.jpg
+    l: https://i.ytimg.com/vi/Z2DU0qLfPIY/sddefault.jpg
+    xl: https://i.ytimg.com/vi/Z2DU0qLfPIY/maxresdefault.jpg
+  published_at: 2018-09-08T02:23:09Z

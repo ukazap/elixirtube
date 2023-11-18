@@ -1,0 +1,15 @@
+video:
+  title: "Building Video Chat with Elixir & Phoenix"
+  raw_title: "ElixirConf 2018 - Building Video Chat with Elixir & Phoenix - Anil Wadghule"
+  description: ""
+  speakers:
+    - Anil Wadghule
+  source: youtube
+  source_id: GmPXNc8jlKQ
+  thumbnails:
+    xs: https://i.ytimg.com/vi/GmPXNc8jlKQ/default.jpg
+    s: https://i.ytimg.com/vi/GmPXNc8jlKQ/mqdefault.jpg
+    m: https://i.ytimg.com/vi/GmPXNc8jlKQ/hqdefault.jpg
+    l: https://i.ytimg.com/vi/GmPXNc8jlKQ/sddefault.jpg
+    xl: https://i.ytimg.com/vi/GmPXNc8jlKQ/maxresdefault.jpg
+  published_at: 2018-09-07T01:47:30Z

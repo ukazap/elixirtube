@@ -1,0 +1,15 @@
+video:
+  title: "Lighting Talk - Use goldorin to build GraphQL APIs"
+  raw_title: "Lighting Talk ElixirConf 2018 - Use goldorin to build absinthe ecto enabled GraphQL APIs - Tian Chen"
+  description: ""
+  speakers:
+    - Tian Chen
+  source: youtube
+  source_id: 0conIU_L-Yo
+  thumbnails:
+    xs: https://i.ytimg.com/vi/0conIU_L-Yo/default.jpg
+    s: https://i.ytimg.com/vi/0conIU_L-Yo/mqdefault.jpg
+    m: https://i.ytimg.com/vi/0conIU_L-Yo/hqdefault.jpg
+    l: https://i.ytimg.com/vi/0conIU_L-Yo/sddefault.jpg
+    xl: https://i.ytimg.com/vi/0conIU_L-Yo/maxresdefault.jpg
+  published_at: 2018-09-07T07:05:11Z

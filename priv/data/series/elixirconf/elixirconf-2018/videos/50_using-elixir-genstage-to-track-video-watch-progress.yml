@@ -1,0 +1,15 @@
+video:
+  title: "Using Elixir GenStage to Track Video Watch Progress"
+  raw_title: "ElixirConf 2018 - Using Elixir GenStage to Track Video Watch Progress  - Emerson Macedo"
+  description: ""
+  speakers:
+    - Emerson Macedo
+  source: youtube
+  source_id: 6gcsjCl9ne0
+  thumbnails:
+    xs: https://i.ytimg.com/vi/6gcsjCl9ne0/default.jpg
+    s: https://i.ytimg.com/vi/6gcsjCl9ne0/mqdefault.jpg
+    m: https://i.ytimg.com/vi/6gcsjCl9ne0/hqdefault.jpg
+    l: https://i.ytimg.com/vi/6gcsjCl9ne0/sddefault.jpg
+    xl: https://i.ytimg.com/vi/6gcsjCl9ne0/maxresdefault.jpg
+  published_at: 2018-09-22T04:22:57Z

@@ -1,0 +1,15 @@
+video:
+  title: "Lighting Talk - Deconstructing Korean with Elixir"
+  raw_title: "Lightning Talk ElixirConf 2018 - Deconstructing Korean with Elixir -Javier Evans"
+  description: ""
+  speakers:
+    - Javier Evans
+  source: youtube
+  source_id: Khf5yUY-UX0
+  thumbnails:
+    xs: https://i.ytimg.com/vi/Khf5yUY-UX0/default.jpg
+    s: https://i.ytimg.com/vi/Khf5yUY-UX0/mqdefault.jpg
+    m: https://i.ytimg.com/vi/Khf5yUY-UX0/hqdefault.jpg
+    l: https://i.ytimg.com/vi/Khf5yUY-UX0/sddefault.jpg
+    xl: https://i.ytimg.com/vi/Khf5yUY-UX0/maxresdefault.jpg
+  published_at: 2018-09-07T14:45:24Z

@@ -1,0 +1,15 @@
+video:
+  title: "ElixirConf 2018 - Opening Keynote - The Next Five Years - Jose Valim"
+  raw_title: "ElixirConf 2018 - Opening Keynote - The Next Five Years - Jose Valim"
+  description: ""
+  speakers:
+    - Jose Valim
+  source: youtube
+  source_id: suOzNeMJXl0
+  thumbnails:
+    xs: https://i.ytimg.com/vi/suOzNeMJXl0/default.jpg
+    s: https://i.ytimg.com/vi/suOzNeMJXl0/mqdefault.jpg
+    m: https://i.ytimg.com/vi/suOzNeMJXl0/hqdefault.jpg
+    l: https://i.ytimg.com/vi/suOzNeMJXl0/sddefault.jpg
+    xl: https://i.ytimg.com/vi/suOzNeMJXl0/maxresdefault.jpg
+  published_at: 2018-09-07T04:24:54Z

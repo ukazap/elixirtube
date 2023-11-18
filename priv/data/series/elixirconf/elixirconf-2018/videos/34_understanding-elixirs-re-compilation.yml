@@ -1,0 +1,15 @@
+video:
+  title: "Understanding Elixir's Re compilation"
+  raw_title: "ElixirConf 2018 - Understanding Elixir's Re compilation - Renan Ranelli"
+  description: ""
+  speakers:
+    - Renan Ranelli
+  source: youtube
+  source_id: hqaxMZAwbBA
+  thumbnails:
+    xs: https://i.ytimg.com/vi/hqaxMZAwbBA/default.jpg
+    s: https://i.ytimg.com/vi/hqaxMZAwbBA/mqdefault.jpg
+    m: https://i.ytimg.com/vi/hqaxMZAwbBA/hqdefault.jpg
+    l: https://i.ytimg.com/vi/hqaxMZAwbBA/sddefault.jpg
+    xl: https://i.ytimg.com/vi/hqaxMZAwbBA/maxresdefault.jpg
+  published_at: 2018-09-07T20:44:30Z

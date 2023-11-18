@@ -1,0 +1,15 @@
+video:
+  title: "Lighting Talk - Flux - Moving towards a full Elixir web stack"
+  raw_title: "Lighting Talk ElixirConf 2018 - Flux  Moving towards a full Elixir web stack - Chris Freeze"
+  description: ""
+  speakers:
+    - Chris Freeze
+  source: youtube
+  source_id: bit9IckehSM
+  thumbnails:
+    xs: https://i.ytimg.com/vi/bit9IckehSM/default.jpg
+    s: https://i.ytimg.com/vi/bit9IckehSM/mqdefault.jpg
+    m: https://i.ytimg.com/vi/bit9IckehSM/hqdefault.jpg
+    l: https://i.ytimg.com/vi/bit9IckehSM/sddefault.jpg
+    xl: https://i.ytimg.com/vi/bit9IckehSM/maxresdefault.jpg
+  published_at: 2018-09-07T06:37:47Z

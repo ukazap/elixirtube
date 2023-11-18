@@ -1,0 +1,15 @@
+video:
+  title: "Ticket to Fly Porting an Application from Rails to Phoenix"
+  raw_title: "ElixirConf 2018 - Ticket to Fly Porting an Application from Rails to Phoenix - Catherine Zoller"
+  description: ""
+  speakers:
+    - Catherine Zoller
+  source: youtube
+  source_id: lfxPxRyci_c
+  thumbnails:
+    xs: https://i.ytimg.com/vi/lfxPxRyci_c/default.jpg
+    s: https://i.ytimg.com/vi/lfxPxRyci_c/mqdefault.jpg
+    m: https://i.ytimg.com/vi/lfxPxRyci_c/hqdefault.jpg
+    l: https://i.ytimg.com/vi/lfxPxRyci_c/sddefault.jpg
+    xl: https://i.ytimg.com/vi/lfxPxRyci_c/maxresdefault.jpg
+  published_at: 2018-09-06T22:29:07Z

@@ -1,0 +1,15 @@
+video:
+  title: "Elixir at a Walking Pace"
+  raw_title: "ElixirConf 2018 - Elixir at a Walking Pace - Lance Halvorsen"
+  description: ""
+  speakers:
+    - Lance Halvorsen
+  source: youtube
+  source_id: 1IOobarmwQg
+  thumbnails:
+    xs: https://i.ytimg.com/vi/1IOobarmwQg/default.jpg
+    s: https://i.ytimg.com/vi/1IOobarmwQg/mqdefault.jpg
+    m: https://i.ytimg.com/vi/1IOobarmwQg/hqdefault.jpg
+    l: https://i.ytimg.com/vi/1IOobarmwQg/sddefault.jpg
+    xl: https://i.ytimg.com/vi/1IOobarmwQg/maxresdefault.jpg
+  published_at: 2018-09-06T21:45:39Z

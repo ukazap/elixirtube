@@ -1,0 +1,15 @@
+video:
+  title: "Breaking Down the User Monolith"
+  raw_title: "ElixirConf 2018 - Breaking Down the User Monolith - Zach Porter"
+  description: ""
+  speakers:
+    - Zach Porter
+  source: youtube
+  source_id: r7tFvmFDbZE
+  thumbnails:
+    xs: https://i.ytimg.com/vi/r7tFvmFDbZE/default.jpg
+    s: https://i.ytimg.com/vi/r7tFvmFDbZE/mqdefault.jpg
+    m: https://i.ytimg.com/vi/r7tFvmFDbZE/hqdefault.jpg
+    l: https://i.ytimg.com/vi/r7tFvmFDbZE/sddefault.jpg
+    xl: https://i.ytimg.com/vi/r7tFvmFDbZE/maxresdefault.jpg
+  published_at: 2018-09-10T17:48:55Z

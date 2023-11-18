@@ -1,0 +1,15 @@
+video:
+  title: "Lighting Talk - ACRUMEN The Six Key Aspects of Software Quality"
+  raw_title: "Lighting Talk ElixirConf 2018 - ACRUMEN The Six Key Aspects of Software Quality - Dave Aronson"
+  description: ""
+  speakers:
+    - Dave Aronson
+  source: youtube
+  source_id: 6V1FO1xGitU
+  thumbnails:
+    xs: https://i.ytimg.com/vi/6V1FO1xGitU/default.jpg
+    s: https://i.ytimg.com/vi/6V1FO1xGitU/mqdefault.jpg
+    m: https://i.ytimg.com/vi/6V1FO1xGitU/hqdefault.jpg
+    l: https://i.ytimg.com/vi/6V1FO1xGitU/sddefault.jpg
+    xl: https://i.ytimg.com/vi/6V1FO1xGitU/maxresdefault.jpg
+  published_at: 2018-09-07T06:38:11Z

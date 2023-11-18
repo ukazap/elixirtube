@@ -1,0 +1,15 @@
+video:
+  title: "You Can Never Debug the Code You Run But You Can..."
+  raw_title: "ElixirConf 2018 - You Can Never Debug the Code You Run But You Can... - Luke Imhoff"
+  description: "ElixirConf 2018 - You Can Never Debug the Code You Run But You Can View the Code the Debugger is Running - Luke Imhoff"
+  speakers:
+    - Luke Imhoff
+  source: youtube
+  source_id: w4xMarVUZQ4
+  thumbnails:
+    xs: https://i.ytimg.com/vi/w4xMarVUZQ4/default.jpg
+    s: https://i.ytimg.com/vi/w4xMarVUZQ4/mqdefault.jpg
+    m: https://i.ytimg.com/vi/w4xMarVUZQ4/hqdefault.jpg
+    l: https://i.ytimg.com/vi/w4xMarVUZQ4/sddefault.jpg
+    xl: https://i.ytimg.com/vi/w4xMarVUZQ4/maxresdefault.jpg
+  published_at: 2018-09-06T21:26:47Z

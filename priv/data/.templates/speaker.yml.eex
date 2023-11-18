@@ -1,5 +1,5 @@
 speaker:
   name: <%= @name %>
-  bio: <%= @bio %>
+  bio: <%= inspect(@bio) %>
   urls:<%= if Enum.empty?(@urls) do %> []<% else %><%= for url <- @urls do %>
     - <%= url %><% end %><% end %>
