@@ -1,0 +1,15 @@
+video:
+  title: "Beam Extreme: Don't Do This At Home"
+  raw_title: "ElixirConf 2019 -- Beam Extreme: Don't Do This At Home - Miriam Pena"
+  description: "The overarching goal when writing code is to make it easy to read and to understand. However, on rare occasions, you have a heavily used component that could use a boost of performance, and you could use some tricks to make it faster.\n\nThis talk collects a set of outrageous stunts and maybe-controversial defying acts I have seen and sometimes made in production, that can give the Erlang Virtual Machine that extra speed or memory edge on different scenarios.\n\nWarning! Don't copy-paste these at home like if they came straight from Stack Overflow. With great power comes great responsibility."
+  speakers:
+    - Miriam Pena
+  source: youtube
+  source_id: -1j36z8SllI
+  thumbnails:
+    xs: https://i.ytimg.com/vi/-1j36z8SllI/default.jpg
+    s: https://i.ytimg.com/vi/-1j36z8SllI/mqdefault.jpg
+    m: https://i.ytimg.com/vi/-1j36z8SllI/hqdefault.jpg
+    l: https://i.ytimg.com/vi/-1j36z8SllI/sddefault.jpg
+    xl: https://i.ytimg.com/vi/-1j36z8SllI/maxresdefault.jpg
+  published_at: 2019-08-30T17:45:36Z

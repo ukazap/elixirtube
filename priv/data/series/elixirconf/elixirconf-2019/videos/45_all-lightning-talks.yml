@@ -1,0 +1,14 @@
+video:
+  title: "All Lightning Talks"
+  raw_title: "ElixirConf 2019 - All Lightning talks"
+  description: ""
+  speakers: []
+  source: youtube
+  source_id: QnmxIt-khl0
+  thumbnails:
+    xs: https://i.ytimg.com/vi/QnmxIt-khl0/default.jpg
+    s: https://i.ytimg.com/vi/QnmxIt-khl0/mqdefault.jpg
+    m: https://i.ytimg.com/vi/QnmxIt-khl0/hqdefault.jpg
+    l: https://i.ytimg.com/vi/QnmxIt-khl0/sddefault.jpg
+    xl: https://i.ytimg.com/vi/QnmxIt-khl0/maxresdefault.jpg
+  published_at: 2019-08-30T19:17:17Z

@@ -1,0 +1,17 @@
+video:
+  title: "Day 1 Morning Keynote"
+  raw_title: "ElixirConf 2019 - Day 1 Morning Keynote - Brian Cardarella, Luke Imhoff, Paul Schoenfelder"
+  description: ""
+  speakers:
+    - Brian Cardarella
+    - Luke Imhoff
+    - Paul Schoenfelder
+  source: youtube
+  source_id: uMgTIlgYB-U
+  thumbnails:
+    xs: https://i.ytimg.com/vi/uMgTIlgYB-U/default.jpg
+    s: https://i.ytimg.com/vi/uMgTIlgYB-U/mqdefault.jpg
+    m: https://i.ytimg.com/vi/uMgTIlgYB-U/hqdefault.jpg
+    l: https://i.ytimg.com/vi/uMgTIlgYB-U/sddefault.jpg
+    xl: https://i.ytimg.com/vi/uMgTIlgYB-U/maxresdefault.jpg
+  published_at: 2019-08-30T17:21:14Z

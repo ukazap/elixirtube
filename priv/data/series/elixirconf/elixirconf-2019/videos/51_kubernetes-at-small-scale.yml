@@ -1,0 +1,15 @@
+video:
+  title: "Kubernetes at Small Scale"
+  raw_title: "ElixirConf 2019 - Kubernetes at Small Scale - Phil Toland"
+  description: "The consensus seems to be that you need to either be a super genius or have a large ops organization to run Kubernetes. Hippware is a tiny shop with only two engineers working on ops part-time. We have been running Kubernetes in production for about two years, and we think it is a very viable option for small shops.\n\nIn this talk, we'll look at why Kubernetes might make sense for a smaller organization, and how a small team can be up and running quickly. I will discuss some challenges we faced running Elixir applications on Kubernetes, as well as how we addressed those challenges. Finally, I will point to some of the libraries, both in-house and 3rd party, that were useful in helping us adapt to the Kubernetes environment.\n\nBio\nPhil has been tinkering with software since before Javascript was even a thing. He fell in love with Erlang around 2007 and dove head first into Elixir in 2016. These days he works for a small startup where he gets to wear a lot of hats and make cool things."
+  speakers:
+    - Phil Toland
+  source: youtube
+  source_id: i3tqGlBWHNs
+  thumbnails:
+    xs: https://i.ytimg.com/vi/i3tqGlBWHNs/default.jpg
+    s: https://i.ytimg.com/vi/i3tqGlBWHNs/mqdefault.jpg
+    m: https://i.ytimg.com/vi/i3tqGlBWHNs/hqdefault.jpg
+    l: https://i.ytimg.com/vi/i3tqGlBWHNs/sddefault.jpg
+    xl: https://i.ytimg.com/vi/i3tqGlBWHNs/maxresdefault.jpg
+  published_at: 2019-08-30T21:40:18Z

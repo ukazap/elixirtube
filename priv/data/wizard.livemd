@@ -428,7 +428,9 @@ data =
 """
 ### Playlist Information
 
-Edit as you see fit.
+**Number of videos**: #{Enum.count(data.videos)}
+
+Edit as you see fit:
 """
 |> Kino.Markdown.new()
 |> Kino.render()
@@ -481,9 +483,14 @@ include_all_videos? = Kino.Input.checkbox("Include all videos from the playlist?
 Kino.Markdown.new("Select videos to include:")
 |> Kino.render()
 
+include_video? = Kino.Input.read(include_all_videos?)
+
 videos_to_include =
-  Enum.map(data.videos, fn video ->
-    input = Kino.Input.checkbox(video.title, default: Kino.Input.read(include_all_videos?))
+  data.videos
+  |> Enum.with_index()
+  |> Enum.map(fn {video, idx} ->
+    input =
+      Kino.Input.checkbox("##{idx} #{video.title}", default: include_video?)
     Kino.render(input)
     %{video: video, input: input}
   end)
@@ -616,4 +623,4 @@ Kino.Markdown.new(
 SaveData.write_all_overwriting_duplicates!(data)
 ```
 
-<!-- livebook:{"offset":14682,"stamp":{"token":"XCP.whskoOP1v2w_8gI0AxD4uPRsbHbLPxcGTwgL_xBgpQm2LOv1AZS8YWhg3-MYJwr7zJaoXG1t0-4chyormulOIyWpopkaMPFChpYo-zVOrsZ-Bm6sJwGaHon5iM2RGSN4yphTUCfqHvjaSNQ6t6kQKc05o1VI0V_JY-zq-dyspKWlQQr3WTCLa3_u_jQ-k2I","version":2}} -->
+<!-- livebook:{"offset":14867,"stamp":{"token":"XCP.CaCEYKzU8CQalBjbaZ844LBu6IdRF9w5DgLSeXIIvG6R5NyVQtzPv74O_q01aOcIdG91UyY_Av6XMqrTMWE59Z1m_Mgf08wjPEuuny6_oSq9WnI3XVll5OA7bkTwsIQltYeOWhusgtR2aCfQisD5t68JhkEKpmRBeioNRoZ6jCJgGIf-rCRZI4N9wms2yBw","version":2}} -->

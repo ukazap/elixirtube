@@ -1,0 +1,15 @@
+video:
+  title: "Lighting Talk"
+  raw_title: "ElixirConf 2019 - Lighting Talk -  Mellisa Caps"
+  description: ""
+  speakers:
+    - Mellisa Caps
+  source: youtube
+  source_id: 5IxpZza3FWY
+  thumbnails:
+    xs: https://i.ytimg.com/vi/5IxpZza3FWY/default.jpg
+    s: https://i.ytimg.com/vi/5IxpZza3FWY/mqdefault.jpg
+    m: https://i.ytimg.com/vi/5IxpZza3FWY/hqdefault.jpg
+    l: https://i.ytimg.com/vi/5IxpZza3FWY/sddefault.jpg
+    xl: https://i.ytimg.com/vi/5IxpZza3FWY/maxresdefault.jpg
+  published_at: 2019-08-30T17:11:01Z
