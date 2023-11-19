@@ -200,7 +200,7 @@ Kino.nothing()
 
 ```elixir
 defmodule GPT do
-  def retitle_and_set_speakers(videos) do
+  def retitle_and_set_speakers(videos, event_name) do
     input = Enum.map(videos, fn v -> %{title: v.raw_title, speakers: v.speakers} end)
     input_json = Jason.encode!(%{talks: input})
 
@@ -209,9 +209,12 @@ defmodule GPT do
 
       Update the input JSON above with:
 
-      * each object's speakers array filled with speaker names derived from object's title
-      * scan all titles to find a recurring/redundant substring
-      * each object's title should be updated by omitting the speaker names and the recurring substring if any
+      For each object:
+        1. find speaker names inside the `title`
+        2. set `speakers` to array of speaker names
+        3. update the `title` using these steps:
+          3.1. Remove speaker names
+          3.2. Remove '#{event_name}' (account for occasional slight typo and variation in capitalization)
 
       Do not include any explanations, only return a RFC8259 compliant JSON response adhering to the input JSON structure without deviation.
     """
@@ -517,7 +520,7 @@ videos =
       videos
       |> Enum.chunk_every(10)
       |> Enum.map(fn ten_videos ->
-        Task.async(fn -> GPT.retitle_and_set_speakers(ten_videos) end)
+        Task.async(fn -> GPT.retitle_and_set_speakers(ten_videos, data.playlist.title) end)
       end)
       |> Enum.flat_map(fn task ->
         case Task.await(task, :infinity) do
@@ -563,7 +566,7 @@ video_data_inputs =
     ]
 
     inputs
-    |> Enum.each(fn {_, input} -> &Kino.Frame.append(frame, input) end)
+    |> Enum.each(fn {_, input} -> Kino.Frame.append(frame, input) end)
 
     %{video: video, frame: frame, inputs: inputs}
   end)
@@ -623,4 +626,4 @@ Kino.Markdown.new(
 SaveData.write_all_overwriting_duplicates!(data)
 ```
 
-<!-- livebook:{"offset":14819,"stamp":{"token":"XCP.eb-GjEipZrZSFskvRCFqpiAUbooQyruSp9txu9916ACqIkkoXDAxIU1o-1AQbKwuSsGYLnqGAXmIxmAYQTiH0yDUCrYSV17yjZc1823kmhLfv9064IQ2TxxESOf14z8Z_3-BdFuKQv-uTS5fsonaFMy9CIVwbVYkgmUFk9_GQ57-li8u9CxkX0GnEmDarKI","version":2}} -->
+<!-- livebook:{"offset":14901,"stamp":{"token":"XCP.TTH7ynvrdse0bHlP7VACm4HPWxVFs3oujQfHDpQ7bKR-OAW9-Z0yZEbTHn58S2FpDDDwh3P2kkziGApNu1xUY5-ZWRd0aQu-TmlHvb_bjeMUrVH7ZdPerpAa7Fcz8mDgthVt1a9BdDfTiXBouGmzKPnjFZL0LQ8iYm4j1SKyTHEk3e_sUzCxbNAISYxUUzc","version":2}} -->
