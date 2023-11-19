@@ -1,0 +1,14 @@
+video:
+  title: "Lighting Talk - Why Elixir is perfect for taming the monolith"
+  raw_title: "ElixirConf 2017 Lightning Talk - Why Elixir is perfect for taming the monolith - Scott Ribe"
+  description: ""
+  speaker_names:
+    - Scott Ribe
+  source: youtube:mpMeoMU0KLw
+  thumbnails:
+    xs: https://i.ytimg.com/vi/mpMeoMU0KLw/default.jpg
+    s: https://i.ytimg.com/vi/mpMeoMU0KLw/mqdefault.jpg
+    m: https://i.ytimg.com/vi/mpMeoMU0KLw/hqdefault.jpg
+    l: https://i.ytimg.com/vi/mpMeoMU0KLw/sddefault.jpg
+    xl: https://i.ytimg.com/vi/mpMeoMU0KLw/maxresdefault.jpg
+  published_at: 2017-09-19T00:43:37Z

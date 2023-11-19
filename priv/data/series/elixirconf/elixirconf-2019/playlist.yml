@@ -4,8 +4,7 @@ playlist:
   description: "ElixirConf US 2019 - Aurora/Denver, CO"
   urls:
     - https://elixirconf.com/2019
-  source: youtube
-  source_id: PLqj39LCvnOWYTNs1n3ZNMSNO3Svv_XweT
+  source: youtube:PLqj39LCvnOWYTNs1n3ZNMSNO3Svv_XweT
   thumbnails:
     xs: https://i.ytimg.com/vi/9eOo8hSbMAc/default.jpg
     s: https://i.ytimg.com/vi/9eOo8hSbMAc/mqdefault.jpg

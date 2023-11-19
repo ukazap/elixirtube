@@ -1,0 +1,14 @@
+video:
+  title: "Otp In Production: The Nitty-Gritty Details Of Game Servers"
+  raw_title: "Elixir Conf 2014 - Otp In Production: The Nitty-Gritty Details Of Game Servers by Martin Schurrer"
+  description: "Help us caption & translate this video!\n\nhttp://amara.org/v/FGXz/"
+  speaker_names:
+    - Martin Schurrer
+  source: youtube:5LRDICEETRE
+  thumbnails:
+    xs: https://i.ytimg.com/vi/5LRDICEETRE/default.jpg
+    s: https://i.ytimg.com/vi/5LRDICEETRE/mqdefault.jpg
+    m: https://i.ytimg.com/vi/5LRDICEETRE/hqdefault.jpg
+    l: https://i.ytimg.com/vi/5LRDICEETRE/sddefault.jpg
+    xl: https://i.ytimg.com/vi/5LRDICEETRE/maxresdefault.jpg
+  published_at: 2014-08-10T08:11:36Z

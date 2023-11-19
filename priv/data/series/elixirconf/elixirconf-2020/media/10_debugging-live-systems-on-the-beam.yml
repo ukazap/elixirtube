@@ -1,0 +1,14 @@
+video:
+  title: "Debugging Live Systems on the BEAM"
+  raw_title: "ElixirConf 2020 - Jeffery Utter - Debugging Live Systems on the BEAM"
+  description: "Production issues happen when we least expect them. Sometimes logging and tracing don't give you the whole picture. Let's roll up our sleeves and dig into the debugging tools built into the BEAM!"
+  speaker_names:
+    - Jeffery Utter
+  source: youtube:sR9h3DZAA74
+  thumbnails:
+    xs: https://i.ytimg.com/vi/sR9h3DZAA74/default.jpg
+    s: https://i.ytimg.com/vi/sR9h3DZAA74/mqdefault.jpg
+    m: https://i.ytimg.com/vi/sR9h3DZAA74/hqdefault.jpg
+    l: https://i.ytimg.com/vi/sR9h3DZAA74/sddefault.jpg
+    xl: https://i.ytimg.com/vi/sR9h3DZAA74/maxresdefault.jpg
+  published_at: 2020-10-20T17:06:59Z

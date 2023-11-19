@@ -1,0 +1,14 @@
+video:
+  title: "Scaling GraphQL in Absinthe with Federation"
+  raw_title: "ElixirConf 2021 - Kaden Wilkinson - Scaling GraphQL in Absinthe with Federation"
+  description: "Do you have a monolithic Absinthe GraphQL application? Is your team growing so fast that your monolith is struggling to handle that growth? Do you wish you could implement a service oriented architecture but still have a single unified Graph for your clients to consume? Then Federation might be for you! Learn how to implement Federated services with Absinthe behind a gateway."
+  speaker_names:
+    - Kaden Wilkinson
+  source: youtube:sw6Wlr_2aHc
+  thumbnails:
+    xs: https://i.ytimg.com/vi/sw6Wlr_2aHc/default.jpg
+    s: https://i.ytimg.com/vi/sw6Wlr_2aHc/mqdefault.jpg
+    m: https://i.ytimg.com/vi/sw6Wlr_2aHc/hqdefault.jpg
+    l: https://i.ytimg.com/vi/sw6Wlr_2aHc/sddefault.jpg
+    xl: https://i.ytimg.com/vi/sw6Wlr_2aHc/maxresdefault.jpg
+  published_at: 2021-10-22T20:43:45Z

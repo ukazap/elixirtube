@@ -1,0 +1,14 @@
+video:
+  title: "Game Programming Patterns in Elixir? - RPG Battles!"
+  raw_title: "ElixirConf 2021 - Digit - Game Programming Patterns in Elixir? - RPG Battles!"
+  description: "Elixir + OTP framework is an incredibly powerful combination. We leverage it to build highly scalable and distributed web apps, and IoT systems. But can we use that power to re-create a popular RPG battle system using basic OTP concepts and LiveView? Sharpen your swords and pack your bags of holding because we’re gonna find out!"
+  speaker_names:
+    - Digit
+  source: youtube:gQb58bqwDOc
+  thumbnails:
+    xs: https://i.ytimg.com/vi/gQb58bqwDOc/default.jpg
+    s: https://i.ytimg.com/vi/gQb58bqwDOc/mqdefault.jpg
+    m: https://i.ytimg.com/vi/gQb58bqwDOc/hqdefault.jpg
+    l: https://i.ytimg.com/vi/gQb58bqwDOc/sddefault.jpg
+    xl: https://i.ytimg.com/vi/gQb58bqwDOc/maxresdefault.jpg
+  published_at: 2021-10-23T14:39:09Z

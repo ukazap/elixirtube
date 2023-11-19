@@ -1,0 +1,14 @@
+video:
+  title: "Robust, Distributed, and Parallel Processing for Enormous Images"
+  raw_title: "ElixirConf 2022 - Susumu Yamazaki - Robust, Distributed, and Parallel Processing for Enormous Images"
+  description: "What do you use when you process enormous images? Of course, Python, Numpy, and OpenCV will be helpful for it, but don't you want to speed it up by processing it in a distributed and parallel way? Elixir can do it:\n1. You can replace Numpy and OpenCV with Nx and evision.\n2. Node and Flow can make the processing distributed and parallel.\n3. Supervisor makes it robust for crushing due to consuming much memory. \nThis presentation will introduce satellite image processing for an information provision system of sediment disasters as an example case study shown at ElixirConf US 2020."
+  speaker_names:
+    - Susumu Yamazaki
+  source: youtube:RkMzCQm-Ws4
+  thumbnails:
+    xs: https://i.ytimg.com/vi/RkMzCQm-Ws4/default.jpg
+    s: https://i.ytimg.com/vi/RkMzCQm-Ws4/mqdefault.jpg
+    m: https://i.ytimg.com/vi/RkMzCQm-Ws4/hqdefault.jpg
+    l: https://i.ytimg.com/vi/RkMzCQm-Ws4/sddefault.jpg
+    xl: https://i.ytimg.com/vi/RkMzCQm-Ws4/maxresdefault.jpg
+  published_at: 2022-10-30T22:22:42Z

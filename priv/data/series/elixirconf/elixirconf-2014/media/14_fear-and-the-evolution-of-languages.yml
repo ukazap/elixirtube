@@ -1,0 +1,14 @@
+video:
+  title: "Fear and the Evolution of Languages"
+  raw_title: "Elixir Conf 2014 - Fear and the Evolution of Languages by Bruce Tate"
+  description: "Help us caption & translate this video!\n\nhttp://amara.org/v/FGYF/"
+  speaker_names:
+    - Bruce Tate
+  source: youtube:hxNalzuBbSw
+  thumbnails:
+    xs: https://i.ytimg.com/vi/hxNalzuBbSw/default.jpg
+    s: https://i.ytimg.com/vi/hxNalzuBbSw/mqdefault.jpg
+    m: https://i.ytimg.com/vi/hxNalzuBbSw/hqdefault.jpg
+    l: https://i.ytimg.com/vi/hxNalzuBbSw/sddefault.jpg
+    xl: https://i.ytimg.com/vi/hxNalzuBbSw/maxresdefault.jpg
+  published_at: 2014-08-13T21:43:45Z

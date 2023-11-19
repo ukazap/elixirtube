@@ -1,0 +1,14 @@
+video:
+  title: "Livebook smart cells are amazing"
+  raw_title: "ElixirConf 2022 - Stephen Ball - Livebook smart cells are amazing"
+  description: "In May 2022 Livebook 0.6 introduced smart cells. These are units of abstraction to wrap complex code in a simple user interface which means we can make a lot of amazing things happen behind the scenes while presenting users with a smart workflow. In this talk, we'll go from Livebook itself to smart cells that pull complex data from APIs to feed into other smart cells for analysis."
+  speaker_names:
+    - Stephen Ball
+  source: youtube:Yw_EqX_KAw4
+  thumbnails:
+    xs: https://i.ytimg.com/vi/Yw_EqX_KAw4/default.jpg
+    s: https://i.ytimg.com/vi/Yw_EqX_KAw4/mqdefault.jpg
+    m: https://i.ytimg.com/vi/Yw_EqX_KAw4/hqdefault.jpg
+    l: https://i.ytimg.com/vi/Yw_EqX_KAw4/sddefault.jpg
+    xl: 
+  published_at: 2022-10-30T22:24:22Z

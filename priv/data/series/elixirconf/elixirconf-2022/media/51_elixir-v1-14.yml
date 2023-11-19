@@ -1,0 +1,14 @@
+video:
+  title: "Elixir v1.14"
+  raw_title: "ElixirConf 2022 - José Valim - Elixir v1.14"
+  description: "José Valim (Dashbit) delivers the opening keynote of ElixirConf US 2022."
+  speaker_names:
+    - José Valim
+  source: youtube:KmLw58qEtuM
+  thumbnails:
+    xs: https://i.ytimg.com/vi/KmLw58qEtuM/default.jpg
+    s: https://i.ytimg.com/vi/KmLw58qEtuM/mqdefault.jpg
+    m: https://i.ytimg.com/vi/KmLw58qEtuM/hqdefault.jpg
+    l: https://i.ytimg.com/vi/KmLw58qEtuM/sddefault.jpg
+    xl: https://i.ytimg.com/vi/KmLw58qEtuM/maxresdefault.jpg
+  published_at: 2022-09-08T15:01:33Z

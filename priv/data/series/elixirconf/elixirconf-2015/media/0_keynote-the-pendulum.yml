@@ -1,0 +1,14 @@
+video:
+  title: "Keynote: The Pendulum"
+  raw_title: "ElixirConf 2015 - Keynote: The Pendulum by Bruce Tate"
+  description: "Throughout history, the needs of the consumer, hardware limitations, and the capabilities of languages have set a pendulum in motion. At one side, the pendulum dictates that user interfaces be glorified forms with simple request-response semantics. At other times, the pendulum swings to the opposite extreme, and user interfaces become rich and dynamic, but they leave the programmer to deal with increasingly high technical mountains.\n\nThis pendulum dictates what compromises must be made at the user interface, but more interestingly, it determines how resources are consumed and allocated on the server, the language choices that impact each layer of an application, and the way we think of generic terms like \"server\" and \"connection\".\n\nThis talk will focus on the movement of the pendulum. We'll look at what forces in the industry set the pendulum into motion at each point. Finally, we'll look at why Elixir is succeeding in the face of the most recent and dramatic pendulum swing to date."
+  speaker_names:
+    - Bruce Tate
+  source: youtube:X8rWK-g8kCQ
+  thumbnails:
+    xs: https://i.ytimg.com/vi/X8rWK-g8kCQ/default.jpg
+    s: https://i.ytimg.com/vi/X8rWK-g8kCQ/mqdefault.jpg
+    m: https://i.ytimg.com/vi/X8rWK-g8kCQ/hqdefault.jpg
+    l: https://i.ytimg.com/vi/X8rWK-g8kCQ/sddefault.jpg
+    xl: https://i.ytimg.com/vi/X8rWK-g8kCQ/maxresdefault.jpg
+  published_at: 2015-10-13T16:40:07Z

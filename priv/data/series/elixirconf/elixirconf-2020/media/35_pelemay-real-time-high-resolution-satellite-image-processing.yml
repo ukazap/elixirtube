@@ -1,0 +1,14 @@
+video:
+  title: "Pelemay: Real-time, High-Resolution Satellite Image Processing"
+  raw_title: "ElixirConf 2020 - Susumu Yamazaki - Pelemay: Real-time, High-Resolution Satellite Image Processing"
+  description: "Do you know there is a plan to launch artificial satellites by Japanese companies? Don’t be surprised, but it will have the potential to enable us to observe everywhere on the Earth within only 10 minutes! However, it has a serious issue: it requires too much volume of image processing, which may consume computing power more than a supercomputer! But don’t worry, we propose to apply the amazing parallelism of Elixir and Pelemay to it, with reasonable resources! How do we realize it? Listen to this talk!"
+  speaker_names:
+    - Susumu Yamazaki
+  source: youtube:9H0AsmAsxgk
+  thumbnails:
+    xs: https://i.ytimg.com/vi/9H0AsmAsxgk/default.jpg
+    s: https://i.ytimg.com/vi/9H0AsmAsxgk/mqdefault.jpg
+    m: https://i.ytimg.com/vi/9H0AsmAsxgk/hqdefault.jpg
+    l: https://i.ytimg.com/vi/9H0AsmAsxgk/sddefault.jpg
+    xl: https://i.ytimg.com/vi/9H0AsmAsxgk/maxresdefault.jpg
+  published_at: 2021-01-11T22:54:43Z

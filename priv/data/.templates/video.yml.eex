@@ -2,10 +2,9 @@ video:
   title: <%= inspect(@title) %>
   raw_title: <%= inspect(@raw_title) %>
   description: <%= inspect(@description) %>
-  speakers:<%= if Enum.empty?(@speakers) do %> []<% else %><%= for url <- @speakers do %>
-    - <%= url %><% end %><% end %>
+  speaker_names:<%= if Enum.empty?(@speaker_names) do %> []<% else %><%= for name <- @speaker_names do %>
+    - <%= name %><% end %><% end %>
   source: <%= @source %>
-  source_id: <%= @source_id %>
   thumbnails:
     xs: <%= @thumbnails.xs %>
     s: <%= @thumbnails.s %>

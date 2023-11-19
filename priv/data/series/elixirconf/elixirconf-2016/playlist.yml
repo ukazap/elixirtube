@@ -3,8 +3,7 @@ playlist:
   location: "Orlando, FL"
   description: ""
   urls: []
-  source: youtube
-  source_id: PLE7tQUdRKcyYoiEKWny0Jj72iu564bVFD
+  source: youtube:PLE7tQUdRKcyYoiEKWny0Jj72iu564bVFD
   thumbnails:
     xs: https://i.ytimg.com/vi/_O-bLuVhcCA/default.jpg
     s: https://i.ytimg.com/vi/_O-bLuVhcCA/mqdefault.jpg

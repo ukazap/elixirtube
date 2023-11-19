@@ -1,0 +1,14 @@
+video:
+  title: "Review of using Elixir for 4 years in production"
+  raw_title: "ElixirConf 2022 - Ed Bond - Review of using Elixir for 4 years in production"
+  description: "Sharing my experiences building a TV App business powered by Elixir using Absinthe, Kubernetes, Clustering, and no downtime releases.\n\nThings would include:\n* Packaging\n* Clustering\n* Umbrella app separation\n* Absinthe\n* Training others to take over the code\n* Live analysis/mitigations of issues"
+  speaker_names:
+    - Ed Bond
+  source: youtube:oaUBTd-DX1Q
+  thumbnails:
+    xs: https://i.ytimg.com/vi/oaUBTd-DX1Q/default.jpg
+    s: https://i.ytimg.com/vi/oaUBTd-DX1Q/mqdefault.jpg
+    m: https://i.ytimg.com/vi/oaUBTd-DX1Q/hqdefault.jpg
+    l: https://i.ytimg.com/vi/oaUBTd-DX1Q/sddefault.jpg
+    xl: https://i.ytimg.com/vi/oaUBTd-DX1Q/maxresdefault.jpg
+  published_at: 2022-11-11T20:36:52Z

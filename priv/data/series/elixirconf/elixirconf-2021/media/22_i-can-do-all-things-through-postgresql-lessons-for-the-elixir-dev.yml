@@ -1,0 +1,14 @@
+video:
+  title: "I can do all things through Postgresql: Lessons for the Elixir dev"
+  raw_title: "ElixirConf 2021 - Todd Resudek - I can do all things through Postgresql: Lessons for the Elixir dev"
+  description: "The goal of this talk is to shed some light on another way of thinking about development problems. A lot of problems that can be solved with Elixir application code are better solved with database code."
+  speaker_names:
+    - Todd Resudek
+  source: youtube:mliO5_XhAKE
+  thumbnails:
+    xs: https://i.ytimg.com/vi/mliO5_XhAKE/default.jpg
+    s: https://i.ytimg.com/vi/mliO5_XhAKE/mqdefault.jpg
+    m: https://i.ytimg.com/vi/mliO5_XhAKE/hqdefault.jpg
+    l: https://i.ytimg.com/vi/mliO5_XhAKE/sddefault.jpg
+    xl: https://i.ytimg.com/vi/mliO5_XhAKE/maxresdefault.jpg
+  published_at: 2021-10-23T14:36:38Z

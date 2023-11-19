@@ -1,0 +1,14 @@
+video:
+  title: "The Future AI Stack"
+  raw_title: "ElixirConf 2022 - Chris Grainger - The Future AI Stack"
+  description: "Chris Grainger (Amplified) delivers the Friday Keynote at ElixirConf US 2022.\n\nWe switched our machine learning research, production inference, and ETL pipelines to Elixir. This is the story of how we made that decision and how it's going.\n\nAt Amplified, we’ve been building our own deep learning models for long documents and putting them into production since 2017. Our ETL handles over 120 million patents and processes hundreds of thousands of updates each week including vector inference. Despite building our entire SaaS app in Elixir, we used Python for the machine learning and ETL portions of our stack. Python’s ubiquity and community made it seem like the obvious choice. Indeed, we benefitted greatly from the many pre-existing libraries for big data processing as well as from rapidly advancing tools like PyTorch.\n\nBut as time went on, challenges emerged. Our machine learning and ETL are tightly integrated into our product, but our engineering team was mostly split. As a small team, we should have been able to coordinate effectively and iterate quickly, but instead, work and communications often got siloed into the data side or app side. Even just putting together a development environment that works across architectures and hardware was a challenge. The additional complexity and performance overhead of running a Python machine learning microservice for on-the-fly inference began to bite us. After a few too many painful experiences we began to look for other options.\n\nThis wasn't the first time we considered consolidating in Elixir. Our initial product was a SPA front end and Elixir backend, but we later switched the entire app to LiveView and never looked back. Productivity shot up, and we’ve enjoyed an increase in feature velocity with fewer bugs. Despite how well that went, we couldn’t abandon Python. There was just too much that we’d have to build. But then Nx came out, and an ecosystem rapidly emerged that could do most of what we needed. The only thing missing was a data frame library. I decided to try building something basic to fill that gap so we could explore moving all of our data and ML operations to Elixir. It worked, and we made the leap. In this talk, I’ll share how we're thinking about an all-Elixir stack for deep learning in production, how the Nx ecosystem made this possible, what we’ve learned, and why we’re excited about what comes next."
+  speaker_names:
+    - Chris Grainger
+  source: youtube:Y2Nr4dNu6hI
+  thumbnails:
+    xs: https://i.ytimg.com/vi/Y2Nr4dNu6hI/default.jpg
+    s: https://i.ytimg.com/vi/Y2Nr4dNu6hI/mqdefault.jpg
+    m: https://i.ytimg.com/vi/Y2Nr4dNu6hI/hqdefault.jpg
+    l: https://i.ytimg.com/vi/Y2Nr4dNu6hI/sddefault.jpg
+    xl: https://i.ytimg.com/vi/Y2Nr4dNu6hI/maxresdefault.jpg
+  published_at: 2022-09-08T14:31:54Z

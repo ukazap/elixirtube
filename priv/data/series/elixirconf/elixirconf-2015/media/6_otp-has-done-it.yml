@@ -1,0 +1,14 @@
+video:
+  title: "OTP Has Done It"
+  raw_title: "ElixirConf 2015 - OTP Has Done It by Nick DeMonner"
+  description: "As a young community, we have to resist the urge to reinvent the wheel for foundational libraries and instead look to the battle-tested awesomeness that is OTP. When designing complex systems with many moving parts in Elixir, we should ask ourselves the following question: has OTP done this? In order to answer that question in this talk, we'll first look at the gen_fsm, gen_event, and gen_server libraries. We'll see some examples illustrating how, where, and why they should be used for building robust, fault-tolerant, and distributed systems. A broad discussion of some of the built-in database options like ETS and Mnesia will follow. We'll examine the pros and cons of each system, and take a look at some examples. Lastly, attendees will get a brief overview of OTP-style releases and how they can fit into modern deployment infrastructure."
+  speaker_names:
+    - Nick DeMonner
+  source: youtube:yBReonQlfL4
+  thumbnails:
+    xs: https://i.ytimg.com/vi/yBReonQlfL4/default.jpg
+    s: https://i.ytimg.com/vi/yBReonQlfL4/mqdefault.jpg
+    m: https://i.ytimg.com/vi/yBReonQlfL4/hqdefault.jpg
+    l: https://i.ytimg.com/vi/yBReonQlfL4/sddefault.jpg
+    xl: https://i.ytimg.com/vi/yBReonQlfL4/maxresdefault.jpg
+  published_at: 2015-10-15T17:02:01Z

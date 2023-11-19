@@ -1,0 +1,14 @@
+video:
+  title: "Seems Good to Me: Working w/ Testers to Derisk Elixir Upgrades"
+  raw_title: "ElixirConf 2022 - Jenny Bramble - Seems Good to Me: Working w/ Testers to Derisk Elixir Upgrades"
+  description: "It's that time again! You have a legacy app running business-critical functions, and it's on an old version of Elixir. You need to upgrade to stay safe, have access to the most modern features of the ecosystem, and be current with your community. But a full regression of the app will take days, if not weeks, and no one can find the time. What's a team to do?\n\nJenny Bramble suggests leaning on the deep magic of test methodology and collaboration to determine the minimum viable tests to run in order to ensure your system is performing as expected. She'll talk about working through release notes with your testers as well as applying test methodologies to the types of problems we see in upgrades and regressions. You'll walk away from this talk with a stronger understanding of the ways we can simplify and derisk upgrades and a structure for working with tests to make sure that we're doing the right amount of testing."
+  speaker_names:
+    - Jenny Bramble
+  source: youtube:aXXga-z8bpo
+  thumbnails:
+    xs: https://i.ytimg.com/vi/aXXga-z8bpo/default.jpg
+    s: https://i.ytimg.com/vi/aXXga-z8bpo/mqdefault.jpg
+    m: https://i.ytimg.com/vi/aXXga-z8bpo/hqdefault.jpg
+    l: https://i.ytimg.com/vi/aXXga-z8bpo/sddefault.jpg
+    xl: https://i.ytimg.com/vi/aXXga-z8bpo/maxresdefault.jpg
+  published_at: 2022-11-11T20:11:27Z

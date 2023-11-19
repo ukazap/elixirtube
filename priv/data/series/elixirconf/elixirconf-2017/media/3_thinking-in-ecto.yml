@@ -1,0 +1,14 @@
+video:
+  title: "Thinking In Ecto"
+  raw_title: "ElixirConf 2017 - Thinking In Ecto - Darin Wilson"
+  description: "A note from the speaker: \"An alert viewer pointed out that there are several typos in the slides. I'm deeply sorry about this. Corrected slides are available here: http://bit.ly/2xoXPzt\""
+  speaker_names:
+    - Darin Wilson
+  source: youtube:YQxopjai0CU
+  thumbnails:
+    xs: https://i.ytimg.com/vi/YQxopjai0CU/default.jpg
+    s: https://i.ytimg.com/vi/YQxopjai0CU/mqdefault.jpg
+    m: https://i.ytimg.com/vi/YQxopjai0CU/hqdefault.jpg
+    l: https://i.ytimg.com/vi/YQxopjai0CU/sddefault.jpg
+    xl: https://i.ytimg.com/vi/YQxopjai0CU/maxresdefault.jpg
+  published_at: 2017-09-07T20:31:03Z

@@ -1,0 +1,14 @@
+video:
+  title: "Teaching Functional Programming With Elixir"
+  raw_title: "ElixirConf 2020 - Melvin Cedeno - Teaching Functional Programming With Elixir"
+  description: "These are the things I've learned from teaching over a dozen intro to functional programming classes with Elixir, that you can utilize in your company trainings."
+  speaker_names:
+    - Melvin Cedeno
+  source: youtube:q4_nPyoPmGo
+  thumbnails:
+    xs: https://i.ytimg.com/vi/q4_nPyoPmGo/default.jpg
+    s: https://i.ytimg.com/vi/q4_nPyoPmGo/mqdefault.jpg
+    m: https://i.ytimg.com/vi/q4_nPyoPmGo/hqdefault.jpg
+    l: https://i.ytimg.com/vi/q4_nPyoPmGo/sddefault.jpg
+    xl: https://i.ytimg.com/vi/q4_nPyoPmGo/maxresdefault.jpg
+  published_at: 2021-01-11T22:41:03Z

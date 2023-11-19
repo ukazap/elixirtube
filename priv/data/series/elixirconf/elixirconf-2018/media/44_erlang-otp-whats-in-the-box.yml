@@ -1,0 +1,14 @@
+video:
+  title: "Erlang OTP What's in the Box"
+  raw_title: "ElixirConf 2018 - Erlang OTP What's in the Box - João Britto"
+  description: ""
+  speaker_names:
+    - João Britto
+  source: youtube:CozSfI-Zepw
+  thumbnails:
+    xs: https://i.ytimg.com/vi/CozSfI-Zepw/default.jpg
+    s: https://i.ytimg.com/vi/CozSfI-Zepw/mqdefault.jpg
+    m: https://i.ytimg.com/vi/CozSfI-Zepw/hqdefault.jpg
+    l: https://i.ytimg.com/vi/CozSfI-Zepw/sddefault.jpg
+    xl: https://i.ytimg.com/vi/CozSfI-Zepw/maxresdefault.jpg
+  published_at: 2018-09-08T00:19:58Z

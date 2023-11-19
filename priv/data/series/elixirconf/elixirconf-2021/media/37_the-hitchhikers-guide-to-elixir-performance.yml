@@ -1,0 +1,14 @@
+video:
+  title: "The Hitchhiker's Guide to Elixir Performance"
+  raw_title: "ElixirConf 2021 - Chris Ertel - The Hitchhiker's Guide to Elixir Performance"
+  description: "Elixir is a great language but many developers lack an intuition for the performance characteristics of their code.\n\nUsing Elixir and BEAM source code and bytecode, this talk will explore the basic performance characteristics/timings of various Elixir operations/data structures, and talk about profiling code. Along the way we’ll dig into various ways of writing faster code to solve problems."
+  speaker_names:
+    - Chris Ertel
+  source: youtube:cONM2YwCO0Y
+  thumbnails:
+    xs: https://i.ytimg.com/vi/cONM2YwCO0Y/default.jpg
+    s: https://i.ytimg.com/vi/cONM2YwCO0Y/mqdefault.jpg
+    m: https://i.ytimg.com/vi/cONM2YwCO0Y/hqdefault.jpg
+    l: https://i.ytimg.com/vi/cONM2YwCO0Y/sddefault.jpg
+    xl: https://i.ytimg.com/vi/cONM2YwCO0Y/maxresdefault.jpg
+  published_at: 2021-10-24T20:19:46Z

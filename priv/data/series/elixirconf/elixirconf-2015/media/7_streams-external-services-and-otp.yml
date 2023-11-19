@@ -1,0 +1,14 @@
+video:
+  title: "Streams, External Services, and OTP"
+  raw_title: "ElixirConf 2015 - Streams, External Services, and OTP by Ben Wilson"
+  description: "Whether you're polling message queues, batching records to a datastore, or concurrently uploading a file in pieces to S3, interacting with external services is often complex. When this complexity mingles with your application logic your code becomes messy, hard to test, and fragile to change. What if you could cleanup the mess with the use of Elixir streams? By choosing to describe these resources as `Enumerable` and `Collectable`, we can encapsulate this complexity and allow the purpose of the code to shine through."
+  speaker_names:
+    - Ben Wilson
+  source: youtube:CRXNmAMPNW8
+  thumbnails:
+    xs: https://i.ytimg.com/vi/CRXNmAMPNW8/default.jpg
+    s: https://i.ytimg.com/vi/CRXNmAMPNW8/mqdefault.jpg
+    m: https://i.ytimg.com/vi/CRXNmAMPNW8/hqdefault.jpg
+    l: https://i.ytimg.com/vi/CRXNmAMPNW8/sddefault.jpg
+    xl: https://i.ytimg.com/vi/CRXNmAMPNW8/maxresdefault.jpg
+  published_at: 2015-10-15T17:04:48Z

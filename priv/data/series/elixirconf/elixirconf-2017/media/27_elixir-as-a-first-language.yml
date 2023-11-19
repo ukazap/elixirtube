@@ -1,0 +1,14 @@
+video:
+  title: "Elixir as a first language"
+  raw_title: "ElixirConf 2017 - Elixir as a first language - Alexis Huefner"
+  description: ""
+  speaker_names:
+    - Alexis Huefner
+  source: youtube:TUOeFdFvOk8
+  thumbnails:
+    xs: https://i.ytimg.com/vi/TUOeFdFvOk8/default.jpg
+    s: https://i.ytimg.com/vi/TUOeFdFvOk8/mqdefault.jpg
+    m: https://i.ytimg.com/vi/TUOeFdFvOk8/hqdefault.jpg
+    l: https://i.ytimg.com/vi/TUOeFdFvOk8/sddefault.jpg
+    xl: https://i.ytimg.com/vi/TUOeFdFvOk8/maxresdefault.jpg
+  published_at: 2017-09-08T22:04:43Z

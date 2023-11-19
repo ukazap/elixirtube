@@ -1,0 +1,14 @@
+video:
+  title: "Globally Distributed Elixir Apps on Fly.io"
+  raw_title: "ElixirConf 2021 - Mark Ericksen - Globally Distributed Elixir Apps on Fly.io"
+  description: "Why globally distribute your app? It’s a better experience for your users. LiveView rocks, even more, when it’s close! Elixir nodes can be clustered together. The ElixirLang Getting Started Guide walks you through doing that. What isn’t obvious is how to distribute the nodes in multiple geographical regions. It isn’t because it’s hard for Elixir, it’s because it’s a hard networking and operations problem."
+  speaker_names:
+    - Mark Ericksen
+  source: youtube:IqnZnFpxLjI
+  thumbnails:
+    xs: https://i.ytimg.com/vi/IqnZnFpxLjI/default.jpg
+    s: https://i.ytimg.com/vi/IqnZnFpxLjI/mqdefault.jpg
+    m: https://i.ytimg.com/vi/IqnZnFpxLjI/hqdefault.jpg
+    l: https://i.ytimg.com/vi/IqnZnFpxLjI/sddefault.jpg
+    xl: https://i.ytimg.com/vi/IqnZnFpxLjI/maxresdefault.jpg
+  published_at: 2021-10-23T14:43:05Z

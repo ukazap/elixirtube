@@ -1,0 +1,14 @@
+video:
+  title: "Fumbling with Exceptions"
+  raw_title: "ElixirConf 2021 - Greg Vaughn - Fumbling with Exceptions"
+  description: "You’ve heard of “Let it Crash” and that’s wise advice. Most of the time. Other times a custom exception might be a better choice. Let’s talk about what exceptions in Elixir truly are and how they work to gain some intuition for when they are the right tool to reach for. They can play very nicely alongside error tuples. Even if we never raise them. I’ll discuss a case in which I named an exception a “fumble” because it might be recoverable."
+  speaker_names:
+    - Greg Vaughn
+  source: youtube:HZZCl1ClYb4
+  thumbnails:
+    xs: https://i.ytimg.com/vi/HZZCl1ClYb4/default.jpg
+    s: https://i.ytimg.com/vi/HZZCl1ClYb4/mqdefault.jpg
+    m: https://i.ytimg.com/vi/HZZCl1ClYb4/hqdefault.jpg
+    l: https://i.ytimg.com/vi/HZZCl1ClYb4/sddefault.jpg
+    xl: https://i.ytimg.com/vi/HZZCl1ClYb4/maxresdefault.jpg
+  published_at: 2021-10-24T18:36:58Z

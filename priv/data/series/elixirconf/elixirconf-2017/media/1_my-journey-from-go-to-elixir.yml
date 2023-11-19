@@ -1,0 +1,14 @@
+video:
+  title: "My Journey from Go to Elixir"
+  raw_title: "ElixirConf 2017 - My Journey from Go to Elixir - Veronica Lopez"
+  description: ""
+  speaker_names:
+    - Veronica Lopez
+  source: youtube:f979XY2A2HU
+  thumbnails:
+    xs: https://i.ytimg.com/vi/f979XY2A2HU/default.jpg
+    s: https://i.ytimg.com/vi/f979XY2A2HU/mqdefault.jpg
+    m: https://i.ytimg.com/vi/f979XY2A2HU/hqdefault.jpg
+    l: https://i.ytimg.com/vi/f979XY2A2HU/sddefault.jpg
+    xl: https://i.ytimg.com/vi/f979XY2A2HU/maxresdefault.jpg
+  published_at: 2017-09-07T19:37:23Z

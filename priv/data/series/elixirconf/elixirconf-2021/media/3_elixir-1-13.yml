@@ -1,0 +1,14 @@
+video:
+  title: "Elixir 1.13"
+  raw_title: "ElixirConf 2021 - José Valim - Elixir 1.13"
+  description: "Thursday Keynote"
+  speaker_names:
+    - José Valim
+  source: youtube:ydjx2kKHzrM
+  thumbnails:
+    xs: https://i.ytimg.com/vi/ydjx2kKHzrM/default.jpg
+    s: https://i.ytimg.com/vi/ydjx2kKHzrM/mqdefault.jpg
+    m: https://i.ytimg.com/vi/ydjx2kKHzrM/hqdefault.jpg
+    l: https://i.ytimg.com/vi/ydjx2kKHzrM/sddefault.jpg
+    xl: https://i.ytimg.com/vi/ydjx2kKHzrM/maxresdefault.jpg
+  published_at: 2021-10-22T14:35:46Z

@@ -1,0 +1,14 @@
+video:
+  title: "Interfacing with Machine Learned Models"
+  raw_title: "ElixirConf 2018 - Interfacing with Machine Learned Models - Mathew Gardner"
+  description: ""
+  speaker_names:
+    - Mathew Gardner
+  source: youtube:YAGbvulsIGE
+  thumbnails:
+    xs: https://i.ytimg.com/vi/YAGbvulsIGE/default.jpg
+    s: https://i.ytimg.com/vi/YAGbvulsIGE/mqdefault.jpg
+    m: https://i.ytimg.com/vi/YAGbvulsIGE/hqdefault.jpg
+    l: https://i.ytimg.com/vi/YAGbvulsIGE/sddefault.jpg
+    xl: https://i.ytimg.com/vi/YAGbvulsIGE/maxresdefault.jpg
+  published_at: 2018-09-07T01:41:10Z

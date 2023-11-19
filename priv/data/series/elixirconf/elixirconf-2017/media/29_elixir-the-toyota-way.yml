@@ -1,0 +1,14 @@
+video:
+  title: "Elixir The Toyota Way"
+  raw_title: "ElixirConf 2017 - Elixir The Toyota Way - Powell Kinney"
+  description: ""
+  speaker_names:
+    - Powell Kinney
+  source: youtube:37V6L1EA4ac
+  thumbnails:
+    xs: https://i.ytimg.com/vi/37V6L1EA4ac/default.jpg
+    s: https://i.ytimg.com/vi/37V6L1EA4ac/mqdefault.jpg
+    m: https://i.ytimg.com/vi/37V6L1EA4ac/hqdefault.jpg
+    l: https://i.ytimg.com/vi/37V6L1EA4ac/sddefault.jpg
+    xl: https://i.ytimg.com/vi/37V6L1EA4ac/maxresdefault.jpg
+  published_at: 2017-09-08T22:21:27Z

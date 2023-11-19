@@ -1,0 +1,14 @@
+video:
+  title: "Zig (heart) Elixir"
+  raw_title: "ElixirConf 2021 - Isaac Yonemoto - Zig (heart) Elixir"
+  description: "Zigler is a library that allows you to easily write NIFs (low-level code) for Elixir that are good citizens of the BEAM. This talk will take a peek at some of the internals to see how Zigler creates a bridge between the two languages."
+  speaker_names:
+    - Isaac Yonemoto
+  source: youtube:lDfjdGva3NE
+  thumbnails:
+    xs: https://i.ytimg.com/vi/lDfjdGva3NE/default.jpg
+    s: https://i.ytimg.com/vi/lDfjdGva3NE/mqdefault.jpg
+    m: https://i.ytimg.com/vi/lDfjdGva3NE/hqdefault.jpg
+    l: https://i.ytimg.com/vi/lDfjdGva3NE/sddefault.jpg
+    xl: https://i.ytimg.com/vi/lDfjdGva3NE/maxresdefault.jpg
+  published_at: 2021-10-23T14:47:43Z

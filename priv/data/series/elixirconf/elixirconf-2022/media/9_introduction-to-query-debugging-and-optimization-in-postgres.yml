@@ -1,0 +1,14 @@
+video:
+  title: "Introduction to query debugging and optimization in Postgres"
+  raw_title: "ElixirConf 2022 - Justin Wood - Introduction to query debugging and optimization in Postgres"
+  description: "When it comes to performance, it is better to be proactive and constantly looking for potential issues instead of waiting for them to appear by having our customers complain about them or, worse, by silently leaving our platforms because of them. This talk will give you some tools and tips to be proactive with Postgres performance in order to debug and optimize queries before they become an actual issue. Some of this knowledge should also be transferable to other database solutions."
+  speaker_names:
+    - Justin Wood
+  source: youtube:2qWNsPzFMcY
+  thumbnails:
+    xs: https://i.ytimg.com/vi/2qWNsPzFMcY/default.jpg
+    s: https://i.ytimg.com/vi/2qWNsPzFMcY/mqdefault.jpg
+    m: https://i.ytimg.com/vi/2qWNsPzFMcY/hqdefault.jpg
+    l: https://i.ytimg.com/vi/2qWNsPzFMcY/sddefault.jpg
+    xl: https://i.ytimg.com/vi/2qWNsPzFMcY/maxresdefault.jpg
+  published_at: 2022-11-11T20:48:06Z

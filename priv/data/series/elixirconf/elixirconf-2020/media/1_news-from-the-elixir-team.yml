@@ -1,0 +1,14 @@
+video:
+  title: "News from the Elixir Team"
+  raw_title: "ElixirConf 2020 - José Valim"
+  description: "News from the Elixir Team"
+  speaker_names:
+    - José Valim
+  source: youtube:guc16D_0Imk
+  thumbnails:
+    xs: https://i.ytimg.com/vi/guc16D_0Imk/default.jpg
+    s: https://i.ytimg.com/vi/guc16D_0Imk/mqdefault.jpg
+    m: https://i.ytimg.com/vi/guc16D_0Imk/hqdefault.jpg
+    l: https://i.ytimg.com/vi/guc16D_0Imk/sddefault.jpg
+    xl: https://i.ytimg.com/vi/guc16D_0Imk/maxresdefault.jpg
+  published_at: 2020-09-12T17:52:01Z

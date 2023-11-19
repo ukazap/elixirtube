@@ -1,0 +1,14 @@
+video:
+  title: "Take Your Time"
+  raw_title: "ElixirConf 2018 - Take Your Time - Ben Marx"
+  description: ""
+  speaker_names:
+    - Ben Marx
+  source: youtube:_ANg28Pello
+  thumbnails:
+    xs: https://i.ytimg.com/vi/_ANg28Pello/default.jpg
+    s: https://i.ytimg.com/vi/_ANg28Pello/mqdefault.jpg
+    m: https://i.ytimg.com/vi/_ANg28Pello/hqdefault.jpg
+    l: https://i.ytimg.com/vi/_ANg28Pello/sddefault.jpg
+    xl: https://i.ytimg.com/vi/_ANg28Pello/maxresdefault.jpg
+  published_at: 2018-09-07T01:23:31Z

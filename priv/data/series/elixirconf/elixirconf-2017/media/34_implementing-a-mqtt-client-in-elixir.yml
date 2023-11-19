@@ -1,0 +1,14 @@
+video:
+  title: "Implementing a MQTT client in Elixir"
+  raw_title: "ElixirConf 2017 - Implementing a MQTT client in Elixir - Martin Gausby"
+  description: ""
+  speaker_names:
+    - Martin Gausby
+  source: youtube:ImcAcDBa8Dg
+  thumbnails:
+    xs: https://i.ytimg.com/vi/ImcAcDBa8Dg/default.jpg
+    s: https://i.ytimg.com/vi/ImcAcDBa8Dg/mqdefault.jpg
+    m: https://i.ytimg.com/vi/ImcAcDBa8Dg/hqdefault.jpg
+    l: https://i.ytimg.com/vi/ImcAcDBa8Dg/sddefault.jpg
+    xl: https://i.ytimg.com/vi/ImcAcDBa8Dg/maxresdefault.jpg
+  published_at: 2017-09-09T00:19:49Z

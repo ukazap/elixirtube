@@ -1,0 +1,14 @@
+video:
+  title: "Alchemy Meets Science: Adopting Elixir in Cancer Therapeutics R&D"
+  raw_title: "ElixirConf 2019 - Alchemy Meets Science: Adopting Elixir in... - Nicholas Geraedts"
+  description: "ElixirConf 2019 - Alchemy Meets Science: Adopting Elixir in Cancer Therapeutics R&D - Nicholas Geraedts\n\nAt Zymeworks Inc., we use a set of web services and high-performance computing to assist in the development of cancer therapeutics. These allow scientists to easily interact with data and computing resources without needing to know about the underlying infrastructure.\n\nWe’ve recently adopted Elixir into our infrastructure to great benefit to developers, sysops, and users. In this talk, I’ll discuss the history of computational tools at Zymeworks Inc., the increasing demand for compute resources, and the evolution of the languages, frameworks, and technologies used.\n\nI’ll also discuss the development of a new Phoenix web application that provides a convenient interface to our high-performance compute cluster."
+  speaker_names:
+    - Nicholas Geraedts
+  source: youtube:dkdiwMONJF4
+  thumbnails:
+    xs: https://i.ytimg.com/vi/dkdiwMONJF4/default.jpg
+    s: https://i.ytimg.com/vi/dkdiwMONJF4/mqdefault.jpg
+    m: https://i.ytimg.com/vi/dkdiwMONJF4/hqdefault.jpg
+    l: https://i.ytimg.com/vi/dkdiwMONJF4/sddefault.jpg
+    xl: https://i.ytimg.com/vi/dkdiwMONJF4/maxresdefault.jpg
+  published_at: 2019-08-30T17:21:14Z

@@ -4,8 +4,7 @@ playlist:
   description: "ElixirConf US 2020 Online Conference"
   urls:
     - https://elixirconf.com/2020
-  source: youtube
-  source_id: PLqj39LCvnOWZl_Pb0Y7wGWijKbTvL4gJg
+  source: youtube:PLqj39LCvnOWZl_Pb0Y7wGWijKbTvL4gJg
   thumbnails:
     xs: https://i.ytimg.com/vi/QJkopba8yyE/default.jpg
     s: https://i.ytimg.com/vi/QJkopba8yyE/mqdefault.jpg

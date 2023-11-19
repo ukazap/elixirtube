@@ -1,0 +1,14 @@
+video:
+  title: "Bringing a 45 year old CPU to life with Elixir and Phoenix"
+  raw_title: "ElixirConf 2021 - Geoffrey Lessel - Bringing a 45 year old CPU to life with Elixir and Phoenix"
+  description: "Do you know how a CPU works? How does the CPU know when to add two numbers or grab something from a memory location? What exactly are all those 1s and 0s doing?\n\nIn this presentation, I’ll break down how I learned about assembly language programming, machine code, digital electronics, and the exciting early days of computing by writing a 6502 CPU emulator in Elixir. By utilizing Elixir’s amazing pattern matching abilities and memory-safe operations, we can watch a virtual 6502 CPU step through each instruction it encounters. Furthermore, with the magic of Phoenix LiveView, we can take it a step further by displaying the entire memory stack and disassembler in a web browser – including interacting with virtual hardware!\n\nThe 6502 CPU was first introduced in 1975 and eventually made its way into many very popular and influential early computers such as the Apple II, Commodore 64, Atari 2600 (and other families), BBC Micro, and even the Nintendo Entertainment System. With a history that strong and old, you may think that its best days are behind it. However, according to the manufacturer, hundreds of millions of 6502 CPUs are produced and shipped every year. It has a relatively small but powerful instruction set, making it a great beginner’s introduction into bare-bones and/or retro computing."
+  speaker_names:
+    - Geoffrey Lessel
+  source: youtube:ztmE6AtQA8Q
+  thumbnails:
+    xs: https://i.ytimg.com/vi/ztmE6AtQA8Q/default.jpg
+    s: https://i.ytimg.com/vi/ztmE6AtQA8Q/mqdefault.jpg
+    m: https://i.ytimg.com/vi/ztmE6AtQA8Q/hqdefault.jpg
+    l: https://i.ytimg.com/vi/ztmE6AtQA8Q/sddefault.jpg
+    xl: https://i.ytimg.com/vi/ztmE6AtQA8Q/maxresdefault.jpg
+  published_at: 2021-10-23T14:41:22Z

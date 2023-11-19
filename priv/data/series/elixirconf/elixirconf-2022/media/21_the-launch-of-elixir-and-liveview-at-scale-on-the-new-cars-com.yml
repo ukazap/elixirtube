@@ -1,0 +1,14 @@
+video:
+  title: "The Launch of Elixir and LiveView at Scale on the New Cars.com"
+  raw_title: "ElixirConf 2022 - Zack Kayser - The Launch of Elixir and LiveView at Scale on the New Cars.com"
+  description: "Full Title: Roll Cages, Pit Stops, and Victory Laps: The Launch of Elixir and LiveView at Scale on the New Cars.com\n\nAs software engineers, it is not every day that we are presented with the opportunity to work on a full rewrite and re-platforming of a large-scale legacy system. In June 2021, when we launched the new Cars.com platform to a full production audience, we officially completed a long-running re-platforming process and transitioned to our shiny new platform built on Elixir, Phoenix, and LiveView (not to mention many other goodies provided by the Elixir and BEAM community)! As exciting as the launch was, the bulk of the learning from the launch process still lay before us -- with just a short ramp-up period, we went from taking 0 user traffic in production to handling 100% of the traffic to cars.com and related sites and APIs. \n\nThis talk is going to focus on some of our biggest takeaways and lessons from the transition to our new platform, and in particular, focus on the lessons learned from the most prominent page of our site that is powered by LiveView. \n\nIn Part 1, we'll take a look at the \"roll cages\" that allowed us to pull off this re-platforming successfully. For us, a roll cage is not the metal safety enclosure around a race car but rather the resiliency provided by the BEAM and process architectures that allowed us to keep serving traffic even when our system was under duress and stakes were high. The roll cages couldn't keep us from crashing, but we were glad they were there when the inevitable crashes came. \n\nIn Part 2, we'll talk about some of the pit stops we made along the way. We'll cover a few of the tweaks and tune-ups we made to our LiveView-powered search results page. Sometimes the tune-ups were exactly what was needed, sometimes, they were misguided, and yet other times, they had little to no impact. Each pit stop, however, did have its own lessons, and that's what I'll share with you here.  \n\nFinally, we'll close out with the victory lap -- the success story we've built so far, how our team continues to grow and learn, and some reflections on the journey we've been on."
+  speaker_names:
+    - Zack Kayser
+  source: youtube:XzAupUHiryg
+  thumbnails:
+    xs: https://i.ytimg.com/vi/XzAupUHiryg/default.jpg
+    s: https://i.ytimg.com/vi/XzAupUHiryg/mqdefault.jpg
+    m: https://i.ytimg.com/vi/XzAupUHiryg/hqdefault.jpg
+    l: https://i.ytimg.com/vi/XzAupUHiryg/sddefault.jpg
+    xl: https://i.ytimg.com/vi/XzAupUHiryg/maxresdefault.jpg
+  published_at: 2022-11-11T20:18:54Z

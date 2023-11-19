@@ -1,0 +1,14 @@
+video:
+  title: "Classifying Bot IP Addresses in Phoenix"
+  raw_title: "ElixirConf 2022 - Michael Lubas - Classifying Bot IP Addresses in Phoenix"
+  description: "Cloud providers today publish the IP ranges of their servers. This is useful data for stopping malicious traffic to your Phoenix app. Learn how to classify incoming requests using persistent_term, radix trees, and a simple plug. \n\nThis talk will cover:\n\n1. A brief description of how bots cause problems in Phoenix apps, showing why someone would want to classify requests as coming from a bot.\n2. The design of a plug to compare each incoming request's IP against a radix tree of public cloud provider IP ranges.\n3. Why persistent_term is better than ETS for this task\n4. How to use this plug to prevent bot attacks in your Phoenix app\n\nThis talk is based on the blog post - https://paraxial.io/blog/cloud-ips"
+  speaker_names:
+    - Michael Lubas
+  source: youtube:XAMFqWf6kAI
+  thumbnails:
+    xs: https://i.ytimg.com/vi/XAMFqWf6kAI/default.jpg
+    s: https://i.ytimg.com/vi/XAMFqWf6kAI/mqdefault.jpg
+    m: https://i.ytimg.com/vi/XAMFqWf6kAI/hqdefault.jpg
+    l: https://i.ytimg.com/vi/XAMFqWf6kAI/sddefault.jpg
+    xl: https://i.ytimg.com/vi/XAMFqWf6kAI/maxresdefault.jpg
+  published_at: 2022-10-30T22:26:42Z

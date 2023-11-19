@@ -1,0 +1,14 @@
+video:
+  title: "Distribution in Restricted Environments"
+  raw_title: "ElixirConf 2020 - Parker Selbert - Distribution in Restricted Environments"
+  description: "Bring distributed computing to restricted environments like Heroku by leveraging PubSub to build a RAFT implementation."
+  speaker_names:
+    - Parker Selbert
+  source: youtube:M1JOcSNlC6I
+  thumbnails:
+    xs: https://i.ytimg.com/vi/M1JOcSNlC6I/default.jpg
+    s: https://i.ytimg.com/vi/M1JOcSNlC6I/mqdefault.jpg
+    m: https://i.ytimg.com/vi/M1JOcSNlC6I/hqdefault.jpg
+    l: https://i.ytimg.com/vi/M1JOcSNlC6I/sddefault.jpg
+    xl: https://i.ytimg.com/vi/M1JOcSNlC6I/maxresdefault.jpg
+  published_at: 2021-01-11T22:48:56Z

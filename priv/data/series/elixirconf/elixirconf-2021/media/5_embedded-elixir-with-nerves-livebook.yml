@@ -1,0 +1,14 @@
+video:
+  title: "Embedded Elixir with Nerves Livebook"
+  raw_title: "ElixirConf 2021 - Frank Hunleth - Embedded Elixir with Nerves Livebook"
+  description: "Closing Friday Keynote"
+  speaker_names:
+    - Frank Hunleth
+  source: youtube:dZzM-rLu-zo
+  thumbnails:
+    xs: https://i.ytimg.com/vi/dZzM-rLu-zo/default.jpg
+    s: https://i.ytimg.com/vi/dZzM-rLu-zo/mqdefault.jpg
+    m: https://i.ytimg.com/vi/dZzM-rLu-zo/hqdefault.jpg
+    l: https://i.ytimg.com/vi/dZzM-rLu-zo/sddefault.jpg
+    xl: https://i.ytimg.com/vi/dZzM-rLu-zo/maxresdefault.jpg
+  published_at: 2021-10-22T17:06:18Z

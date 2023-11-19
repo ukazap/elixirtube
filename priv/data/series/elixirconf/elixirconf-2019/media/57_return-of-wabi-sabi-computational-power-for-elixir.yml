@@ -1,0 +1,15 @@
+video:
+  title: "Return of Wabi-Sabi: Computational Power for Elixir"
+  raw_title: "ElixirConf 2019 - Return of Wabi-Sabi: Computational Power for Elixir - Susumu Yamazaki & Yuki Hisae"
+  description: "ElixirConf 2019 - Return of Wabi-Sabi: Hastega Will Bring More and More Computational Power to Elixir - Susumu Yamazaki\n\nFinally, we’ve succeeded in the implementation of Hastega!!! (Maybe until ElixirConf US 2019 :-)"
+  speaker_names:
+    - Susumu Yamazaki
+    - Yuki Hisae
+  source: youtube:uCkPyfFhPxI
+  thumbnails:
+    xs: https://i.ytimg.com/vi/uCkPyfFhPxI/default.jpg
+    s: https://i.ytimg.com/vi/uCkPyfFhPxI/mqdefault.jpg
+    m: https://i.ytimg.com/vi/uCkPyfFhPxI/hqdefault.jpg
+    l: https://i.ytimg.com/vi/uCkPyfFhPxI/sddefault.jpg
+    xl: https://i.ytimg.com/vi/uCkPyfFhPxI/maxresdefault.jpg
+  published_at: 2019-08-30T23:21:04Z

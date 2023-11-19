@@ -1,0 +1,14 @@
+video:
+  title: "Elixir + Neo4j"
+  raw_title: "ElixirConf 2017 - Elixir + Neo4j - Regina Imhoff"
+  description: ""
+  speaker_names:
+    - Regina Imhoff
+  source: youtube:fWQy7aS_gd8
+  thumbnails:
+    xs: https://i.ytimg.com/vi/fWQy7aS_gd8/default.jpg
+    s: https://i.ytimg.com/vi/fWQy7aS_gd8/mqdefault.jpg
+    m: https://i.ytimg.com/vi/fWQy7aS_gd8/hqdefault.jpg
+    l: https://i.ytimg.com/vi/fWQy7aS_gd8/sddefault.jpg
+    xl: https://i.ytimg.com/vi/fWQy7aS_gd8/maxresdefault.jpg
+  published_at: 2017-09-08T19:19:46Z

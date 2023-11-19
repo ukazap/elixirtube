@@ -4,8 +4,7 @@ playlist:
   description: "ElixirConf US 2021 in Austin, TX, and Online, October 12-15."
   urls:
     - https://elixirconf.com/2020
-  source: youtube
-  source_id: PLqj39LCvnOWZna91xJ_i44g3rx4Brbpnv
+  source: youtube:PLqj39LCvnOWZna91xJ_i44g3rx4Brbpnv
   thumbnails:
     xs: https://i.ytimg.com/vi/dOV9QtphVqA/default.jpg
     s: https://i.ytimg.com/vi/dOV9QtphVqA/mqdefault.jpg

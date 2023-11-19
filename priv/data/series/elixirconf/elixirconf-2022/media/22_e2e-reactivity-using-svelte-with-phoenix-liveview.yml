@@ -1,0 +1,14 @@
+video:
+  title: "E2E Reactivity - using Svelte with Phoenix LiveView"
+  raw_title: "ElixirConf 2022 - Ryan Cooke - E2E Reactivity - using Svelte with Phoenix LiveView"
+  description: "In this talk, Ryan will demonstrate how to use Svelte with Phoenix LiveView to create a dramatically reactive and fast user web experience. By leveraging Svelte's reactive component properties, combined with LiveView's web socket assignments, page rendering and state management transforms into a fully cohesive pattern from the back end to the browser. This eliminates redundant state management split across codebases while streamlining data moving from the browser to databases. And applications that leverage Phoenix's PubSub for updating state across multiple backend servers can trigger page re-renders across browser sessions or tabs consistently. Svelte will selectively re-render DOM elements based on which component properties are updating for a snappy user experience. Svelte also provides native support for transitions and animations, giving developers full control to create slick user experiences from the browser. Ryan will also share his delight in creating reactive properties as JavaScript variables and templating complex UIs with simple boolean and looping control structures."
+  speaker_names:
+    - Ryan Cooke
+  source: youtube:asm2TTm035o
+  thumbnails:
+    xs: https://i.ytimg.com/vi/asm2TTm035o/default.jpg
+    s: https://i.ytimg.com/vi/asm2TTm035o/mqdefault.jpg
+    m: https://i.ytimg.com/vi/asm2TTm035o/hqdefault.jpg
+    l: https://i.ytimg.com/vi/asm2TTm035o/sddefault.jpg
+    xl: https://i.ytimg.com/vi/asm2TTm035o/maxresdefault.jpg
+  published_at: 2022-11-11T20:14:42Z

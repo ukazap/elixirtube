@@ -1,0 +1,14 @@
+video:
+  title: "Event Sourcing in Real World..."
+  raw_title: "ElixirConf 2018 - Event Sourcing in Real World...- James Smith"
+  description: "ElixirConf 2018 - Event Sourcing in Real World Applications Challenges, Successes and Lessons Learned - James Smith"
+  speaker_names:
+    - James Smith
+  source: youtube:ESRjkG5f7wg
+  thumbnails:
+    xs: https://i.ytimg.com/vi/ESRjkG5f7wg/default.jpg
+    s: https://i.ytimg.com/vi/ESRjkG5f7wg/mqdefault.jpg
+    m: https://i.ytimg.com/vi/ESRjkG5f7wg/hqdefault.jpg
+    l: https://i.ytimg.com/vi/ESRjkG5f7wg/sddefault.jpg
+    xl: https://i.ytimg.com/vi/ESRjkG5f7wg/maxresdefault.jpg
+  published_at: 2018-09-07T20:59:37Z

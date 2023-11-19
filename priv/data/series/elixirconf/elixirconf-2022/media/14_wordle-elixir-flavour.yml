@@ -1,0 +1,14 @@
+video:
+  title: "Wordle: Elixir Flavour"
+  raw_title: "ElixirConf 2022 - Theo Harris - Wordle: Elixir Flavour"
+  description: "How does a beginner learn a new language? By building a project from the ground up! Theo talks about how his onboarding as a technical consultant at Alembic involved picking apart and reconstructing the popular browser-based language game Wordle."
+  speaker_names:
+    - Theo Harris
+  source: youtube:Dvv5bZ8V1pM
+  thumbnails:
+    xs: https://i.ytimg.com/vi/Dvv5bZ8V1pM/default.jpg
+    s: https://i.ytimg.com/vi/Dvv5bZ8V1pM/mqdefault.jpg
+    m: https://i.ytimg.com/vi/Dvv5bZ8V1pM/hqdefault.jpg
+    l: https://i.ytimg.com/vi/Dvv5bZ8V1pM/sddefault.jpg
+    xl: https://i.ytimg.com/vi/Dvv5bZ8V1pM/maxresdefault.jpg
+  published_at: 2022-11-11T20:34:49Z

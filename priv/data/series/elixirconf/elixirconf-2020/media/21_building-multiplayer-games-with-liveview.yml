@@ -1,0 +1,14 @@
+video:
+  title: "Building Multiplayer Games with LiveView"
+  raw_title: "ElixirConf 2020 - Dorian Karter - Building Multiplayer Games with LiveView"
+  description: "Learn how to build interactive, real-time multiplayer games on the web using Elixir and Phoenix LiveView, no JavaScript required."
+  speaker_names:
+    - Dorian Karter
+  source: youtube:0UnLZlMr1Ug
+  thumbnails:
+    xs: https://i.ytimg.com/vi/0UnLZlMr1Ug/default.jpg
+    s: https://i.ytimg.com/vi/0UnLZlMr1Ug/mqdefault.jpg
+    m: https://i.ytimg.com/vi/0UnLZlMr1Ug/hqdefault.jpg
+    l: https://i.ytimg.com/vi/0UnLZlMr1Ug/sddefault.jpg
+    xl: https://i.ytimg.com/vi/0UnLZlMr1Ug/maxresdefault.jpg
+  published_at: 2021-01-11T22:28:56Z

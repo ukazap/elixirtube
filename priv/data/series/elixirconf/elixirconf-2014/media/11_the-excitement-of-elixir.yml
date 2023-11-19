@@ -1,0 +1,14 @@
+video:
+  title: "The Excitement of Elixir"
+  raw_title: "Elixir Conf 2014 - The Excitement of Elixir by Devin Torres"
+  description: "Help us caption & translate this video!\n\nhttp://amara.org/v/FGYC/"
+  speaker_names:
+    - Devin Torres
+  source: youtube:W9BOAuM20NI
+  thumbnails:
+    xs: https://i.ytimg.com/vi/W9BOAuM20NI/default.jpg
+    s: https://i.ytimg.com/vi/W9BOAuM20NI/mqdefault.jpg
+    m: https://i.ytimg.com/vi/W9BOAuM20NI/hqdefault.jpg
+    l: https://i.ytimg.com/vi/W9BOAuM20NI/sddefault.jpg
+    xl: https://i.ytimg.com/vi/W9BOAuM20NI/maxresdefault.jpg
+  published_at: 2014-08-10T14:31:32Z

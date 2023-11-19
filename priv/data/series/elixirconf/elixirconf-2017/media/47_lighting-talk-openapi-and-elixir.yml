@@ -1,0 +1,14 @@
+video:
+  title: "Lighting Talk - OpenApi and Elixir"
+  raw_title: "ElixirConf 2017 Lightning Talk - OpenApi and Elixir - Jeff Ching"
+  description: ""
+  speaker_names:
+    - Jeff Ching
+  source: youtube:W8uHgNikDHA
+  thumbnails:
+    xs: https://i.ytimg.com/vi/W8uHgNikDHA/default.jpg
+    s: https://i.ytimg.com/vi/W8uHgNikDHA/mqdefault.jpg
+    m: https://i.ytimg.com/vi/W8uHgNikDHA/hqdefault.jpg
+    l: https://i.ytimg.com/vi/W8uHgNikDHA/sddefault.jpg
+    xl: https://i.ytimg.com/vi/W8uHgNikDHA/maxresdefault.jpg
+  published_at: 2017-09-19T00:55:16Z

@@ -1,0 +1,14 @@
+video:
+  title: "Building a HEEX component library"
+  raw_title: "ElixirConf 2022 - Matthew Platts - Building a HEEX component library"
+  description: "Components have long been standard in Javascript frameworks, however, are relatively new in Phoenix. Now, with HEEX released, it's time to start building component libraries to supercharge your web app development. \n\nFirstly, using my experience in building Petal Components (https://hex.pm/packages/petal_components), I'll walk you through how to build your own HEEX component library for your next project. Secondly, I'll show how powerful components can be by using our Petal Components library to build a web page with a form."
+  speaker_names:
+    - Matthew Platts
+  source: youtube:GgEQJXfsI58
+  thumbnails:
+    xs: https://i.ytimg.com/vi/GgEQJXfsI58/default.jpg
+    s: https://i.ytimg.com/vi/GgEQJXfsI58/mqdefault.jpg
+    m: https://i.ytimg.com/vi/GgEQJXfsI58/hqdefault.jpg
+    l: https://i.ytimg.com/vi/GgEQJXfsI58/sddefault.jpg
+    xl: https://i.ytimg.com/vi/GgEQJXfsI58/maxresdefault.jpg
+  published_at: 2022-10-30T22:33:28Z

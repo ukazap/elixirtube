@@ -1,0 +1,14 @@
+video:
+  title: "Self Taught to First Job!"
+  raw_title: "ElixirConf 2022 - Kimberly Johnson - Self Taught to First Job!"
+  description: "How I dove into the community and got my first job as a self-taught software engineer; how TravelPass Group has helped facilitate growth.\n\nThe role of character - grit, passion, hard work and exuberance are key!\n\nThe role of tutorials - Pragmatic Studio, Grox.io, YouTube, and Books/Online - THANK YOU.\n\nThe role of mentors - Bruce Tate, John Cotton, Jeffrey Matthias, Sophie Benedetto, Brett Wise, Adi Iyengar, and Jon Forsyth - THANK YOU.\n\nThe role of TravelPass Group - A company that was willing to take a chance on me, how they have created a culture to help new engineers succeed - THANK YOU."
+  speaker_names:
+    - Kimberly Johnson
+  source: youtube:myEpnnUb-A4
+  thumbnails:
+    xs: https://i.ytimg.com/vi/myEpnnUb-A4/default.jpg
+    s: https://i.ytimg.com/vi/myEpnnUb-A4/mqdefault.jpg
+    m: https://i.ytimg.com/vi/myEpnnUb-A4/hqdefault.jpg
+    l: https://i.ytimg.com/vi/myEpnnUb-A4/sddefault.jpg
+    xl: https://i.ytimg.com/vi/myEpnnUb-A4/maxresdefault.jpg
+  published_at: 2022-11-11T20:30:25Z

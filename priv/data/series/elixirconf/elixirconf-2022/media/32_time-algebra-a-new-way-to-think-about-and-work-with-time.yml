@@ -1,0 +1,14 @@
+video:
+  title: "Time algebra: a new way to think about and work with time"
+  raw_title: "ElixirConf 2022 - Kip Cole - Time algebra: a new way to think about and work with time"
+  description: "Time is hard. Made harder by the traditional representation of time in computer languages. Why do we have separate types for dates, times, and date time?  Why can we express \"11am\", which can be on any day, but we can't say \"November\" without specifying the year and day?  Why is it challenging to answer the question \"A month after February 28th\"?  This talk presents a new way to think about time: time as an interval rather than a moment. This opens up new opportunities to express dates, times, and date times in a unified manner. It allows enumeration of all time types, repeating patterns, and time algebra that is both more expressive and less error-prone than current language constructs. Lastly, a new Elixir library, \"Tempo\" is introduced that implements these concepts with a demonstration Livebook."
+  speaker_names:
+    - Kip Cole
+  source: youtube:4VfPvCI901c
+  thumbnails:
+    xs: https://i.ytimg.com/vi/4VfPvCI901c/default.jpg
+    s: https://i.ytimg.com/vi/4VfPvCI901c/mqdefault.jpg
+    m: https://i.ytimg.com/vi/4VfPvCI901c/hqdefault.jpg
+    l: https://i.ytimg.com/vi/4VfPvCI901c/sddefault.jpg
+    xl: https://i.ytimg.com/vi/4VfPvCI901c/maxresdefault.jpg
+  published_at: 2022-11-06T20:18:40Z

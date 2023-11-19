@@ -1,0 +1,14 @@
+video:
+  title: "Composable Queries with Ecto"
+  raw_title: "ElixirConf 2015 - Composable Queries with Ecto by Drew Olson"
+  description: "Building a real-world application with Ecto has taught me to think about building queries as data pipelines. In this talk, I'll discuss how this mindset helps build composable, reusable queries in Ecto that are easy to read and easy to extend. I'll show lots of code around building and composing query pipelines[1]. I'll also cover my approach to pagination, release as the hex package Scrivener[2]. [1] - http://blog.drewolson.org/composable-queries-ecto/ [2] - https://hex.pm/packages/scrivener"
+  speaker_names:
+    - Drew Olson
+  source: youtube:g84TDHt9MDc
+  thumbnails:
+    xs: https://i.ytimg.com/vi/g84TDHt9MDc/default.jpg
+    s: https://i.ytimg.com/vi/g84TDHt9MDc/mqdefault.jpg
+    m: https://i.ytimg.com/vi/g84TDHt9MDc/hqdefault.jpg
+    l: https://i.ytimg.com/vi/g84TDHt9MDc/sddefault.jpg
+    xl: https://i.ytimg.com/vi/g84TDHt9MDc/maxresdefault.jpg
+  published_at: 2015-10-15T17:11:16Z

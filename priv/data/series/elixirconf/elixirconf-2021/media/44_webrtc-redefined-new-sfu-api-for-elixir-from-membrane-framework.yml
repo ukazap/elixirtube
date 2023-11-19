@@ -1,0 +1,14 @@
+video:
+  title: "WebRTC redefined - New SFU API for Elixir from Membrane Framework."
+  raw_title: "ElixirConf 2021 - Michał Śledź - WebRTC redefined - New SFU API for Elixir from Membrane Framework."
+  description: "Creating video conferencing systems has always been challenging. While the most used standard - WebRTC requires from the user quite a deep understanding of what is going on under the hood, the new abstraction layer created in Membrane Framework allows us to hide all the low-level, network-connected things. During this talk, I will go through the new SFU API and how it makes the developer experience much easier, both when creating a new Phoenix application and integrating with existing systems."
+  speaker_names:
+    - Michał Śledź
+  source: youtube:JUoNLZLrrr8
+  thumbnails:
+    xs: https://i.ytimg.com/vi/JUoNLZLrrr8/default.jpg
+    s: https://i.ytimg.com/vi/JUoNLZLrrr8/mqdefault.jpg
+    m: https://i.ytimg.com/vi/JUoNLZLrrr8/hqdefault.jpg
+    l: https://i.ytimg.com/vi/JUoNLZLrrr8/sddefault.jpg
+    xl: https://i.ytimg.com/vi/JUoNLZLrrr8/maxresdefault.jpg
+  published_at: 2021-10-25T01:44:04Z

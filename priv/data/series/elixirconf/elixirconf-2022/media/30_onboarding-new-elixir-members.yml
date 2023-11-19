@@ -1,0 +1,14 @@
+video:
+  title: "Onboarding New Elixir Members"
+  raw_title: "ElixirConf 2022 - De Wet Blomerus - Onboarding New Elixir Members"
+  description: "I onboarded onto Elixir myself, and after consuming a bunch of podcasts, videos, books, and mentoring, I started to regularly get asked to help new people onboard.\n\nI keep seeing new people run into the same pitfalls of misunderstanding; let's go over them.\n\nI have seen experienced people throw advanced topics at beginners that they don't actually need to know yet. Let's discuss those.\n\nIf you are new to Elixir or need to help new teams on board, you will leave with the following:\n\n- A list of things that new people can avoid in most situations.\n- A list of things that new people absolutely need to learn to become productive with Elixir.\n- A list of things that new people often get stuck with and need extra explanation and guidance.\n- Examples of how to make your code more clearly understandable for people new to Elixir (and probably everyone else)."
+  speaker_names:
+    - De Wet Blomerus
+  source: youtube:61sBPCRhyeU
+  thumbnails:
+    xs: https://i.ytimg.com/vi/61sBPCRhyeU/default.jpg
+    s: https://i.ytimg.com/vi/61sBPCRhyeU/mqdefault.jpg
+    m: https://i.ytimg.com/vi/61sBPCRhyeU/hqdefault.jpg
+    l: https://i.ytimg.com/vi/61sBPCRhyeU/sddefault.jpg
+    xl: https://i.ytimg.com/vi/61sBPCRhyeU/maxresdefault.jpg
+  published_at: 2022-11-06T20:24:10Z

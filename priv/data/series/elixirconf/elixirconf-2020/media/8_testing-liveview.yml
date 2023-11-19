@@ -1,0 +1,14 @@
+video:
+  title: "Testing LiveView"
+  raw_title: "ElixirConf 2020 - German Velasco - Testing LiveView"
+  description: "A deep dive into testing LiveView"
+  speaker_names:
+    - German Velasco
+  source: youtube:h8NURVLysrk
+  thumbnails:
+    xs: https://i.ytimg.com/vi/h8NURVLysrk/default.jpg
+    s: https://i.ytimg.com/vi/h8NURVLysrk/mqdefault.jpg
+    m: https://i.ytimg.com/vi/h8NURVLysrk/hqdefault.jpg
+    l: https://i.ytimg.com/vi/h8NURVLysrk/sddefault.jpg
+    xl: https://i.ytimg.com/vi/h8NURVLysrk/maxresdefault.jpg
+  published_at: 2020-09-28T14:12:53Z

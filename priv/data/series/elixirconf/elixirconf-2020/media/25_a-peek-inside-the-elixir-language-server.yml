@@ -1,0 +1,14 @@
+video:
+  title: "A Peek Inside the Elixir Language Server"
+  raw_title: "ElixirConf 2020 - Jason Axelson - A Peek Inside the Elixir Language Server"
+  description: "A look inside ElixirLS and why shared governance is important for software projects."
+  speaker_names:
+    - Jason Axelson
+  source: youtube:9CEvLmDlqt4
+  thumbnails:
+    xs: https://i.ytimg.com/vi/9CEvLmDlqt4/default.jpg
+    s: https://i.ytimg.com/vi/9CEvLmDlqt4/mqdefault.jpg
+    m: https://i.ytimg.com/vi/9CEvLmDlqt4/hqdefault.jpg
+    l: https://i.ytimg.com/vi/9CEvLmDlqt4/sddefault.jpg
+    xl: https://i.ytimg.com/vi/9CEvLmDlqt4/maxresdefault.jpg
+  published_at: 2021-01-11T22:34:51Z

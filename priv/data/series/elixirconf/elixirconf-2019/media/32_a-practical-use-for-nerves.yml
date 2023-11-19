@@ -1,0 +1,14 @@
+video:
+  title: "A Practical* Use for Nerves"
+  raw_title: "ElixirConf 2019 - A Practical* Use for Nerves - Eric Christeson"
+  description: "After a winter with a leaking roof due to ice dams, I decided to install some de-icing cables on my roof. To be energy conscious, I only wanted to turn them on when conditions are right for ice to form. Instead of paying $80 for a thermostat to control them, I decided that this summer's project will be building a system based on Nerves running on a Raspberry Pi. It will involve several thermometers and most likely, a z-wave based system for controlling power. I plan to use Phoenix for a remote interface and possible Scenic with a touch screen for status and configuration. I plan to document the process and project and talk about my experience with all of these technologies."
+  speaker_names:
+    - Eric Christeson
+  source: youtube:dFTmn5WKvvQ
+  thumbnails:
+    xs: https://i.ytimg.com/vi/dFTmn5WKvvQ/default.jpg
+    s: https://i.ytimg.com/vi/dFTmn5WKvvQ/mqdefault.jpg
+    m: https://i.ytimg.com/vi/dFTmn5WKvvQ/hqdefault.jpg
+    l: https://i.ytimg.com/vi/dFTmn5WKvvQ/sddefault.jpg
+    xl: https://i.ytimg.com/vi/dFTmn5WKvvQ/maxresdefault.jpg
+  published_at: 2019-08-30T17:21:14Z

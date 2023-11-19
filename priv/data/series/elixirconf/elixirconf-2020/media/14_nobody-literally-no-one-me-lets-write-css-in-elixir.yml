@@ -1,0 +1,14 @@
+video:
+  title: "Nobody: Literally no one: Me: Let's Write CSS in Elixir!"
+  raw_title: "ElixirConf 2020 - Ben Wheat - Nobody: Literally no one: Me: Let's Write CSS in Elixir!"
+  description: "Quickly developing a useful UI with CSS is easy….if you are good at CSS. What if we could bring the parts of CSS that make layouts such a breeze and bring them to Scenic? Enter The Layout-O-Matic, the must-have layout library for Scenic!"
+  speaker_names:
+    - Ben Wheat
+  source: youtube:anXCZ7NScYE
+  thumbnails:
+    xs: https://i.ytimg.com/vi/anXCZ7NScYE/default.jpg
+    s: https://i.ytimg.com/vi/anXCZ7NScYE/mqdefault.jpg
+    m: https://i.ytimg.com/vi/anXCZ7NScYE/hqdefault.jpg
+    l: https://i.ytimg.com/vi/anXCZ7NScYE/sddefault.jpg
+    xl: https://i.ytimg.com/vi/anXCZ7NScYE/maxresdefault.jpg
+  published_at: 2021-01-11T22:12:51Z

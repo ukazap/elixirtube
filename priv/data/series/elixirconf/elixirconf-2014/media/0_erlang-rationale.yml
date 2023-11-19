@@ -1,0 +1,14 @@
+video:
+  title: "Erlang Rationale"
+  raw_title: "Elixir Conf 2014 - Erlang Rationale by Robert Virding"
+  description: "Help us caption & translate this video!\n\nhttp://amara.org/v/FGYf/"
+  speaker_names:
+    - Robert Virding
+  source: youtube:rt8h_xeESLg
+  thumbnails:
+    xs: https://i.ytimg.com/vi/rt8h_xeESLg/default.jpg
+    s: https://i.ytimg.com/vi/rt8h_xeESLg/mqdefault.jpg
+    m: https://i.ytimg.com/vi/rt8h_xeESLg/hqdefault.jpg
+    l: https://i.ytimg.com/vi/rt8h_xeESLg/sddefault.jpg
+    xl: https://i.ytimg.com/vi/rt8h_xeESLg/maxresdefault.jpg
+  published_at: 2014-08-07T13:43:00Z

@@ -4,8 +4,7 @@ playlist:
   description: "ElixirConf US 2017 -  Bellevue, WA"
   urls:
     - https://elixirconf.com/2017
-  source: youtube
-  source_id: PLqj39LCvnOWZMVugtyKlHMF1o2zPNntFL
+  source: youtube:PLqj39LCvnOWZMVugtyKlHMF1o2zPNntFL
   thumbnails:
     xs: https://i.ytimg.com/vi/bd_EIWU9GzQ/default.jpg
     s: https://i.ytimg.com/vi/bd_EIWU9GzQ/mqdefault.jpg

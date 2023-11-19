@@ -3,8 +3,7 @@ playlist:
   location: "Austin, TX"
   description: ""
   urls: []
-  source: youtube
-  source_id: PLE7tQUdRKcyakbmyFcmznq2iNtL80mCsT
+  source: youtube:PLE7tQUdRKcyakbmyFcmznq2iNtL80mCsT
   thumbnails:
     xs: https://i.ytimg.com/vi/rt8h_xeESLg/default.jpg
     s: https://i.ytimg.com/vi/rt8h_xeESLg/mqdefault.jpg

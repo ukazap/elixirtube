@@ -1,0 +1,15 @@
+video:
+  title: "Empirical Monkeys A Practitioner’s Take on..."
+  raw_title: "ElixirConf 2018 - Empirical Monkeys A Practitioner’s Take on - Rafal Studnicki & Simon Zelazny"
+  description: "ElixirConf 2018 - Empirical Monkeys A Practitioner’s Take on Breaking Distributed Elixir Systems via Property Based Testing - Rafal Studnicki & Simon Zelazny"
+  speaker_names:
+    - Rafal Studnicki
+    - Simon Zelazny
+  source: youtube:llHPNc18-hg
+  thumbnails:
+    xs: https://i.ytimg.com/vi/llHPNc18-hg/default.jpg
+    s: https://i.ytimg.com/vi/llHPNc18-hg/mqdefault.jpg
+    m: https://i.ytimg.com/vi/llHPNc18-hg/hqdefault.jpg
+    l: https://i.ytimg.com/vi/llHPNc18-hg/sddefault.jpg
+    xl: https://i.ytimg.com/vi/llHPNc18-hg/maxresdefault.jpg
+  published_at: 2018-09-07T22:47:44Z

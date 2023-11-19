@@ -1,0 +1,14 @@
+video:
+  title: "Domain-Driven Design with Elixir"
+  raw_title: "ElixirConf 2020 - Japa Swadia - Domain-Driven Design with Elixir"
+  description: "Writing an Elixir app but don't know where to start? Come learn about Domain-Driven Design to build easy-to-iterate, easy-to-collaborate and easy-to-maintain apps using some of Elixir's most powerful features."
+  speaker_names:
+    - Japa Swadia
+  source: youtube:fx3BmpzitUg
+  thumbnails:
+    xs: https://i.ytimg.com/vi/fx3BmpzitUg/default.jpg
+    s: https://i.ytimg.com/vi/fx3BmpzitUg/mqdefault.jpg
+    m: https://i.ytimg.com/vi/fx3BmpzitUg/hqdefault.jpg
+    l: https://i.ytimg.com/vi/fx3BmpzitUg/sddefault.jpg
+    xl: https://i.ytimg.com/vi/fx3BmpzitUg/maxresdefault.jpg
+  published_at: 2021-01-11T22:33:54Z

@@ -1,0 +1,14 @@
+video:
+  title: "Elixir Elevate"
+  raw_title: "Elixir Conf 2014 - Elixir Elevate by Greg Vaughn"
+  description: "Help us caption & translate this video!\n\nhttp://amara.org/v/FGYA/"
+  speaker_names:
+    - Greg Vaughn
+  source: youtube:R_8ehmGTVbw
+  thumbnails:
+    xs: https://i.ytimg.com/vi/R_8ehmGTVbw/default.jpg
+    s: https://i.ytimg.com/vi/R_8ehmGTVbw/mqdefault.jpg
+    m: https://i.ytimg.com/vi/R_8ehmGTVbw/hqdefault.jpg
+    l: https://i.ytimg.com/vi/R_8ehmGTVbw/sddefault.jpg
+    xl: https://i.ytimg.com/vi/R_8ehmGTVbw/maxresdefault.jpg
+  published_at: 2014-08-10T08:14:35Z

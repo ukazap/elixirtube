@@ -1,0 +1,14 @@
+video:
+  title: "Selling Elixir"
+  raw_title: "ElixirConf 2022 - Alan Feuerlein - Selling Elixir"
+  description: "For whatever reason, you may see Elixir as the best choice for your organization, but perhaps others are resistant or don't feel ready. I'll explain our organization's journey to Elixir adoption and provide an overview and explanation of the main selling points of Elixir to a group of solid (but perhaps Elixir-novice) developers. We'll cover how to bring up these points, the roadblocks you might encounter, and how to engender real buy-in for a new language and perhaps architectural strategy. We'll also briefly review how to sell Elixir further up in your organization and why executive leadership should buy into such a shift in engineering strategy."
+  speaker_names:
+    - Alan Feuerlein
+  source: youtube:UD5s_qZKFsI
+  thumbnails:
+    xs: https://i.ytimg.com/vi/UD5s_qZKFsI/default.jpg
+    s: https://i.ytimg.com/vi/UD5s_qZKFsI/mqdefault.jpg
+    m: https://i.ytimg.com/vi/UD5s_qZKFsI/hqdefault.jpg
+    l: https://i.ytimg.com/vi/UD5s_qZKFsI/sddefault.jpg
+    xl: https://i.ytimg.com/vi/UD5s_qZKFsI/maxresdefault.jpg
+  published_at: 2022-11-11T20:03:31Z

@@ -1,0 +1,14 @@
+video:
+  title: "Going Global with a Normal Phoenix App"
+  raw_title: "ElixirConf 2022 - Mark Ericksen - Going Global with a Normal Phoenix App"
+  description: "The Elixir and Phoenix combo natively supports clustering and pubsub. This superpower isn't readily available to most web-focused languages and frameworks. Fly.io makes it easy to deploy your application to multiple regions globally. Once you deploy your \"regular\" Phoenix app into multiple regions, you start to run into problems when your database lives on the other side of the globe.\n\nWe'll talk about strategies to take, things to consider, tools available, and future possibilities. Yes, you could re-write your application to work with a non-SQL, multi-master, eventually consistent, distributed database... but that's not the app we have today. This focuses on taking a \"normal\" Phoenix app around the world to our users."
+  speaker_names:
+    - Mark Ericksen
+  source: youtube:_lBnAB_ClFs
+  thumbnails:
+    xs: https://i.ytimg.com/vi/_lBnAB_ClFs/default.jpg
+    s: https://i.ytimg.com/vi/_lBnAB_ClFs/mqdefault.jpg
+    m: https://i.ytimg.com/vi/_lBnAB_ClFs/hqdefault.jpg
+    l: https://i.ytimg.com/vi/_lBnAB_ClFs/sddefault.jpg
+    xl: https://i.ytimg.com/vi/_lBnAB_ClFs/maxresdefault.jpg
+  published_at: 2022-11-06T20:20:47Z

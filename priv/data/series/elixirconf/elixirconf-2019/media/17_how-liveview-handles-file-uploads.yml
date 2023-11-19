@@ -1,0 +1,14 @@
+video:
+  title: "How LiveView Handles File Uploads"
+  raw_title: "ElixirConf 2019 - How LiveView Handles File Uploads - Gary Rennie"
+  description: "File uploads are an essential part of many web applications, but often handling them can be tricky, which explains why they are one of the most frequently requested features for Live View. In this talk, we will discover how to upload files with Phoenix Live View and what is going on under the hood. There are many different ways that file uploads **could** have been handled, and we will take a journey into some of the alternatives and why they were not chosen. We will also look at how to implement file uploads directly to third-party services such as Amazon S3."
+  speaker_names:
+    - Gary Rennie
+  source: youtube:svpk-hKvTNk
+  thumbnails:
+    xs: https://i.ytimg.com/vi/svpk-hKvTNk/default.jpg
+    s: https://i.ytimg.com/vi/svpk-hKvTNk/mqdefault.jpg
+    m: https://i.ytimg.com/vi/svpk-hKvTNk/hqdefault.jpg
+    l: https://i.ytimg.com/vi/svpk-hKvTNk/sddefault.jpg
+    xl: https://i.ytimg.com/vi/svpk-hKvTNk/maxresdefault.jpg
+  published_at: 2019-08-30T17:21:14Z

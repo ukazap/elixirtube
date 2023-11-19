@@ -1,0 +1,14 @@
+video:
+  title: "Realtime Vehicle Tracking with Elixir and Phoenix"
+  raw_title: "ElixirConf 2017 - Realtime Vehicle Tracking with Elixir and Phoenix - James Smith"
+  description: ""
+  speaker_names:
+    - James Smith
+  source: youtube:aLnSO6FQpHs
+  thumbnails:
+    xs: https://i.ytimg.com/vi/aLnSO6FQpHs/default.jpg
+    s: https://i.ytimg.com/vi/aLnSO6FQpHs/mqdefault.jpg
+    m: https://i.ytimg.com/vi/aLnSO6FQpHs/hqdefault.jpg
+    l: https://i.ytimg.com/vi/aLnSO6FQpHs/sddefault.jpg
+    xl: https://i.ytimg.com/vi/aLnSO6FQpHs/maxresdefault.jpg
+  published_at: 2017-09-09T00:25:27Z

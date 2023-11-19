@@ -1,0 +1,14 @@
+video:
+  title: "A Deep Dive Into Hex"
+  raw_title: "ElixirConf 2018 - A Deep Dive Into Hex - Todd Resudek"
+  description: ""
+  speaker_names:
+    - Todd Resudek
+  source: youtube:cbCnTKVLuu8
+  thumbnails:
+    xs: https://i.ytimg.com/vi/cbCnTKVLuu8/default.jpg
+    s: https://i.ytimg.com/vi/cbCnTKVLuu8/mqdefault.jpg
+    m: https://i.ytimg.com/vi/cbCnTKVLuu8/hqdefault.jpg
+    l: https://i.ytimg.com/vi/cbCnTKVLuu8/sddefault.jpg
+    xl: https://i.ytimg.com/vi/cbCnTKVLuu8/maxresdefault.jpg
+  published_at: 2018-09-07T00:40:38Z

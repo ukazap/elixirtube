@@ -1,0 +1,15 @@
+video:
+  title: "EEF"
+  raw_title: "ElixirConf 2019 - EEF - Miriam Pena & Desmond Bowe"
+  description: ""
+  speaker_names:
+    - Miriam Pena
+    - Desmond Bowe
+  source: youtube:NyBplIoH6z8
+  thumbnails:
+    xs: https://i.ytimg.com/vi/NyBplIoH6z8/default.jpg
+    s: https://i.ytimg.com/vi/NyBplIoH6z8/mqdefault.jpg
+    m: https://i.ytimg.com/vi/NyBplIoH6z8/hqdefault.jpg
+    l: https://i.ytimg.com/vi/NyBplIoH6z8/sddefault.jpg
+    xl: https://i.ytimg.com/vi/NyBplIoH6z8/maxresdefault.jpg
+  published_at: 2019-09-06T18:07:09Z

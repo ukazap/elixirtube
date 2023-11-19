@@ -56,7 +56,6 @@ defmodule Playlist do
     :title,
     :location,
     :source,
-    :source_id,
     :thumbnails,
     :published_at,
     description: "",
@@ -68,9 +67,8 @@ defmodule Video do
   defstruct [
     :title,
     :raw_title,
-    :speakers,
+    :speaker_names,
     :source,
-    :source_id,
     :thumbnails,
     :published_at,
     description: ""
@@ -164,8 +162,7 @@ defmodule YouTube do
     %Playlist{
       title: s["title"],
       description: s["description"],
-      source: "youtube",
-      source_id: id,
+      source: "youtube:#{id}",
       thumbnails: to_thumbnails(t),
       published_at: s["publishedAt"]
     }
@@ -176,9 +173,8 @@ defmodule YouTube do
       title: s["title"],
       raw_title: s["title"],
       description: s["description"],
-      speakers: [],
-      source: "youtube",
-      source_id: s["resourceId"]["videoId"],
+      speaker_names: [],
+      source: "youtube:#{s["resourceId"]["videoId"]}",
       thumbnails: to_thumbnails(t),
       published_at: s["publishedAt"]
     }
@@ -201,7 +197,7 @@ Kino.nothing()
 ```elixir
 defmodule GPT do
   def retitle_and_set_speakers(videos, event_name) do
-    input = Enum.map(videos, fn v -> %{title: v.raw_title, speakers: v.speakers} end)
+    input = Enum.map(videos, fn v -> %{title: v.raw_title, speakers: v.speaker_names} end)
     input_json = Jason.encode!(%{talks: input})
 
     prompt = """
@@ -254,7 +250,7 @@ defmodule GPT do
             %{
               v
               | title: Map.get(o, "title", v.raw_title),
-                speakers: Map.get(o, "speakers", v.speakers)
+                speaker_names: Map.get(o, "speakers", v.speaker_names)
             }
           end)
 
@@ -306,7 +302,7 @@ defmodule SaveData do
     |> write!(data.playlist)
 
     # Save videos
-    dir = Path.join(dir, "videos")
+    dir = Path.join(dir, "media")
     File.mkdir_p!(dir)
 
     data.videos
@@ -558,11 +554,11 @@ video_data_inputs =
     |> then(&Kino.Frame.render(frame, &1))
 
     inputs = [
-      title: Kino.Input.textarea("Video title", default: video.title),
-      description: Kino.Input.textarea("Video description", default: video.description),
-      speakers:
-        Kino.Input.textarea("Video speakers (one name per line)",
-          default: Enum.join(video.speakers, "\n")
+      title: Kino.Input.textarea("Title", default: video.title),
+      description: Kino.Input.textarea("Description", default: video.description),
+      speaker_names:
+        Kino.Input.textarea("Speaker names (one name per line)",
+          default: Enum.join(video.speaker_names, "\n")
         )
     ]
 
@@ -594,8 +590,8 @@ videos =
           inputs[:description]
           |> Kino.Input.read()
           |> String.trim(),
-        speakers:
-          inputs[:speakers]
+        speaker_names:
+          inputs[:speaker_names]
           |> Kino.Input.read()
           |> String.trim()
           |> String.split("\n")
@@ -606,7 +602,7 @@ videos =
 
 speakers =
   videos
-  |> Enum.flat_map(& &1.speakers)
+  |> Enum.flat_map(& &1.speaker_names)
   |> Enum.uniq()
   |> Enum.map(&%Speaker{name: &1})
 

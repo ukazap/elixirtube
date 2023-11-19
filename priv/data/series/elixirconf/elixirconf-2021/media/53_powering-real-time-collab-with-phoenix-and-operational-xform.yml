@@ -1,0 +1,14 @@
+video:
+  title: "Powering real-time collab with Phoenix and Operational xform"
+  raw_title: "ElixirConf 2021 - Sheharyar Naseer - Powering real-time collab with Phoenix and Operational xform"
+  description: "Ever wondered how you can build something like Google Docs? Using Elixir’s powerful fault-tolerance and concurrency capabilities along with Phoenix’s excellent support for building real-time systems out-of-the-box, these two are all you need to know to build your own real-time collaboration app.\n\nWith our experience and learnings building Slab compressed into the talk, the goal is to get you going quickly by choosing the right™️ approach and tools. We’ll also use Operational Transform, a collaboration, and consistency architecture to ensure reliability and scalability when coauthoring. Starting with a basic plain-text implementation on the frontend, we’ll also show how to support formatting and more using an advanced editor like Quill.js.\n\nSome Assembly Required: To get the most out of this session, you must be comfortable writing code in Elixir and Phoenix, and ideally, have at least some understanding of OTP and websockets."
+  speaker_names:
+    - Sheharyar Naseer
+  source: youtube:lXyGvOt2e34
+  thumbnails:
+    xs: https://i.ytimg.com/vi/lXyGvOt2e34/default.jpg
+    s: https://i.ytimg.com/vi/lXyGvOt2e34/mqdefault.jpg
+    m: https://i.ytimg.com/vi/lXyGvOt2e34/hqdefault.jpg
+    l: 
+    xl: 
+  published_at: 2021-10-25T02:05:12Z

@@ -1,0 +1,14 @@
+video:
+  title: "Punching above your weight with Elixir"
+  raw_title: "ElixirConf 2021 - Simon de Haan - Punching above your weight with Elixir"
+  description: "Wednesday Closing Keynote"
+  speaker_names:
+    - Simon de Haan
+  source: youtube:MwY7p64YEXw
+  thumbnails:
+    xs: https://i.ytimg.com/vi/MwY7p64YEXw/default.jpg
+    s: https://i.ytimg.com/vi/MwY7p64YEXw/mqdefault.jpg
+    m: https://i.ytimg.com/vi/MwY7p64YEXw/hqdefault.jpg
+    l: https://i.ytimg.com/vi/MwY7p64YEXw/sddefault.jpg
+    xl: https://i.ytimg.com/vi/MwY7p64YEXw/maxresdefault.jpg
+  published_at: 2021-10-23T15:02:21Z

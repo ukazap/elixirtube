@@ -1,0 +1,14 @@
+video:
+  title: "Have you got the ExFactor? Writing a refactor helper"
+  raw_title: "ElixirConf 2022 - Christian Koch - Have you got the ExFactor? Writing a refactor helper"
+  description: "If you’ve ever used IntelliJ, you may appreciate how nice the “refactor function” command can be. Is it possible to write an elixir library that can help with refactoring all the function calls in a given app? \n\nThe answer is yes (mostly). \n\nWe will discuss techniques for turning written elixir code into the parsed representation and how we can use that to find all the references to our function. We will investigate using the Abstract Syntax Trees (AST) representation to move the code and the shortcomings of this technique. \n\nAbstract Syntax Trees are an intermediate transformation of elixir code on the way to Beam byte code. The AST representation is a useful tool for structuring arbitrary elixir code. Can it be helpful in manipulating the underlying (*.ex) files?  This talk will describe the challenges of implementing this library and explain the challenges of working with ASTs. \n\nhttps://hexdocs.pm/ex_factor/readme.html"
+  speaker_names:
+    - Christian Koch
+  source: youtube:fds0aIM0CgU
+  thumbnails:
+    xs: https://i.ytimg.com/vi/fds0aIM0CgU/default.jpg
+    s: https://i.ytimg.com/vi/fds0aIM0CgU/mqdefault.jpg
+    m: https://i.ytimg.com/vi/fds0aIM0CgU/hqdefault.jpg
+    l: https://i.ytimg.com/vi/fds0aIM0CgU/sddefault.jpg
+    xl: https://i.ytimg.com/vi/fds0aIM0CgU/maxresdefault.jpg
+  published_at: 2022-11-11T20:21:01Z

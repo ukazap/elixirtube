@@ -1,0 +1,14 @@
+video:
+  title: "Match Specs: Fast Functional Filtering with Matcha"
+  raw_title: "ElixirConf 2022 - Chris Keele - Match Specs: Fast Functional Filtering with Matcha"
+  description: "This talk explores a powerful but inaccessible feature of the BEAM VM, match specifications, through a library designed to make using them much more ergonomic from Elixir, Matcha.\n\nMatch specifications allow you to do abnormally fast pattern matching, destructuring, and re-structuring of in-memory data. The BEAM VM compiles them to something close to the raw bytecode used to make pattern-matching function heads on dispatch performant, and you, too can tap directly into this pattern-matching engine for your own purposes!\n\nThey are also recognized in erlang's tracing and ets APIs, letting you inspect the state of your runtime system and query your in-memory data stores with great specificity and efficiency.\n\nThe only catch: they are kind of a chore to compose and use. Matcha lowers the barrier to entry, allowing you to write and execute them with clean Elixir code.\n\nThe goal of the talk is the same as the goal of Matcha: to help place the power of match specifications in the hands of more Elixir developers!"
+  speaker_names:
+    - Chris Keele
+  source: youtube:5cj3cqAy81M
+  thumbnails:
+    xs: https://i.ytimg.com/vi/5cj3cqAy81M/default.jpg
+    s: https://i.ytimg.com/vi/5cj3cqAy81M/mqdefault.jpg
+    m: https://i.ytimg.com/vi/5cj3cqAy81M/hqdefault.jpg
+    l: https://i.ytimg.com/vi/5cj3cqAy81M/sddefault.jpg
+    xl: https://i.ytimg.com/vi/5cj3cqAy81M/maxresdefault.jpg
+  published_at: 2022-11-06T20:10:27Z

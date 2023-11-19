@@ -1,0 +1,14 @@
+video:
+  title: "Introduction to the Ash Framework"
+  raw_title: "ElixirConf 2020 - Zach Daniel - Introduction to the Ash Framework"
+  description: "In this talk we go about building an application with the Ash Framework from scratch. We'll start from `mix new`, and end with a full featured JSON:API and GraphQL, backed by multiple data sources, with complex authorization rules and customizations."
+  speaker_names:
+    - Zach Daniel
+  source: youtube:2U3vQHXCF0s
+  thumbnails:
+    xs: https://i.ytimg.com/vi/2U3vQHXCF0s/default.jpg
+    s: https://i.ytimg.com/vi/2U3vQHXCF0s/mqdefault.jpg
+    m: https://i.ytimg.com/vi/2U3vQHXCF0s/hqdefault.jpg
+    l: https://i.ytimg.com/vi/2U3vQHXCF0s/sddefault.jpg
+    xl: https://i.ytimg.com/vi/2U3vQHXCF0s/maxresdefault.jpg
+  published_at: 2021-01-11T22:59:26Z

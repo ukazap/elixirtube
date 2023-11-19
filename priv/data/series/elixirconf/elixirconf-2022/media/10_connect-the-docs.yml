@@ -1,0 +1,15 @@
+video:
+  title: "Connect the Docs"
+  raw_title: "ElixirConf 2022 - Natalie Perpepaj & Geoff Smith - Connect the Docs"
+  description: "Generating and maintaining web API documentation is daunting for a large code base, and many solutions require regular manual maintenance that does not guarantee correctness or accuracy.\n\nThe speakers introduce Connect the Docs, a new documentation tool that generates an OpenAPI specification by leveraging controller action unit tests. With sufficient unit test coverage, a team can generate accurate, consistent web API documentation by running their existing test suite (with just three lines of code!). This library also enables tracking any drift in an API contract if it is integrated into a continuous integration platform."
+  speaker_names:
+    - Natalie Perpepaj
+    - Geoff Smith
+  source: youtube:jtunZCzj8Ow
+  thumbnails:
+    xs: https://i.ytimg.com/vi/jtunZCzj8Ow/default.jpg
+    s: https://i.ytimg.com/vi/jtunZCzj8Ow/mqdefault.jpg
+    m: https://i.ytimg.com/vi/jtunZCzj8Ow/hqdefault.jpg
+    l: https://i.ytimg.com/vi/jtunZCzj8Ow/sddefault.jpg
+    xl: https://i.ytimg.com/vi/jtunZCzj8Ow/maxresdefault.jpg
+  published_at: 2022-11-11T20:43:48Z

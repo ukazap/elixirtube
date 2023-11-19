@@ -1,0 +1,14 @@
+video:
+  title: "Cryptography and Elixir"
+  raw_title: "ElixirConf 2022 - Héctor Iván Patricio Moreno - Cryptography and Elixir"
+  description: "We all know that our digital security and anonymity relies on sophisticated algorithms that allows us to maintain secrecy and store information securely. We will talk about the main types of cryptographic algorithms (block and stream ciphers, hashes, MAC's) and the right way to use each one. Finally we will talk about the cryptography libraries developed for Elixir and show examples about how to use it correctly."
+  speaker_names:
+    - Héctor Iván Patricio Moreno
+  source: youtube:9_unSpHNEyQ
+  thumbnails:
+    xs: https://i.ytimg.com/vi/9_unSpHNEyQ/default.jpg
+    s: https://i.ytimg.com/vi/9_unSpHNEyQ/mqdefault.jpg
+    m: https://i.ytimg.com/vi/9_unSpHNEyQ/hqdefault.jpg
+    l: https://i.ytimg.com/vi/9_unSpHNEyQ/sddefault.jpg
+    xl: https://i.ytimg.com/vi/9_unSpHNEyQ/maxresdefault.jpg
+  published_at: 2022-10-30T22:35:19Z

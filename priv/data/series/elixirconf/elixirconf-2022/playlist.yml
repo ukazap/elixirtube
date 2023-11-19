@@ -4,8 +4,7 @@ playlist:
   description: "Videos from ElixirConf US 2022 in Aurora, CO, at the Gaylord Rockies Resort and Convention Center"
   urls:
     - https://2022.elixirconf.com/
-  source: youtube
-  source_id: PLqj39LCvnOWbmaPrkGCAzFMC_FYZUkmSr
+  source: youtube:PLqj39LCvnOWbmaPrkGCAzFMC_FYZUkmSr
   thumbnails:
     xs: https://i.ytimg.com/vi/11MKZwEj6Y4/default.jpg
     s: https://i.ytimg.com/vi/11MKZwEj6Y4/mqdefault.jpg

@@ -1,0 +1,14 @@
+video:
+  title: "Keynote: Robust data pipelines for machine learning-driven industrial IoT"
+  raw_title: "ElixirConf 2020 - Keynote - Jenn Gamble"
+  description: "Robust data pipelines for machine learning-driven industrial IoT"
+  speaker_names:
+    - Jenn Gamble
+  source: youtube:btIvtN9ws_I
+  thumbnails:
+    xs: https://i.ytimg.com/vi/btIvtN9ws_I/default.jpg
+    s: https://i.ytimg.com/vi/btIvtN9ws_I/mqdefault.jpg
+    m: https://i.ytimg.com/vi/btIvtN9ws_I/hqdefault.jpg
+    l: 
+    xl: 
+  published_at: 2020-09-14T15:24:40Z

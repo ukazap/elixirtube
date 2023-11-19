@@ -1,0 +1,14 @@
+video:
+  title: "Ecto in Production: Migration Edition"
+  raw_title: "ElixirConf 2022 - David Bernheisel - Ecto in Production: Migration Edition"
+  description: "Scaling an application comes with 3 phases of growing:\n\n1) Identifying traps\n2) Building tools that avoid traps.\n3) Adopting a process that uses those tools.\n\nSmall applications can fall into these traps, but they're so minor and acceptable that they're ignored or unrealized, but with large data sets, these problems can grow to be user-facing problems. \n\nThis edition of \"Ecto in Production\" will focus on migrations: both performing safe schema migrations and safely evolving data in place."
+  speaker_names:
+    - David Bernheisel
+  source: youtube:mOeONt6Hkf8
+  thumbnails:
+    xs: https://i.ytimg.com/vi/mOeONt6Hkf8/default.jpg
+    s: https://i.ytimg.com/vi/mOeONt6Hkf8/mqdefault.jpg
+    m: https://i.ytimg.com/vi/mOeONt6Hkf8/hqdefault.jpg
+    l: https://i.ytimg.com/vi/mOeONt6Hkf8/sddefault.jpg
+    xl: https://i.ytimg.com/vi/mOeONt6Hkf8/maxresdefault.jpg
+  published_at: 2022-11-06T20:01:05Z

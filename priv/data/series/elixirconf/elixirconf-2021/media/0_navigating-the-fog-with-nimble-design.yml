@@ -1,0 +1,14 @@
+video:
+  title: "Navigating the Fog with Nimble Design"
+  raw_title: "ElixirConf 2021 - Justin Schneck - Navigating the Fog with Nimble Design"
+  description: "Opening Keynote"
+  speaker_names:
+    - Justin Schneck
+  source: youtube:dOV9QtphVqA
+  thumbnails:
+    xs: https://i.ytimg.com/vi/dOV9QtphVqA/default.jpg
+    s: https://i.ytimg.com/vi/dOV9QtphVqA/mqdefault.jpg
+    m: https://i.ytimg.com/vi/dOV9QtphVqA/hqdefault.jpg
+    l: https://i.ytimg.com/vi/dOV9QtphVqA/sddefault.jpg
+    xl: https://i.ytimg.com/vi/dOV9QtphVqA/maxresdefault.jpg
+  published_at: 2021-10-13T18:57:42Z

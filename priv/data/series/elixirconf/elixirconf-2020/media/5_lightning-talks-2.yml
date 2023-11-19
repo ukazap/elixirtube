@@ -1,0 +1,18 @@
+video:
+  title: "Lightning Talks (2)"
+  raw_title: "ElixirConf 2020 Lightning Talks"
+  description: "Lightning talks from Mike Binns, Zach Daniel, Hal Fulton, Isaac Yonemoto, and Brian Glusman"
+  speaker_names:
+    - Mike Binns
+    - Zach Daniel
+    - Hal Fulton
+    - Isaac Yonemoto
+    - Brian Glusman
+  source: youtube:JXQZhyPK3Zw
+  thumbnails:
+    xs: https://i.ytimg.com/vi/JXQZhyPK3Zw/default.jpg
+    s: https://i.ytimg.com/vi/JXQZhyPK3Zw/mqdefault.jpg
+    m: https://i.ytimg.com/vi/JXQZhyPK3Zw/hqdefault.jpg
+    l: https://i.ytimg.com/vi/JXQZhyPK3Zw/sddefault.jpg
+    xl: https://i.ytimg.com/vi/JXQZhyPK3Zw/maxresdefault.jpg
+  published_at: 2020-09-14T15:56:17Z

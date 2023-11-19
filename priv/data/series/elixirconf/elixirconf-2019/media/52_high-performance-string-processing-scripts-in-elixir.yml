@@ -1,0 +1,14 @@
+video:
+  title: "High Performance String Processing Scripts in Elixir"
+  raw_title: "ElixirConf 2019 - High Performance String Processing Scripts in Elixir - Johanna Larsson"
+  description: "Can you write a performant string processing scripts in Elixir? This talk attempts to answer that question while incrementally optimizing a simple implementation of a script, introducing many interesting parts of Elixir on the way, including ETS, iolists, compiled binary patterns, and concurrency. With a little bit of knowledge, we end up with a 10x speedup over the original implementation, and Elixir becomes a viable and performant scripting language, and this also carries over into most data processing tasks.\n\nBut what are the risks and trade-offs when optimizing, and how do you do it in a productive way?\n\nBio\nJohanna is a polyglot developer working on anything from distributed systems to edge computing. Outside of work she spends way too much time on the forums and is a frequent speaker at the Malmö Elixir Meetup."
+  speaker_names:
+    - Johanna Larsson
+  source: youtube:Y83p_VsvRFA
+  thumbnails:
+    xs: https://i.ytimg.com/vi/Y83p_VsvRFA/default.jpg
+    s: https://i.ytimg.com/vi/Y83p_VsvRFA/mqdefault.jpg
+    m: https://i.ytimg.com/vi/Y83p_VsvRFA/hqdefault.jpg
+    l: https://i.ytimg.com/vi/Y83p_VsvRFA/sddefault.jpg
+    xl: https://i.ytimg.com/vi/Y83p_VsvRFA/maxresdefault.jpg
+  published_at: 2019-08-30T21:41:09Z

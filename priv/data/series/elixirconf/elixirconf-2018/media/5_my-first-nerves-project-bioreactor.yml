@@ -1,0 +1,14 @@
+video:
+  title: "My first Nerves Project Bioreactor"
+  raw_title: "ElixirConf 2018-  My first Nerves Project Bioreactor - David Schainker"
+  description: ""
+  speaker_names:
+    - David Schainker
+  source: youtube:1bQlc-K6vN0
+  thumbnails:
+    xs: https://i.ytimg.com/vi/1bQlc-K6vN0/default.jpg
+    s: https://i.ytimg.com/vi/1bQlc-K6vN0/mqdefault.jpg
+    m: https://i.ytimg.com/vi/1bQlc-K6vN0/hqdefault.jpg
+    l: https://i.ytimg.com/vi/1bQlc-K6vN0/sddefault.jpg
+    xl: https://i.ytimg.com/vi/1bQlc-K6vN0/maxresdefault.jpg
+  published_at: 2018-09-07T00:19:28Z

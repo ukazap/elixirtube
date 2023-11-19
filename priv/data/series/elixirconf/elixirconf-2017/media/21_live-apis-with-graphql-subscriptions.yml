@@ -1,0 +1,15 @@
+video:
+  title: "Live APIs with GraphQL Subscriptions"
+  raw_title: "ElixirConf 2017 - Live APIs with GraphQL Subscriptions - Bruce Williams and Ben Wilson"
+  description: ""
+  speaker_names:
+    - Bruce Williams
+    - Ben Wilson
+  source: youtube:PEckzwggd78
+  thumbnails:
+    xs: https://i.ytimg.com/vi/PEckzwggd78/default.jpg
+    s: https://i.ytimg.com/vi/PEckzwggd78/mqdefault.jpg
+    m: https://i.ytimg.com/vi/PEckzwggd78/hqdefault.jpg
+    l: https://i.ytimg.com/vi/PEckzwggd78/sddefault.jpg
+    xl: https://i.ytimg.com/vi/PEckzwggd78/maxresdefault.jpg
+  published_at: 2017-09-08T18:53:11Z

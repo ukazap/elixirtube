@@ -1,0 +1,14 @@
+video:
+  title: "Leveling Up With Ecto"
+  raw_title: "ElixirConf 2016 - Leveling Up With Ecto by  Darin Wilson"
+  description: "Leveling Up With Ecto by  Darin Wilson\n\nSo, you've played around with Ecto, and maybe even shipped an app or two that uses it. But you still have this sneaking suspicion that you might not be using it as effectively as you could, or maybe you just find yourself Googling for examples a little more often than you'd like.\nLet's get you levelled up.\nIn this hands-on, practical talk, you'll learn about some of the foundational principles behind Ecto, and walk through a series of examples, starting from the very simple and ending with the truly gnarly, to help you understand how Ecto works and how to use it more effectively. You'll come away with a better understanding of Ecto, and a cookbook of examples you can refer back to when you need a refresher. Feel free to bring a laptop and code along!"
+  speaker_names:
+    - Darin Wilson
+  source: youtube:QE7bpqpDoKo
+  thumbnails:
+    xs: https://i.ytimg.com/vi/QE7bpqpDoKo/default.jpg
+    s: https://i.ytimg.com/vi/QE7bpqpDoKo/mqdefault.jpg
+    m: https://i.ytimg.com/vi/QE7bpqpDoKo/hqdefault.jpg
+    l: https://i.ytimg.com/vi/QE7bpqpDoKo/sddefault.jpg
+    xl: https://i.ytimg.com/vi/QE7bpqpDoKo/maxresdefault.jpg
+  published_at: 2016-09-28T00:35:29Z

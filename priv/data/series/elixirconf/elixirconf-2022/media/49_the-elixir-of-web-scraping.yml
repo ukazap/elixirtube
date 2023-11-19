@@ -1,0 +1,14 @@
+video:
+  title: "The Elixir Of Web Scraping"
+  raw_title: "ElixirConf 2022 - Constantin Cheptea - The Elixir Of Web Scraping"
+  description: "This talk is about how we implemented a simple crawler for an MVP for one of our clients. I will talk about how we used a Stream to implement the crawler, the Eager vs Lazy topic, applying concurrency to improve performance, understanding the difference between concurrency and parallelism, and how it helped us optimize resources. I will also allocate some time to cover ethical web crawling."
+  speaker_names:
+    - Constantin Cheptea
+  source: youtube:mkkPgL6pXPc
+  thumbnails:
+    xs: https://i.ytimg.com/vi/mkkPgL6pXPc/default.jpg
+    s: https://i.ytimg.com/vi/mkkPgL6pXPc/mqdefault.jpg
+    m: https://i.ytimg.com/vi/mkkPgL6pXPc/hqdefault.jpg
+    l: https://i.ytimg.com/vi/mkkPgL6pXPc/sddefault.jpg
+    xl: https://i.ytimg.com/vi/mkkPgL6pXPc/maxresdefault.jpg
+  published_at: 2022-10-30T22:18:22Z

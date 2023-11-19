@@ -1,0 +1,14 @@
+video:
+  title: "The Joy of an Elixir Monolith"
+  raw_title: "ElixirConf 2020 - Steve Bussey - The Joy of an Elixir Monolith"
+  description: "Should you go with a microservice or monolith architecture for your Elixir app? This talk looks at the tradeoffs of the different approaches, with a focus on the BEAM process architecture."
+  speaker_names:
+    - Steve Bussey
+  source: youtube:xC6j5Ngnhe0
+  thumbnails:
+    xs: https://i.ytimg.com/vi/xC6j5Ngnhe0/default.jpg
+    s: https://i.ytimg.com/vi/xC6j5Ngnhe0/mqdefault.jpg
+    m: https://i.ytimg.com/vi/xC6j5Ngnhe0/hqdefault.jpg
+    l: https://i.ytimg.com/vi/xC6j5Ngnhe0/sddefault.jpg
+    xl: https://i.ytimg.com/vi/xC6j5Ngnhe0/maxresdefault.jpg
+  published_at: 2021-01-11T22:52:32Z

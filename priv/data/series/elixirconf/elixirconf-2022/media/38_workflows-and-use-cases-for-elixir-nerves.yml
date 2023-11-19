@@ -1,0 +1,14 @@
+video:
+  title: "Workflows and use cases for Elixir Nerves"
+  raw_title: "ElixirConf 2022 - Jason Johnson - Workflows and use cases for Elixir Nerves"
+  description: "Elixir Nerves offers so many options for developing and deploying firmware that it can be hard to know where to start! We'll explore a variety of workflows along with real-world examples and suggestions for how to make the most of your work with Nerves.\n\nThis talk will cover favorites like working with a serial cable, WiFi, or Livebook, as well as some less common workflows that may surprise you. Come join me on a retro electronics-themed tour of the many ways you can work with Nerves!"
+  speaker_names:
+    - Jason Johnson
+  source: youtube:bwcf5gvHjmw
+  thumbnails:
+    xs: https://i.ytimg.com/vi/bwcf5gvHjmw/default.jpg
+    s: https://i.ytimg.com/vi/bwcf5gvHjmw/mqdefault.jpg
+    m: https://i.ytimg.com/vi/bwcf5gvHjmw/hqdefault.jpg
+    l: https://i.ytimg.com/vi/bwcf5gvHjmw/sddefault.jpg
+    xl: https://i.ytimg.com/vi/bwcf5gvHjmw/maxresdefault.jpg
+  published_at: 2022-11-06T20:03:58Z

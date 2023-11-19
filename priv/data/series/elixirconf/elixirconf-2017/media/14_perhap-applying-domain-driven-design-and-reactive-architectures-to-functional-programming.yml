@@ -1,0 +1,14 @@
+video:
+  title: "Perhap: Applying Domain Driven Design and Reactive Architectures to Functional Programming"
+  raw_title: "ElixirConf 2017 - Perhap: Applying Domain Driven Design and Reactive... -  Rob Martin"
+  description: "ElixirConf 2017 - Perhap: Applying Domain Driven Design and Reactive Architectures to Functional Programming - Rob Martin"
+  speaker_names:
+    - Rob Martin
+  source: youtube:kq4qTk18N-c
+  thumbnails:
+    xs: https://i.ytimg.com/vi/kq4qTk18N-c/default.jpg
+    s: https://i.ytimg.com/vi/kq4qTk18N-c/mqdefault.jpg
+    m: https://i.ytimg.com/vi/kq4qTk18N-c/hqdefault.jpg
+    l: https://i.ytimg.com/vi/kq4qTk18N-c/sddefault.jpg
+    xl: https://i.ytimg.com/vi/kq4qTk18N-c/maxresdefault.jpg
+  published_at: 2017-09-08T00:33:03Z

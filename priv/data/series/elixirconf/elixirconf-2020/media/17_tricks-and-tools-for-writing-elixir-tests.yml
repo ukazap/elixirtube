@@ -1,0 +1,14 @@
+video:
+  title: "Tricks and tools for writing Elixir tests"
+  raw_title: "ElixirConf 2020 - Brian Marick - Tricks and tools for writing Elixir tests"
+  description: "There are \"tricks of the trade\" for writing readable, maintainable tests that help produce a more coherent system. This talk shows some of them, with an emphasis on code you can use or copy today."
+  speaker_names:
+    - Brian Marick
+  source: youtube:-8ax7-UtXCQ
+  thumbnails:
+    xs: https://i.ytimg.com/vi/-8ax7-UtXCQ/default.jpg
+    s: https://i.ytimg.com/vi/-8ax7-UtXCQ/mqdefault.jpg
+    m: https://i.ytimg.com/vi/-8ax7-UtXCQ/hqdefault.jpg
+    l: https://i.ytimg.com/vi/-8ax7-UtXCQ/sddefault.jpg
+    xl: https://i.ytimg.com/vi/-8ax7-UtXCQ/maxresdefault.jpg
+  published_at: 2021-01-11T22:19:09Z

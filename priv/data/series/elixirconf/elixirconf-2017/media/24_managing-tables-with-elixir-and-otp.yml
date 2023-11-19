@@ -1,0 +1,14 @@
+video:
+  title: "Managing Tables With Elixir and OTP"
+  raw_title: "ElixirConf 2017 - Managing Tables With Elixir and OTP - Robert Beene"
+  description: ""
+  speaker_names:
+    - Robert Beene
+  source: youtube:ENolm5T0bkU
+  thumbnails:
+    xs: https://i.ytimg.com/vi/ENolm5T0bkU/default.jpg
+    s: https://i.ytimg.com/vi/ENolm5T0bkU/mqdefault.jpg
+    m: https://i.ytimg.com/vi/ENolm5T0bkU/hqdefault.jpg
+    l: https://i.ytimg.com/vi/ENolm5T0bkU/sddefault.jpg
+    xl: https://i.ytimg.com/vi/ENolm5T0bkU/maxresdefault.jpg
+  published_at: 2017-09-08T19:23:23Z

@@ -1,0 +1,14 @@
+video:
+  title: "LiveView Components FTW!"
+  raw_title: "ElixirConf 2020 - Feather Knee - LiveView Components FTW!"
+  description: "Use LiveView Components for efficient code reuse while also creating a consistent look and feel throughout your app(s)."
+  speaker_names:
+    - Feather Knee
+  source: youtube:qUZ5uN4gqNg
+  thumbnails:
+    xs: https://i.ytimg.com/vi/qUZ5uN4gqNg/default.jpg
+    s: https://i.ytimg.com/vi/qUZ5uN4gqNg/mqdefault.jpg
+    m: https://i.ytimg.com/vi/qUZ5uN4gqNg/hqdefault.jpg
+    l: https://i.ytimg.com/vi/qUZ5uN4gqNg/sddefault.jpg
+    xl: https://i.ytimg.com/vi/qUZ5uN4gqNg/maxresdefault.jpg
+  published_at: 2021-01-11T22:32:00Z

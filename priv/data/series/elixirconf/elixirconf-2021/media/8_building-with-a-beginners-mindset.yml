@@ -1,0 +1,14 @@
+video:
+  title: "Building with a Beginner's Mindset"
+  raw_title: "ElixirConf 2021 - Ben Marx - Building with a Beginner’s Mindset"
+  description: "Managing BGP sessions and peering is a laborious and manual process generally. At Subspace, we built out a centralized system to administer our BGP sessions across our global network.\n\nThis talk focuses on how a network programming neophyte built out the initial version of our BGP system and why building with a beginner’s mindset can actually produce interesting and novel results. There’s a reason this is a core engineering principle at Subspace.\n\nWe’ll also cover how expertise in a domain is critical in refining and polishing that initial MVP and how that tension between the expert and the beginner yields a stronger and more resilient product"
+  speaker_names:
+    - Ben Marx
+  source: youtube:09P4PKZNLfU
+  thumbnails:
+    xs: https://i.ytimg.com/vi/09P4PKZNLfU/default.jpg
+    s: https://i.ytimg.com/vi/09P4PKZNLfU/mqdefault.jpg
+    m: https://i.ytimg.com/vi/09P4PKZNLfU/hqdefault.jpg
+    l: https://i.ytimg.com/vi/09P4PKZNLfU/sddefault.jpg
+    xl: https://i.ytimg.com/vi/09P4PKZNLfU/maxresdefault.jpg
+  published_at: 2021-10-22T20:07:11Z

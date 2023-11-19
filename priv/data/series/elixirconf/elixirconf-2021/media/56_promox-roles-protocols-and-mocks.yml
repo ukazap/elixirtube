@@ -1,0 +1,14 @@
+video:
+  title: "Promox: Roles, Protocols, and Mocks"
+  raw_title: "ElixirConf 2021 - Yiming Chen - Promox: Roles, Protocols, and Mocks"
+  description: "An introduction to the Promox library (https://github.com/dsdshcym/promox/) Why does it exist? What features does it provide? How it differs from Mox and Mimic? Why should you pick Promox over Mox?"
+  speaker_names:
+    - Yiming Chen
+  source: youtube:Df81LbdRd0A
+  thumbnails:
+    xs: https://i.ytimg.com/vi/Df81LbdRd0A/default.jpg
+    s: https://i.ytimg.com/vi/Df81LbdRd0A/mqdefault.jpg
+    m: https://i.ytimg.com/vi/Df81LbdRd0A/hqdefault.jpg
+    l: https://i.ytimg.com/vi/Df81LbdRd0A/sddefault.jpg
+    xl: https://i.ytimg.com/vi/Df81LbdRd0A/maxresdefault.jpg
+  published_at: 2021-10-25T15:06:27Z
