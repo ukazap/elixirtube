@@ -1,0 +1,15 @@
+video:
+  title: "I was wrong about LiveView"
+  raw_title: "ElixirConf 2022 - Jason Stiebs - I was wrong about LiveView"
+  description: "As a core team member, I tried to talk Chris out of building LiveView. I was wrong.\nHype for LiveView grew, and I assumed it would only be a back-office tool. I was wrong again.\n\nI now believe we can and should use it everywhere. Throughout this talk, you'll find out why.\n\nThe past few years, I've had the chance to use LiveView in production: replacing old SPA's that nobody wanted to touch, writing green field applications, and even adding some interactivity to mostly static sites.\n\nThrough practical examples, we'll take a tour of my lessons learned as a contractor using LiveView across this variety of projects. We'll see how little code it takes to tackle those dynamic features and how LiveView lets you focus on delivering value rather than wrangling layers of client/server tooling. Whether on the fence about LiveView or all-in but just getting started, you'll leave this talk with practical insights to use in your own applications and if we're lucky, a new appreciation for just what LiveView has to offer."
+  speakers:
+    - Jason Stiebs
+  source: youtube
+  source_id: INgpJ3eIKZY
+  thumbnails:
+    xs: https://i.ytimg.com/vi/INgpJ3eIKZY/default.jpg
+    s: https://i.ytimg.com/vi/INgpJ3eIKZY/mqdefault.jpg
+    m: https://i.ytimg.com/vi/INgpJ3eIKZY/hqdefault.jpg
+    l: https://i.ytimg.com/vi/INgpJ3eIKZY/sddefault.jpg
+    xl: https://i.ytimg.com/vi/INgpJ3eIKZY/maxresdefault.jpg
+  published_at: 2022-11-11T21:05:51Z

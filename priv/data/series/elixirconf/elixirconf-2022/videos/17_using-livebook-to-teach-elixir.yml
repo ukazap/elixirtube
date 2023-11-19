@@ -1,0 +1,15 @@
+video:
+  title: "Using Livebook to Teach Elixir"
+  raw_title: "ElixirConf 2022 - Brooklin Myers - Using Livebook to Teach Elixir"
+  description: "Livebook allows you to create interactive code notebooks often used for teaching, documentation, and rapid prototyping.\n \nWith this talk, you will come away with the lessons learned from creating an academy curriculum with Livebook. While focused on education, there will be applications for onboarding developers, teaching teams, documenting open-source projects, and more.\n \n You will learn how to:\n - Create effective teaching material.\n - Create interactive code examples, exercises, and executable tests.\n - Organize a large Livebook project with an index.\n - Display visuals, including animations, charts, diagrams, images, and tables.\n - Connect a Mix project and external dependencies to a Livebook notebook.\n - Use Livebook as a convenient alternative to the IEx shell."
+  speakers:
+    - Brooklin Myers
+  source: youtube
+  source_id: glPx8gcu-ek
+  thumbnails:
+    xs: https://i.ytimg.com/vi/glPx8gcu-ek/default.jpg
+    s: https://i.ytimg.com/vi/glPx8gcu-ek/mqdefault.jpg
+    m: https://i.ytimg.com/vi/glPx8gcu-ek/hqdefault.jpg
+    l: https://i.ytimg.com/vi/glPx8gcu-ek/sddefault.jpg
+    xl: https://i.ytimg.com/vi/glPx8gcu-ek/maxresdefault.jpg
+  published_at: 2022-11-11T20:28:42Z

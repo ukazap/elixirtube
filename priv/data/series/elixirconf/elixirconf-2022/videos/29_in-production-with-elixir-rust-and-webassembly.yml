@@ -1,0 +1,15 @@
+video:
+  title: "In Production with Elixir, Rust, and WebAssembly"
+  raw_title: "ElixirConf 2022 - Kevin Hoffman - In Production with Elixir, Rust, and WebAssembly"
+  description: "We maintain a Phoenix cluster that serves up a GraphQL API, a user-installable Elixir application that becomes part of a peer network running WebAssembly modules, and a user-installable Elixir application that performs Kubernetes-like autonomous agent activities. Some of these apps interact with Rust crates via rustler, and others interact with each other as Horde clusters or via message brokers. In this talk, I'll be covering what we've learned, done wrong, done right, loved, and hated along our journey. We've had to figure out everything from automating distillery releases in CI to managing cluster-aware applications to trying to smooth the developer experience of installing our pre-built OTP application. Come to this session to learn how wasmCloud and Cosmonic are leveraging Elixir to build both an open-source project and a commercial startup around WebAssembly."
+  speakers:
+    - Kevin Hoffman
+  source: youtube
+  source_id: l0QS_iXlQto
+  thumbnails:
+    xs: https://i.ytimg.com/vi/l0QS_iXlQto/default.jpg
+    s: https://i.ytimg.com/vi/l0QS_iXlQto/mqdefault.jpg
+    m: https://i.ytimg.com/vi/l0QS_iXlQto/hqdefault.jpg
+    l: https://i.ytimg.com/vi/l0QS_iXlQto/sddefault.jpg
+    xl: https://i.ytimg.com/vi/l0QS_iXlQto/maxresdefault.jpg
+  published_at: 2022-11-06T20:25:56Z

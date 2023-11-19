@@ -1,0 +1,15 @@
+video:
+  title: "Quick Iteration in Elixir - Tips from 6 Yrs of Elixir Development"
+  raw_title: "ElixirConf 2022 - Jason Axelson - Quick Iteration in Elixir - Tips from 6 Yrs of Elixir Development"
+  description: "I fell in love with Elixir in 2016 and have been coding in it professionally (and for fun!) ever since. Over the past 6 years, I've amassed a series of micro-techniques and tips that help me move code from my brain into my editor quickly and with minimal fuss. In this talk, I will share my bag of tips and techniques to help other developers accelerate their productivity (and have more fun) while developing in this language that we love."
+  speakers:
+    - Jason Axelson
+  source: youtube
+  source_id: BotVs6TXR-c
+  thumbnails:
+    xs: https://i.ytimg.com/vi/BotVs6TXR-c/default.jpg
+    s: https://i.ytimg.com/vi/BotVs6TXR-c/mqdefault.jpg
+    m: https://i.ytimg.com/vi/BotVs6TXR-c/hqdefault.jpg
+    l: https://i.ytimg.com/vi/BotVs6TXR-c/sddefault.jpg
+    xl: https://i.ytimg.com/vi/BotVs6TXR-c/maxresdefault.jpg
+  published_at: 2022-11-06T20:28:01Z

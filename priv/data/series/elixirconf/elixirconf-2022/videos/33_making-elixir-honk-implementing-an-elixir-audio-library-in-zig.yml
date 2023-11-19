@@ -1,0 +1,15 @@
+video:
+  title: "Making Elixir Honk: Implementing An Elixir Audio Library In Zig"
+  raw_title: "ElixirConf 2022 - Chris Ertel - Making Elixir Honk: Implementing An Elixir Audio Library In Zig"
+  description: "Elixir lacks a simple, friendly audio library suitable for game development, and I attempted to make one.\n\nThis talk will go through the design space, talk about architecture, and finally step through the implementation of a basic sound library for Elixir using Zig and Zigler."
+  speakers:
+    - Chris Ertel
+  source: youtube
+  source_id: ObDf2_fQmYQ
+  thumbnails:
+    xs: https://i.ytimg.com/vi/ObDf2_fQmYQ/default.jpg
+    s: https://i.ytimg.com/vi/ObDf2_fQmYQ/mqdefault.jpg
+    m: https://i.ytimg.com/vi/ObDf2_fQmYQ/hqdefault.jpg
+    l: 
+    xl: 
+  published_at: 2022-11-06T20:16:12Z

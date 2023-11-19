@@ -1,0 +1,15 @@
+video:
+  title: "Profiling Elixir and Phoenix apps with Flame Graphs in Live Dashboard"
+  raw_title: "ElixirConf 2022 - Mike Binns - Profiling Elixir and Phoenix apps with Flame Graphs in Live Dashboard"
+  description: "Elixir and Phoenix are a powerhouse combo when it comes to handling extreme volumes of traffic on minimal hardware with ease, but that doesn’t mean they can’t be made faster and more performant. Inefficiencies can creep in a number of ways, from poorly designed database queries to issues with dependencies to slow third-party APIs. Figuring out where these inefficiencies lie before the wall of production traffic hits is a critical step in initial development, as is keeping up to date with them as changes go live on your running system.\n\nFlame On is a LiveView component and LiveDashboard Page you can add to your application to trace exactly where your application is spending its time on a given request path. In this talk, DockYard Staff Software Engineer Mike Binns will dive into flame graphs, how to use them, and specifically how to use Flame On to identify issues in your Elixir/Phoenix application."
+  speakers:
+    - Mike Binns
+  source: youtube
+  source_id: CV4q_qLUxcc
+  thumbnails:
+    xs: https://i.ytimg.com/vi/CV4q_qLUxcc/default.jpg
+    s: https://i.ytimg.com/vi/CV4q_qLUxcc/mqdefault.jpg
+    m: https://i.ytimg.com/vi/CV4q_qLUxcc/hqdefault.jpg
+    l: https://i.ytimg.com/vi/CV4q_qLUxcc/sddefault.jpg
+    xl: https://i.ytimg.com/vi/CV4q_qLUxcc/maxresdefault.jpg
+  published_at: 2022-11-11T20:57:28Z

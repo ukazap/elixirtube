@@ -1,0 +1,15 @@
+video:
+  title: "Shifting Left: Secure Coding in Elixir Livebooks"
+  raw_title: "ElixirConf 2022 - Holden Oullette - Shifting Left: Secure Coding in Elixir Livebooks"
+  description: "One of Elixir's strengths has always been its secure-by-default approach while using it to build (web) applications. Paired with other modern technology stacks, such as GraphQL or React, you can build incredibly secure applications. \n\nBut as the saying goes in Information Security, \"There's no such thing as a Secure System.\" With that in mind, one of the best approaches to applying practical security measures in the SDLC is to \"shift left\" as much as possible. One such aspect of the \"shift left\" approach is to empower developers through Security education, up-leveling their knowledge of best/worst practices for the technology stacks they are working with.\n\nTraditionally, training material for Security Education is limited to high-level concepts and frankly a little dry - solely existing as static resources on the web or textbooks. Interactive materials are few and far between - typically only available as SaaS products that small-mid-size companies may not want to prioritize acquiring. Even in these paid platforms, support for the Elixir ecosystem is sparse.\n\nHolden set out to solve these issues by combining pre-existing, community-driven static resources (along with opinionated views of Web Security) with Elixir Livebooks to create the first Elixir-focused, interactive Secure Coding course.\n\nIt was developed with Enterprise-wide training in mind so that it could be deployed in a way that an individual contributor at any Elixir software company could take it and receive immediate, graded feedback without the manual review of a Security Engineer.\n\nBest of all, the entire framework (Livebook, Training Material, Auto-grader, etc.) is being open-sourced for anyone to use and to iterate on!\n\nThis talk with dive into the history of Erlang/Elixir Security, the creation/coverage of the Secure Coding course, how to deploy it in an enterprise setting and outline where the future of the project is going!"
+  speakers:
+    - Holden Oullette
+  source: youtube
+  source_id: EY_rSubdo1M
+  thumbnails:
+    xs: https://i.ytimg.com/vi/EY_rSubdo1M/default.jpg
+    s: https://i.ytimg.com/vi/EY_rSubdo1M/mqdefault.jpg
+    m: https://i.ytimg.com/vi/EY_rSubdo1M/hqdefault.jpg
+    l: https://i.ytimg.com/vi/EY_rSubdo1M/sddefault.jpg
+    xl: https://i.ytimg.com/vi/EY_rSubdo1M/maxresdefault.jpg
+  published_at: 2022-11-11T20:40:46Z

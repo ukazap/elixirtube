@@ -1,0 +1,15 @@
+video:
+  title: "Serverless to Serving Elixir: Migrating Serverless app to Phoenix"
+  raw_title: "ElixirConf 2022 - Erik Guzman - Serverless to Serving Elixir: Migrating Serverless app to Phoenix"
+  description: "Problem:\nIncreasing productivity, affordability, scalability, and even less coding (gasp!) are the goals for any web application. Add on top unpredictable server traffic, then a solution you might consider is going serverless and throwing in one of those nifty NoSQL database solutions. Easy enough, but at what cost? You can unintentionally suffer vendor lock-in, deal with cold starts, architect your application improperly, and miscalculate cost structure at scale. But there is an even better solution you might want to consider, Elixir. Elixir and Pheonix can help developers solve all these technical challenges, allowing you to focus on the end-user experience.\n\nPurpose:\n\"Serverless to Serving Elixir: Migrating Serverless app to run on Phoenix\" will demonstrate why migrating Elixir can solve all the same issues your serverless application would, make it faster, avoid vendor lock-in, and help future-proof your application. Maybe even have you second-guess if you ever need to go serverless again.\n\nLive Demo/ Walkthru: \nIn preparation for this talk, I will guide conference attendees through the libraries and strategies to take NodeJS Serverless applications using Firebase Firestore and migrate them to a single Phoenix application and Postgres database with no downtime."
+  speakers:
+    - Erik Guzman
+  source: youtube
+  source_id: Tf3U3HPC1X8
+  thumbnails:
+    xs: https://i.ytimg.com/vi/Tf3U3HPC1X8/default.jpg
+    s: https://i.ytimg.com/vi/Tf3U3HPC1X8/mqdefault.jpg
+    m: https://i.ytimg.com/vi/Tf3U3HPC1X8/hqdefault.jpg
+    l: https://i.ytimg.com/vi/Tf3U3HPC1X8/sddefault.jpg
+    xl: https://i.ytimg.com/vi/Tf3U3HPC1X8/maxresdefault.jpg
+  published_at: 2022-11-11T20:25:27Z

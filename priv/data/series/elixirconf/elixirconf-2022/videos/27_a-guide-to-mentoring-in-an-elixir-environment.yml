@@ -1,0 +1,16 @@
+video:
+  title: "A guide to mentoring in an Elixir Environment"
+  raw_title: "ElixirConf 2022 - Meks McClure & Nikki Kyllonen - A guide to mentoring in an Elixir Environment"
+  description: "“How to Grow your own Juniors”: A guide to mentoring in an Elixir Environment\n\nWanting to grow your team but having trouble finding developers with Elixir experience? Will your team have the time and resources you need to train someone? How do you know if hiring someone new to Elixir is right for your team?\n\nIn this talk, two junior developers will share their experiences learning Elixir and Phoenix LiveView in their first development job. You’ll come away with:\n- How to set realistic expectations for both mentors and mentees.\n- Which functional programming, Elixir, and Phoenix LiveView concepts to cover during mentorship.\n- How to structure mentorship in the first week, 30 days, 90 days, and year of hiring a junior or a developer new to Elixir and Phoenix."
+  speakers:
+    - Meks McClure
+    - Nikki Kyllonen
+  source: youtube
+  source_id: NjFI46Yc2Sc
+  thumbnails:
+    xs: https://i.ytimg.com/vi/NjFI46Yc2Sc/default.jpg
+    s: https://i.ytimg.com/vi/NjFI46Yc2Sc/mqdefault.jpg
+    m: https://i.ytimg.com/vi/NjFI46Yc2Sc/hqdefault.jpg
+    l: https://i.ytimg.com/vi/NjFI46Yc2Sc/sddefault.jpg
+    xl: https://i.ytimg.com/vi/NjFI46Yc2Sc/maxresdefault.jpg
+  published_at: 2022-11-06T20:30:44Z

@@ -1,0 +1,15 @@
+video:
+  title: "Embedded Web Apps in Elixir with LiveState"
+  raw_title: "ElixirConf 2022 - Chris Nelson - Embedded Web Apps in Elixir with LiveState"
+  description: "For building conventional “SPA” type web apps in Elixir, LiveView is the perfect choice. But if we are writing an embedded web app or one that is designed to be hosted in a larger web page that we don’t control, LiveView is no longer a viable option. \n\nLiveState is a library designed to give developers a LiveView-like experience while building these types of applications. With LiveState, we no longer have to build an API to handle requests and responses. Instead, we get to handle events and state on the server, just like in LiveView, but in an environment where the front end is not served by Phoenix. In this talk, we’ll learn about LiveState by example. We’ll start with a discussion of what LiveState is and how it works. Next, we’ll work through a simple example embedded web application: an element that will add a comments section to a website. Expect to come away with a good understanding of how you can build these types of applications in Elixir and have fun doing it."
+  speakers:
+    - Chris Nelson
+  source: youtube
+  source_id: jLamITBMoVI
+  thumbnails:
+    xs: https://i.ytimg.com/vi/jLamITBMoVI/default.jpg
+    s: https://i.ytimg.com/vi/jLamITBMoVI/mqdefault.jpg
+    m: https://i.ytimg.com/vi/jLamITBMoVI/hqdefault.jpg
+    l: https://i.ytimg.com/vi/jLamITBMoVI/sddefault.jpg
+    xl: https://i.ytimg.com/vi/jLamITBMoVI/maxresdefault.jpg
+  published_at: 2022-11-11T21:02:31Z

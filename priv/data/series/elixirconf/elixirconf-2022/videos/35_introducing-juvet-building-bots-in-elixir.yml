@@ -1,0 +1,15 @@
+video:
+  title: "Introducing Juvet: Building Bots in Elixir"
+  raw_title: "ElixirConf 2022 - Jamie Wright - Introducing Juvet: Building Bots in Elixir"
+  description: "There is another massive shift happening with how we interact with companies through software. Users feel comfortable naturally talking with their applications through chatbots. Chat is the next generation of the user interface.\n\nElixir is the perfect language and ecosystem for building bots and for conversational interfaces. In this session, we will see how we can build scalable, real-time web applications (or “bots”) using a new library Juvet and the Slack API. We will see what a good bot architecture looks like and how we can integrate with existing artificial intelligence services to make our bots smarter.\n\nFinally, we will learn how you can leverage metaprogramming in Elixir to build a router to help route requests from chat services to create a Phoenix-like experience for building chat apps."
+  speakers:
+    - Jamie Wright
+  source: youtube
+  source_id: FyRLeAggi6o
+  thumbnails:
+    xs: https://i.ytimg.com/vi/FyRLeAggi6o/default.jpg
+    s: https://i.ytimg.com/vi/FyRLeAggi6o/mqdefault.jpg
+    m: https://i.ytimg.com/vi/FyRLeAggi6o/hqdefault.jpg
+    l: https://i.ytimg.com/vi/FyRLeAggi6o/sddefault.jpg
+    xl: https://i.ytimg.com/vi/FyRLeAggi6o/maxresdefault.jpg
+  published_at: 2022-11-06T20:12:08Z

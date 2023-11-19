@@ -1,0 +1,15 @@
+video:
+  title: "To MVP and beyond, a year in LiveView"
+  raw_title: "ElixirConf 2022 - Miki Rezentes - To MVP and beyond, a year in LiveView"
+  description: "TLDR; This talk could save you weeks of time\n\nThis talk covers challenges faced and lessons learned while taking a product from `mix phx.new` to MVP. Why did we use LiveView? What type of paradigm shift did I have to go through? How did I help my team with the paradigm shift? What strategies did I use to conquer some of the challenges? What feedback have we gotten from users? The answer to these and many more questions are found in this talk."
+  speakers:
+    - Miki Rezentes
+  source: youtube
+  source_id: yclERDXdT1Y
+  thumbnails:
+    xs: https://i.ytimg.com/vi/yclERDXdT1Y/default.jpg
+    s: https://i.ytimg.com/vi/yclERDXdT1Y/mqdefault.jpg
+    m: https://i.ytimg.com/vi/yclERDXdT1Y/hqdefault.jpg
+    l: https://i.ytimg.com/vi/yclERDXdT1Y/sddefault.jpg
+    xl: https://i.ytimg.com/vi/yclERDXdT1Y/maxresdefault.jpg
+  published_at: 2022-11-11T20:50:51Z

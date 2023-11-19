@@ -1,0 +1,15 @@
+video:
+  title: "Infer: A pragmatic inference system based on your Ecto schema"
+  raw_title: "ElixirConf 2022 - Arno Dirlam - Infer: A pragmatic inference system based on your Ecto schema"
+  description: "Infer is an Elixir library that allows adding inferred properties to Ecto schemas, defined by rules based on fields, associations or other inferred properties. You can then load/query them as if they were Ecto fields or associations using Infer's API. It allows you to write declarative and easy-to-read domain logic by defining WHAT the rules are without having to care about HOW to execute them. Under the hood, Infer's evaluation engine loads associations as needed using dataloader and can even translate your logic to Ecto queries directly.\nInfer can be used for various use cases, from authorization to state machines, and excels in areas where many (edge) cases need to be respected.\n\nStatus: Infer has been used in production internally at Team Engine since April 2021, but is still in the early stages as a ready-to-use library.\n\nRepo: https://github.com/infer-beam/infer\n\nDocs: https://infer-beam.github.io/infer/\n\nWant to work on Infer with us? https://tinyurl.com/engine-infer-dev"
+  speakers:
+    - Arno Dirlam
+  source: youtube
+  source_id: 0JSaBOgeW3w
+  thumbnails:
+    xs: https://i.ytimg.com/vi/0JSaBOgeW3w/default.jpg
+    s: https://i.ytimg.com/vi/0JSaBOgeW3w/mqdefault.jpg
+    m: https://i.ytimg.com/vi/0JSaBOgeW3w/hqdefault.jpg
+    l: https://i.ytimg.com/vi/0JSaBOgeW3w/sddefault.jpg
+    xl: https://i.ytimg.com/vi/0JSaBOgeW3w/maxresdefault.jpg
+  published_at: 2022-10-30T22:37:32Z

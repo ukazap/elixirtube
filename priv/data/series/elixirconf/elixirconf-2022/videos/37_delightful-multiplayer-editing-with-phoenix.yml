@@ -1,0 +1,15 @@
+video:
+  title: "Delightful Multiplayer Editing with Phoenix"
+  raw_title: "ElixirConf 2022 - Tyler Young - Delightful Multiplayer Editing with Phoenix"
+  description: "This talk distills the lessons we’ve learned at Felt while building a highly collaborative, “multiplayer” editing tool on top of Phoenix and React. Phoenix Channels are our (not so) secret weapon for delivering low-latency collaboration, but Channels alone aren’t enough to guarantee a delightful experience for our users.\n\nThis talk will discuss a number of areas where our initial ideas didn’t cut it and what we had to do instead to improve the user experience. Topics will include:\n\n- Minimizing time to first render\n- Using optimistic client-side changes for zero-latency local editing\n- Reducing latency when broadcasting changes\n- Preventing data loss when the client goes offline\n- Reducing blocking work within the Channel process"
+  speakers:
+    - Tyler Young
+  source: youtube
+  source_id: lGuqvApTvbc
+  thumbnails:
+    xs: https://i.ytimg.com/vi/lGuqvApTvbc/default.jpg
+    s: https://i.ytimg.com/vi/lGuqvApTvbc/mqdefault.jpg
+    m: https://i.ytimg.com/vi/lGuqvApTvbc/hqdefault.jpg
+    l: https://i.ytimg.com/vi/lGuqvApTvbc/sddefault.jpg
+    xl: https://i.ytimg.com/vi/lGuqvApTvbc/maxresdefault.jpg
+  published_at: 2022-11-06T20:05:51Z

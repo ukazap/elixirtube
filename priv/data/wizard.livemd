@@ -537,9 +537,10 @@ videos =
 :ok
 ```
 
-Review and edit the video data as you see fit:
-
 ````elixir
+Kino.Markdown.new("Review and edit the video data as you see fit:")
+|> Kino.render()
+
 video_data_inputs =
   Enum.map(videos, fn video ->
     frame = Kino.Frame.new()
@@ -626,4 +627,4 @@ Kino.Markdown.new(
 SaveData.write_all_overwriting_duplicates!(data)
 ```
 
-<!-- livebook:{"offset":14901,"stamp":{"token":"XCP.TTH7ynvrdse0bHlP7VACm4HPWxVFs3oujQfHDpQ7bKR-OAW9-Z0yZEbTHn58S2FpDDDwh3P2kkziGApNu1xUY5-ZWRd0aQu-TmlHvb_bjeMUrVH7ZdPerpAa7Fcz8mDgthVt1a9BdDfTiXBouGmzKPnjFZL0LQ8iYm4j1SKyTHEk3e_sUzCxbNAISYxUUzc","version":2}} -->
+<!-- livebook:{"offset":14939,"stamp":{"token":"XCP.BNh1mfQjGUuCHLHHmArpSXKQjbCFGZ6zwP8LztV92E1vRKR5HNsnEPjpUefv0bXIYriqixLzYnlA_bynuYc2vhAOE1zzbLhRdCTZCUxzdmo8sFbaW7yPec43qeRNPh0GmSSi8BprpgSE7o9s04tFRBjpODPM7xvVqcdCc3ZJ3rBwdrBhmmQabVLkEjAYfsw","version":2}} -->

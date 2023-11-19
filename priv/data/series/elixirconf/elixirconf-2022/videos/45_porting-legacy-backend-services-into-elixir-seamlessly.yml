@@ -1,0 +1,15 @@
+video:
+  title: "Porting Legacy Backend Services into Elixir, Seamlessly"
+  raw_title: "ElixirConf 2022 - Yiming Chen - Porting Legacy Backend Services into Elixir, Seamlessly"
+  description: "A summary of how we ported 2 legacy Node.js backends into Elixir,\nwithout any user-noticeable issues or downtimes.\n\nWe as developers have all faced a legacy system,\nno one wants to or dares to change its code,\nyet it still somehow runs and supports an important piece in our business.\nWhat's worse is when the original developers have all left the team, and no one is familiar with the code and the language anymore.\n\nWe had several services like this kind at Tubi.\nWe ported 2 of them into Elixir in 2022 while keeping the user experience the same during the whole migration process.\nThis talk is about all the lessons we learned along the way."
+  speakers:
+    - Yiming Chen
+  source: youtube
+  source_id: aEq47fSt1WE
+  thumbnails:
+    xs: https://i.ytimg.com/vi/aEq47fSt1WE/default.jpg
+    s: https://i.ytimg.com/vi/aEq47fSt1WE/mqdefault.jpg
+    m: https://i.ytimg.com/vi/aEq47fSt1WE/hqdefault.jpg
+    l: https://i.ytimg.com/vi/aEq47fSt1WE/sddefault.jpg
+    xl: https://i.ytimg.com/vi/aEq47fSt1WE/maxresdefault.jpg
+  published_at: 2022-10-30T22:28:24Z

@@ -1,0 +1,15 @@
+video:
+  title: "WebAuthn + LiveView"
+  raw_title: "ElixirConf 2022 - Owen Bickford - WebAuthn + LiveView"
+  description: "As I build my side project, a collaborative music application called LiveShowy, I want to avoid the development and customer support headaches of password management. I also want the app to run over Websockets as much as possible using LiveView. \n\nThe WebAuthn API provides Javascript functions for prompting users for biometric or physical key credentials. In the Elixir ecosystem, there are a few WebAuthn libraries, but none designed or documented for use in LiveViews. Phoenix LiveView provides JS hooks, which greatly simplify interactions with browser APIs.\n\nIn my talk, I will make the case for using WebAuthn when possible for improved security, telling the tale of how I implemented the API over Websockets with the Wax package from Hex. Leading up to the talk, I plan to review the implementation with experts with the intent to publish an open source package for LiveView applications at ElixirConf."
+  speakers:
+    - Owen Bickford
+  source: youtube
+  source_id: krbriAecqUk
+  thumbnails:
+    xs: https://i.ytimg.com/vi/krbriAecqUk/default.jpg
+    s: https://i.ytimg.com/vi/krbriAecqUk/mqdefault.jpg
+    m: https://i.ytimg.com/vi/krbriAecqUk/hqdefault.jpg
+    l: https://i.ytimg.com/vi/krbriAecqUk/sddefault.jpg
+    xl: https://i.ytimg.com/vi/krbriAecqUk/maxresdefault.jpg
+  published_at: 2022-11-06T20:32:20Z

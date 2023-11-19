@@ -1,0 +1,15 @@
+video:
+  title: "Axon: Functional Programming for Deep Learning"
+  raw_title: "ElixirConf 2022 - Sean Moriarity - Axon: Functional Programming for Deep Learning"
+  description: "An overview of designing a deep learning framework in a functional programming language and how it differs from languages in the Python ecosystem."
+  speakers:
+    - Sean Moriarity
+  source: youtube
+  source_id: NWXSiZ-vi-o
+  thumbnails:
+    xs: https://i.ytimg.com/vi/NWXSiZ-vi-o/default.jpg
+    s: https://i.ytimg.com/vi/NWXSiZ-vi-o/mqdefault.jpg
+    m: https://i.ytimg.com/vi/NWXSiZ-vi-o/hqdefault.jpg
+    l: https://i.ytimg.com/vi/NWXSiZ-vi-o/sddefault.jpg
+    xl: https://i.ytimg.com/vi/NWXSiZ-vi-o/maxresdefault.jpg
+  published_at: 2022-11-11T20:26:52Z
