@@ -1,0 +1,15 @@
+video:
+  title: "Live coding a membership site in 20min by Phoenix and phx_gen_auth"
+  raw_title: "ElixirConf 2021 - Masakazu Mori - Live coding a membership site in 20min by Phoenix and phx_gen_auth"
+  description: "This talk shows how to create a membership site that can be used for production in 20 minutes using Phoenix and phx_gen_auth.\n\nWith phx_gen_auth, you can develop a membership site or EC site on Elixir and Phoenix in a few minutes to a few days. phx_gen_auth is a library that provides Phoenix with login, member registration, password reminder, and member information changing features, validation checking for these features, and email transmission handlers.\n\nHowever, it requires furthermore following customization of you:\n\nEmails\nInput validations\nPage display messages\nPage designs\nSign up confirmation\nI explain with an example of customizing them, based on my much enough development experiences and business background.\n\nIn addition to the built-in feature, I’ll also explain the points when applying phx_gen_auth to your pages."
+  speakers:
+    - Masakazu Mori
+  source: youtube
+  source_id: t5TT0-mI2O4
+  thumbnails:
+    xs: https://i.ytimg.com/vi/t5TT0-mI2O4/default.jpg
+    s: https://i.ytimg.com/vi/t5TT0-mI2O4/mqdefault.jpg
+    m: https://i.ytimg.com/vi/t5TT0-mI2O4/hqdefault.jpg
+    l: https://i.ytimg.com/vi/t5TT0-mI2O4/sddefault.jpg
+    xl: https://i.ytimg.com/vi/t5TT0-mI2O4/maxresdefault.jpg
+  published_at: 2021-10-24T20:27:24Z

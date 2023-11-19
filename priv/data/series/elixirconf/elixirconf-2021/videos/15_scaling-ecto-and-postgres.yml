@@ -1,0 +1,15 @@
+video:
+  title: "Scaling Ecto and Postgres"
+  raw_title: "ElixirConf 2021 - Tyler Hawkins - Scaling Ecto and Postgres"
+  description: "How to scale Ecto with Postgres to handle large amounts of data effectively and efficiently. As database table sizes grow, how can you best use ecto’s features to avoid common pitfalls and keep your application fast and stable. How to better use postgres indexes to work with Ecto at scale."
+  speakers:
+    - Tyler Hawkins
+  source: youtube
+  source_id: SHjAMcBwY_o
+  thumbnails:
+    xs: https://i.ytimg.com/vi/SHjAMcBwY_o/default.jpg
+    s: https://i.ytimg.com/vi/SHjAMcBwY_o/mqdefault.jpg
+    m: https://i.ytimg.com/vi/SHjAMcBwY_o/hqdefault.jpg
+    l: https://i.ytimg.com/vi/SHjAMcBwY_o/sddefault.jpg
+    xl: https://i.ytimg.com/vi/SHjAMcBwY_o/maxresdefault.jpg
+  published_at: 2021-10-22T21:58:06Z

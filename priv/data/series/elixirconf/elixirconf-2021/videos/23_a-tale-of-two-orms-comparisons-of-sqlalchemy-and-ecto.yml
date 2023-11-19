@@ -1,0 +1,15 @@
+video:
+  title: "A Tale of Two ORMs: Comparisons of SQLAlchemy and Ecto"
+  raw_title: "ElixirConf 2021 - Pablo Meier - A Tale of Two ORMs: Comparisons of SQLAlchemy and Ecto"
+  description: "I’ll walk through certain design decisions (and their implications) of the design of Ecto by comparing to SQLAlchemy. Start with the challenge of mapping relational algebra (which became databases and SQL) into procedural or functional execution (which is how we write programs), touch on how both languages approach compound data, then look at how each answers the question “how can I best help a developer work with a database?” Which flows are easier or harder, where they are different and why (e.g. migrations, “when do we make real DB calls?”), which ones integrate with the host language, its customs, and its ecosystem. If there’s time, I can take a high-level look into what it would take to build something like Ecto in Python or SQLAlchemy in Elixir."
+  speakers:
+    - Pablo Meier
+  source: youtube
+  source_id: 5Ep9CDXUHNU
+  thumbnails:
+    xs: https://i.ytimg.com/vi/5Ep9CDXUHNU/default.jpg
+    s: https://i.ytimg.com/vi/5Ep9CDXUHNU/mqdefault.jpg
+    m: https://i.ytimg.com/vi/5Ep9CDXUHNU/hqdefault.jpg
+    l: https://i.ytimg.com/vi/5Ep9CDXUHNU/sddefault.jpg
+    xl: https://i.ytimg.com/vi/5Ep9CDXUHNU/maxresdefault.jpg
+  published_at: 2021-10-23T14:37:54Z

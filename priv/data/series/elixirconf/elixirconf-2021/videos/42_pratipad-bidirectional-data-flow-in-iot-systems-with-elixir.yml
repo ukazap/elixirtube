@@ -1,0 +1,15 @@
+video:
+  title: "Pratipad: Bidirectional Data Flow in IoT Systems with Elixir"
+  raw_title: "ElixirConf 2021 - Kentaro Kuribayashi - Pratipad: Bidirectional Data Flow in IoT Systems with Elixir"
+  description: "Full Title: Pratipad: A Declarative Framework for Describing Bidirectional Data Flow in IoT Systems with Elixir\n\nThis talk will propose and show the implementation of a framework named “Pratipad” to solve the intrinsic complexity of IoT systems. We use Elixir for its implementation because the highly expressive nature of Elixir and the distributed computing infrastructure of Erlang OTP make it possible to integrate and simplify complex systems with a single technology."
+  speakers:
+    - Kentaro Kuribayashi
+  source: youtube
+  source_id: CkoxCly11yQ
+  thumbnails:
+    xs: https://i.ytimg.com/vi/CkoxCly11yQ/default.jpg
+    s: https://i.ytimg.com/vi/CkoxCly11yQ/mqdefault.jpg
+    m: https://i.ytimg.com/vi/CkoxCly11yQ/hqdefault.jpg
+    l: https://i.ytimg.com/vi/CkoxCly11yQ/sddefault.jpg
+    xl: https://i.ytimg.com/vi/CkoxCly11yQ/maxresdefault.jpg
+  published_at: 2021-10-24T20:29:51Z

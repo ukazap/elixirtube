@@ -1,0 +1,15 @@
+video:
+  title: "Liveview + Presence = Superpowers"
+  raw_title: "ElixirConf 2021 - De Wet Blomerus - Liveview + Presence = Superpowers"
+  description: "ElixirConf 2021 - De Wet Blomerus - Liveview + Presence = Superpowers"
+  speakers:
+    - De Wet Blomerus
+  source: youtube
+  source_id: UMls-TTFfvA
+  thumbnails:
+    xs: https://i.ytimg.com/vi/UMls-TTFfvA/default.jpg
+    s: https://i.ytimg.com/vi/UMls-TTFfvA/mqdefault.jpg
+    m: https://i.ytimg.com/vi/UMls-TTFfvA/hqdefault.jpg
+    l: https://i.ytimg.com/vi/UMls-TTFfvA/sddefault.jpg
+    xl: https://i.ytimg.com/vi/UMls-TTFfvA/maxresdefault.jpg
+  published_at: 2021-10-23T14:29:16Z

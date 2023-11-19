@@ -1,0 +1,15 @@
+video:
+  title: "Preventing Brain Freeze: Onboarding with Living Documentation"
+  raw_title: "ElixirConf 2021 - Nicholas Henry - Preventing Brain Freeze: Onboarding with Living Documentation"
+  description: "Your first contribution to an existing in-house application can be like eating ice cream too quickly on a hot summer’s day – your excitement and enthusiasm result in a painful headache as you struggle to understand the domain and navigate the codebase. Elixir and the surrounding ecosystem have an excellent reputation for beautiful documentation and onboarding tools, but these practices don’t always migrate to in-house applications hidden from public view.\n\nTogether, we’ll discover the principles and practices of living documentation and how Elixir’s tooling supports its implementation. At the end of the presentation, you’ll leave with a set of techniques and methods to elevate your application’s onboarding experience to prevent the next ice cream headache."
+  speakers:
+    - Nicholas Henry
+  source: youtube
+  source_id: EMWWv6RyqMc
+  thumbnails:
+    xs: https://i.ytimg.com/vi/EMWWv6RyqMc/default.jpg
+    s: https://i.ytimg.com/vi/EMWWv6RyqMc/mqdefault.jpg
+    m: https://i.ytimg.com/vi/EMWWv6RyqMc/hqdefault.jpg
+    l: https://i.ytimg.com/vi/EMWWv6RyqMc/sddefault.jpg
+    xl: https://i.ytimg.com/vi/EMWWv6RyqMc/maxresdefault.jpg
+  published_at: 2021-10-24T20:12:23Z

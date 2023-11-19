@@ -1,0 +1,15 @@
+video:
+  title: "Surface: a bridge to the Javascript community"
+  raw_title: "ElixirConf 2021 - Dave Lucia - Surface: a bridge to the Javascript community"
+  description: "Surface is a component library for Phoenix, built on top of Phoenix Live View. It takes years of sensibilities from React, Vue.js and other front-end Javascript frameworks, and brings them to the Elixir community.\n\nThe hidden superpower of Surface is not just its declarative component interface, compile-time validations, or its patterns for composability. The true power is its ability to usher in a new era of Elixir developers from the Javascript and front-end communities who are looking for higher-leverage solutions to building web interfaces.\n\nIn this talk, I will show the power of Surface through example, by way of introducing React and Vue.js apps, then upgrading them to Surface and showing the unique capabilities that Elixir and Surface can offer."
+  speakers:
+    - Dave Lucia
+  source: youtube
+  source_id: Lh5rA1pgWCk
+  thumbnails:
+    xs: https://i.ytimg.com/vi/Lh5rA1pgWCk/default.jpg
+    s: https://i.ytimg.com/vi/Lh5rA1pgWCk/mqdefault.jpg
+    m: https://i.ytimg.com/vi/Lh5rA1pgWCk/hqdefault.jpg
+    l: https://i.ytimg.com/vi/Lh5rA1pgWCk/sddefault.jpg
+    xl: https://i.ytimg.com/vi/Lh5rA1pgWCk/maxresdefault.jpg
+  published_at: 2021-10-23T14:30:40Z

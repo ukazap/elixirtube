@@ -1,0 +1,15 @@
+video:
+  title: "How to Build a Great (Elixir) Team"
+  raw_title: "ElixirConf 2021 - Phil Toland - How to Build a Great (Elixir) Team"
+  description: "In June 2020, I joined PepsiCo eCommerce and was asked to build a new team that would focus on creating user interfaces for some of the data products being built within the organization. We knew that we wanted to use Elixir, we had a rough idea what the first project would be, and we needed to deliver that project by the end of the year. In this talk, I will present a case study of how we built that team, what went right, and what went wrong. I will discuss the major technical decisions that we made, why we made those decisions, and the long term impact of those decisions. Finally, I will talk about the two secret ingredients that ran through everything and were key to helping us build a successful team: Elixir and Lean software development."
+  speakers:
+    - Phil Toland
+  source: youtube
+  source_id: oVnJ-iK-h2A
+  thumbnails:
+    xs: https://i.ytimg.com/vi/oVnJ-iK-h2A/default.jpg
+    s: https://i.ytimg.com/vi/oVnJ-iK-h2A/mqdefault.jpg
+    m: https://i.ytimg.com/vi/oVnJ-iK-h2A/hqdefault.jpg
+    l: https://i.ytimg.com/vi/oVnJ-iK-h2A/sddefault.jpg
+    xl: https://i.ytimg.com/vi/oVnJ-iK-h2A/maxresdefault.jpg
+  published_at: 2021-10-22T20:45:30Z

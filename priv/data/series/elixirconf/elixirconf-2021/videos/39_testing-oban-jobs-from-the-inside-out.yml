@@ -1,0 +1,15 @@
+video:
+  title: "Testing Oban Jobs From the Inside Out"
+  raw_title: "ElixirConf 2021 - Parker Selbert - Testing Oban Jobs From the Inside Out"
+  description: "Background jobs with Oban are integral to the business side of many applications. Knowing that your jobs function correctly in isolation, and when composed with other jobs, and when integrated with the rest of the system is essential for peace of mind. Fortunately, Oban provides all the tools necessary to test jobs at any level of isolation. Together we’ll explore how to make optimal use of Oban’s robust testing functionality for unit, integration, and acceptance tests.\n\nCome learn how to test Oban jobs from the inside out—from asserting that workers return correct values to assuring every job in a queue is executed as it would be in production."
+  speakers:
+    - Parker Selbert
+  source: youtube
+  source_id: PZ48omi0NKU
+  thumbnails:
+    xs: https://i.ytimg.com/vi/PZ48omi0NKU/default.jpg
+    s: https://i.ytimg.com/vi/PZ48omi0NKU/mqdefault.jpg
+    m: https://i.ytimg.com/vi/PZ48omi0NKU/hqdefault.jpg
+    l: https://i.ytimg.com/vi/PZ48omi0NKU/sddefault.jpg
+    xl: https://i.ytimg.com/vi/PZ48omi0NKU/maxresdefault.jpg
+  published_at: 2021-10-24T20:22:50Z

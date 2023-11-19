@@ -1,0 +1,15 @@
+video:
+  title: "Distributed Real-time Pandemic Response"
+  raw_title: "ElixirConf 2021 - Max Veytsman - Distributed Real-time Pandemic Response"
+  description: "Toronto is a city of cyclists. The Toronto Bike Brigade is pairing volunteer cyclists with community organizations that serve isolated, vulnerable people, seniors and health care providers to deliver supplies during the COVID-19 pandemic. The Bike Brigade offers free delivery service for organizations and individuals in need.\n\nHundreds of volunteers cyclists are delivering food hampers, prepared meals, groceries, care packages, and other items. We’re on the road seven days a week. To manage this all, we’ve built a Phoenix LiveView application that allows our dispatch volunteers to plan deliveries and communicate with our cyclist volunteers, and allows our cyclist volunteers to see their routes.\n\nThis talk will give an overview of the organization and technology behind it. We’ll discuss scaling from a spreadsheet-powered organization to custom software, our beliefs about building humane user experiences for our volunteers, and how Elixir/Phoenix LiveView makes it possible for a solo developer to build impactful technology for the common good."
+  speakers:
+    - Max Veytsman
+  source: youtube
+  source_id: kzDfogSBMsU
+  thumbnails:
+    xs: https://i.ytimg.com/vi/kzDfogSBMsU/default.jpg
+    s: https://i.ytimg.com/vi/kzDfogSBMsU/mqdefault.jpg
+    m: https://i.ytimg.com/vi/kzDfogSBMsU/hqdefault.jpg
+    l: https://i.ytimg.com/vi/kzDfogSBMsU/sddefault.jpg
+    xl: https://i.ytimg.com/vi/kzDfogSBMsU/maxresdefault.jpg
+  published_at: 2021-10-23T14:26:00Z
