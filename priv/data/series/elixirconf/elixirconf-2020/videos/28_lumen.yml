@@ -1,0 +1,15 @@
+video:
+  title: "Lumen"
+  raw_title: "ElixirConf 2020 - Luke Imhoff - Lumen"
+  description: "Lumen runtime and compiler updates"
+  speakers:
+    - Luke Imhoff
+  source: youtube
+  source_id: -381kMYvCA8
+  thumbnails:
+    xs: https://i.ytimg.com/vi/-381kMYvCA8/default.jpg
+    s: https://i.ytimg.com/vi/-381kMYvCA8/mqdefault.jpg
+    m: https://i.ytimg.com/vi/-381kMYvCA8/hqdefault.jpg
+    l: https://i.ytimg.com/vi/-381kMYvCA8/sddefault.jpg
+    xl: https://i.ytimg.com/vi/-381kMYvCA8/maxresdefault.jpg
+  published_at: 2021-01-11T22:39:17Z

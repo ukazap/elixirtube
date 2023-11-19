@@ -1,0 +1,15 @@
+video:
+  title: "Using Elixir and WhatsApp to launch WHO’s global COVID-19 response"
+  raw_title: "ElixirConf 2020 - Simon de Haan - Using Elixir and WhatsApp to launch WHO’s global COVID-19 response"
+  description: "The inside story of how the World Health Organisation’s WhatsApp COVID-19 hotline service was launched in 5 days time using Elixir."
+  speakers:
+    - Simon de Haan
+  source: youtube
+  source_id: ct1t-dBLvMY
+  thumbnails:
+    xs: https://i.ytimg.com/vi/ct1t-dBLvMY/default.jpg
+    s: https://i.ytimg.com/vi/ct1t-dBLvMY/mqdefault.jpg
+    m: https://i.ytimg.com/vi/ct1t-dBLvMY/hqdefault.jpg
+    l: https://i.ytimg.com/vi/ct1t-dBLvMY/sddefault.jpg
+    xl: https://i.ytimg.com/vi/ct1t-dBLvMY/maxresdefault.jpg
+  published_at: 2021-01-11T22:51:35Z

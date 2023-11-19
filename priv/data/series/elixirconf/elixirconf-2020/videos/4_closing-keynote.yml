@@ -1,0 +1,15 @@
+video:
+  title: "Closing Keynote"
+  raw_title: "ElixirConf 2020 - Justin Schneck - Closing Keynote"
+  description: ""
+  speakers:
+    - Justin Schneck
+  source: youtube
+  source_id: vX93Skmboas
+  thumbnails:
+    xs: https://i.ytimg.com/vi/vX93Skmboas/default.jpg
+    s: https://i.ytimg.com/vi/vX93Skmboas/mqdefault.jpg
+    m: https://i.ytimg.com/vi/vX93Skmboas/hqdefault.jpg
+    l: https://i.ytimg.com/vi/vX93Skmboas/sddefault.jpg
+    xl: https://i.ytimg.com/vi/vX93Skmboas/maxresdefault.jpg
+  published_at: 2020-09-14T15:35:08Z

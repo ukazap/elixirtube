@@ -1,0 +1,15 @@
+video:
+  title: "Rendering Supervision Trees with Phoenix LiveView"
+  raw_title: "ElixirConf 2020 - Berenice Medel - Rendering Supervision Trees with Phoenix LiveView"
+  description: "How can we know what happens within our Phoenix applications? A visual aid can be very useful. However, how difficult would it be to render our application supervision trees? ... wait, it already exists! In this talk, I'll show you all it took to render the supervision trees that you can enjoy since Phoenix Live Dashboard v0.2.6 was released. While doing so, I'll share with you my experience contributing for the very first time to an open-source project. TL;DR It was amazing!"
+  speakers:
+    - Berenice Medel
+  source: youtube
+  source_id: sw-m9an2zFM
+  thumbnails:
+    xs: https://i.ytimg.com/vi/sw-m9an2zFM/default.jpg
+    s: https://i.ytimg.com/vi/sw-m9an2zFM/mqdefault.jpg
+    m: https://i.ytimg.com/vi/sw-m9an2zFM/hqdefault.jpg
+    l: https://i.ytimg.com/vi/sw-m9an2zFM/sddefault.jpg
+    xl: https://i.ytimg.com/vi/sw-m9an2zFM/maxresdefault.jpg
+  published_at: 2021-01-11T22:15:49Z

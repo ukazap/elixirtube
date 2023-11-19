@@ -491,6 +491,7 @@ videos_to_include =
   |> Enum.map(fn {video, idx} ->
     input =
       Kino.Input.checkbox("##{idx} #{video.title}", default: include_video?)
+
     Kino.render(input)
     %{video: video, input: input}
   end)
@@ -562,8 +563,7 @@ video_data_inputs =
     ]
 
     inputs
-    |> Keyword.values()
-    |> Enum.each(&Kino.Frame.append(frame, &1))
+    |> Enum.each(fn {_, input} -> &Kino.Frame.append(frame, input) end)
 
     %{video: video, frame: frame, inputs: inputs}
   end)
@@ -623,4 +623,4 @@ Kino.Markdown.new(
 SaveData.write_all_overwriting_duplicates!(data)
 ```
 
-<!-- livebook:{"offset":14867,"stamp":{"token":"XCP.CaCEYKzU8CQalBjbaZ844LBu6IdRF9w5DgLSeXIIvG6R5NyVQtzPv74O_q01aOcIdG91UyY_Av6XMqrTMWE59Z1m_Mgf08wjPEuuny6_oSq9WnI3XVll5OA7bkTwsIQltYeOWhusgtR2aCfQisD5t68JhkEKpmRBeioNRoZ6jCJgGIf-rCRZI4N9wms2yBw","version":2}} -->
+<!-- livebook:{"offset":14819,"stamp":{"token":"XCP.eb-GjEipZrZSFskvRCFqpiAUbooQyruSp9txu9916ACqIkkoXDAxIU1o-1AQbKwuSsGYLnqGAXmIxmAYQTiH0yDUCrYSV17yjZc1823kmhLfv9064IQ2TxxESOf14z8Z_3-BdFuKQv-uTS5fsonaFMy9CIVwbVYkgmUFk9_GQ57-li8u9CxkX0GnEmDarKI","version":2}} -->

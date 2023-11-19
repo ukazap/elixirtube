@@ -1,0 +1,15 @@
+video:
+  title: "How we built a distributed datastore in Elixir"
+  raw_title: "ElixirConf 2020 - Thomas Depierre - How we built a distributed datastore in Elixir"
+  description: "Best practice: do not build your own distributed database. Problem: no existing database covers our needs. Solution: Bad idea. Let's do it anyway. In Elixir!"
+  speakers:
+    - Thomas Depierre
+  source: youtube
+  source_id: 8DtZbE29evg
+  thumbnails:
+    xs: https://i.ytimg.com/vi/8DtZbE29evg/default.jpg
+    s: https://i.ytimg.com/vi/8DtZbE29evg/mqdefault.jpg
+    m: https://i.ytimg.com/vi/8DtZbE29evg/hqdefault.jpg
+    l: https://i.ytimg.com/vi/8DtZbE29evg/sddefault.jpg
+    xl: https://i.ytimg.com/vi/8DtZbE29evg/maxresdefault.jpg
+  published_at: 2021-01-11T22:56:47Z

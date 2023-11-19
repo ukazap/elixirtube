@@ -1,0 +1,15 @@
+video:
+  title: "Applying Elixir for driving small hydropower plants with Nerves"
+  raw_title: "ElixirConf 2020 - Yutaka Kikuchi - Applying Elixir for driving small hydropower plants with Nerves"
+  description: "Have you seen any power plant controlled with Nerves? We have been challenging to use tiny boards to regulate 240V and 6600V of small hydropower plants according to the conditions, e.g., water flow level of rivers. Should we use conventional PLCs? No, we can use Nerves systems for it more pleasantly."
+  speakers:
+    - Yutaka Kikuchi
+  source: youtube
+  source_id: SQhMsRPVwMc
+  thumbnails:
+    xs: https://i.ytimg.com/vi/SQhMsRPVwMc/default.jpg
+    s: https://i.ytimg.com/vi/SQhMsRPVwMc/mqdefault.jpg
+    m: https://i.ytimg.com/vi/SQhMsRPVwMc/hqdefault.jpg
+    l: https://i.ytimg.com/vi/SQhMsRPVwMc/sddefault.jpg
+    xl: https://i.ytimg.com/vi/SQhMsRPVwMc/maxresdefault.jpg
+  published_at: 2021-01-11T22:58:11Z

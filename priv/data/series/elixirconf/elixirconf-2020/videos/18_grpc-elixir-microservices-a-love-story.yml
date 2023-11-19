@@ -1,0 +1,15 @@
+video:
+  title: "gRPC + Elixir Microservices = A Love Story?"
+  raw_title: "ElixirConf 2020 - Catalina Astengo - gRPC + Elixir Microservices = A Love Story?"
+  description: "How to setup gRPC in elixir and get it working. gRPC is great for microservices infrastructure where multiple languages are involved At Nav we have created a repository with all the proto definitions from which we generate the code for each language library where services communicate with each other via gRPC within the Kubernetes cluster."
+  speakers:
+    - Catalina Astengo
+  source: youtube
+  source_id: 0a1iabJZLbQ
+  thumbnails:
+    xs: https://i.ytimg.com/vi/0a1iabJZLbQ/default.jpg
+    s: https://i.ytimg.com/vi/0a1iabJZLbQ/mqdefault.jpg
+    m: https://i.ytimg.com/vi/0a1iabJZLbQ/hqdefault.jpg
+    l: https://i.ytimg.com/vi/0a1iabJZLbQ/sddefault.jpg
+    xl: https://i.ytimg.com/vi/0a1iabJZLbQ/maxresdefault.jpg
+  published_at: 2021-01-11T22:20:44Z

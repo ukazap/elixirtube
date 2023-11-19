@@ -1,0 +1,15 @@
+video:
+  title: "Contributing to Elixir and the ecosystem: how to be in the loop"
+  raw_title: "ElixirConf 2020 - Leandro Pereira - Contributing to Elixir and the ecosystem: how to be in the loop"
+  description: "Have you ever wanted to contribute to the Elixir ecosystem but was not sure what to do or was afraid that your contribution would not be good enough? In this talk, you'll learn practical tips and tricks to give the first steps."
+  speakers:
+    - Leandro Pereira
+  source: youtube
+  source_id: 0gmRnBa5pEM
+  thumbnails:
+    xs: https://i.ytimg.com/vi/0gmRnBa5pEM/default.jpg
+    s: https://i.ytimg.com/vi/0gmRnBa5pEM/mqdefault.jpg
+    m: https://i.ytimg.com/vi/0gmRnBa5pEM/hqdefault.jpg
+    l: https://i.ytimg.com/vi/0gmRnBa5pEM/sddefault.jpg
+    xl: https://i.ytimg.com/vi/0gmRnBa5pEM/maxresdefault.jpg
+  published_at: 2020-10-05T15:34:41Z

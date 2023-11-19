@@ -1,0 +1,15 @@
+video:
+  title: "Short Circuit IoT Development Time with Nerves"
+  raw_title: "ElixirConf 2020 - Dan Lindeman - Short Circuit IoT Development Time with Nerves"
+  description: "Learn how you could leverage Nerves and Elixir to develop a Solar Microgrid. Don't worry, we did all the hard parts so you don't have to."
+  speakers:
+    - Dan Lindeman
+  source: youtube
+  source_id: LHysKONykf8
+  thumbnails:
+    xs: https://i.ytimg.com/vi/LHysKONykf8/default.jpg
+    s: https://i.ytimg.com/vi/LHysKONykf8/mqdefault.jpg
+    m: https://i.ytimg.com/vi/LHysKONykf8/hqdefault.jpg
+    l: https://i.ytimg.com/vi/LHysKONykf8/sddefault.jpg
+    xl: https://i.ytimg.com/vi/LHysKONykf8/maxresdefault.jpg
+  published_at: 2021-01-11T22:26:34Z
