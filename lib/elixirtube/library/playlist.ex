@@ -24,7 +24,16 @@ defmodule Elixirtube.Library.Playlist do
   @doc false
   def changeset(playlist, attrs) do
     playlist
-    |> cast(attrs, [:slug, :source, :title, :locations, :description, :urls, :thumbnails, :published_at])
+    |> cast(attrs, [
+      :slug,
+      :source,
+      :title,
+      :locations,
+      :description,
+      :urls,
+      :thumbnails,
+      :published_at
+    ])
     |> validate_required([:slug, :source, :title, :locations, :description, :urls, :published_at])
     |> unique_constraint([:slug])
   end

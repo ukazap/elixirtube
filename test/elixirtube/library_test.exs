@@ -21,7 +21,12 @@ defmodule Elixirtube.LibraryTest do
     end
 
     test "create_series/1 with valid data creates a series" do
-      valid_attrs = %{description: "some description", title: "some title", slug: "some slug", urls: ["option1", "option2"]}
+      valid_attrs = %{
+        description: "some description",
+        title: "some title",
+        slug: "some slug",
+        urls: ["option1", "option2"]
+      }
 
       assert {:ok, %Series{} = series} = Library.create_series(valid_attrs)
       assert series.description == "some description"
@@ -36,7 +41,13 @@ defmodule Elixirtube.LibraryTest do
 
     test "update_series/2 with valid data updates the series" do
       series = series_fixture()
-      update_attrs = %{description: "some updated description", title: "some updated title", slug: "some updated slug", urls: ["option1"]}
+
+      update_attrs = %{
+        description: "some updated description",
+        title: "some updated title",
+        slug: "some updated slug",
+        urls: ["option1"]
+      }
 
       assert {:ok, %Series{} = series} = Library.update_series(series, update_attrs)
       assert series.description == "some updated description"
@@ -81,7 +92,12 @@ defmodule Elixirtube.LibraryTest do
     end
 
     test "create_speaker/1 with valid data creates a speaker" do
-      valid_attrs = %{name: "some name", slug: "some slug", bio: "some bio", urls: ["option1", "option2"]}
+      valid_attrs = %{
+        name: "some name",
+        slug: "some slug",
+        bio: "some bio",
+        urls: ["option1", "option2"]
+      }
 
       assert {:ok, %Speaker{} = speaker} = Library.create_speaker(valid_attrs)
       assert speaker.name == "some name"
@@ -96,7 +112,13 @@ defmodule Elixirtube.LibraryTest do
 
     test "update_speaker/2 with valid data updates the speaker" do
       speaker = speaker_fixture()
-      update_attrs = %{name: "some updated name", slug: "some updated slug", bio: "some updated bio", urls: ["option1"]}
+
+      update_attrs = %{
+        name: "some updated name",
+        slug: "some updated slug",
+        bio: "some updated bio",
+        urls: ["option1"]
+      }
 
       assert {:ok, %Speaker{} = speaker} = Library.update_speaker(speaker, update_attrs)
       assert speaker.name == "some updated name"
@@ -128,7 +150,16 @@ defmodule Elixirtube.LibraryTest do
 
     import Elixirtube.LibraryFixtures
 
-    @invalid_attrs %{description: nil, title: nil, location: nil, source: nil, slug: nil, urls: nil, thumbnails: nil, published_at: nil}
+    @invalid_attrs %{
+      description: nil,
+      title: nil,
+      location: nil,
+      source: nil,
+      slug: nil,
+      urls: nil,
+      thumbnails: nil,
+      published_at: nil
+    }
 
     test "list_playlists/0 returns all playlists" do
       playlist = playlist_fixture()
@@ -141,7 +172,16 @@ defmodule Elixirtube.LibraryTest do
     end
 
     test "create_playlist/1 with valid data creates a playlist" do
-      valid_attrs = %{description: "some description", title: "some title", locations: ["some location"], source: "some source", slug: "some slug", urls: ["option1", "option2"], thumbnails: %{}, published_at: ~U[2023-11-18 13:05:00Z]}
+      valid_attrs = %{
+        description: "some description",
+        title: "some title",
+        locations: ["some location"],
+        source: "some source",
+        slug: "some slug",
+        urls: ["option1", "option2"],
+        thumbnails: %{},
+        published_at: ~U[2023-11-18 13:05:00Z]
+      }
 
       assert {:ok, %Playlist{} = playlist} = Library.create_playlist(valid_attrs)
       assert playlist.description == "some description"
@@ -160,7 +200,17 @@ defmodule Elixirtube.LibraryTest do
 
     test "update_playlist/2 with valid data updates the playlist" do
       playlist = playlist_fixture()
-      update_attrs = %{description: "some updated description", title: "some updated title", locations: ["some updated location"], source: "some updated source", slug: "some updated slug", urls: ["option1"], thumbnails: %{}, published_at: ~U[2023-11-19 13:05:00Z]}
+
+      update_attrs = %{
+        description: "some updated description",
+        title: "some updated title",
+        locations: ["some updated location"],
+        source: "some updated source",
+        slug: "some updated slug",
+        urls: ["option1"],
+        thumbnails: %{},
+        published_at: ~U[2023-11-19 13:05:00Z]
+      }
 
       assert {:ok, %Playlist{} = playlist} = Library.update_playlist(playlist, update_attrs)
       assert playlist.description == "some updated description"
@@ -196,7 +246,16 @@ defmodule Elixirtube.LibraryTest do
 
     import Elixirtube.LibraryFixtures
 
-    @invalid_attrs %{description: nil, title: nil, location: nil, source: nil, slug: nil, urls: nil, thumbnails: nil, published_at: nil}
+    @invalid_attrs %{
+      description: nil,
+      title: nil,
+      location: nil,
+      source: nil,
+      slug: nil,
+      urls: nil,
+      thumbnails: nil,
+      published_at: nil
+    }
 
     test "list_playlists/0 returns all playlists" do
       playlist = playlist_fixture()
@@ -209,7 +268,16 @@ defmodule Elixirtube.LibraryTest do
     end
 
     test "create_playlist/1 with valid data creates a playlist" do
-      valid_attrs = %{description: "some description", title: "some title", locations: ["some location"], source: "some source", slug: "some slug", urls: ["option1", "option2"], thumbnails: %{}, published_at: ~U[2023-11-18 13:06:00Z]}
+      valid_attrs = %{
+        description: "some description",
+        title: "some title",
+        locations: ["some location"],
+        source: "some source",
+        slug: "some slug",
+        urls: ["option1", "option2"],
+        thumbnails: %{},
+        published_at: ~U[2023-11-18 13:06:00Z]
+      }
 
       assert {:ok, %Playlist{} = playlist} = Library.create_playlist(valid_attrs)
       assert playlist.description == "some description"
@@ -228,7 +296,17 @@ defmodule Elixirtube.LibraryTest do
 
     test "update_playlist/2 with valid data updates the playlist" do
       playlist = playlist_fixture()
-      update_attrs = %{description: "some updated description", title: "some updated title", locations: ["some updated location"], source: "some updated source", slug: "some updated slug", urls: ["option1"], thumbnails: %{}, published_at: ~U[2023-11-19 13:06:00Z]}
+
+      update_attrs = %{
+        description: "some updated description",
+        title: "some updated title",
+        locations: ["some updated location"],
+        source: "some updated source",
+        slug: "some updated slug",
+        urls: ["option1"],
+        thumbnails: %{},
+        published_at: ~U[2023-11-19 13:06:00Z]
+      }
 
       assert {:ok, %Playlist{} = playlist} = Library.update_playlist(playlist, update_attrs)
       assert playlist.description == "some updated description"
@@ -264,7 +342,18 @@ defmodule Elixirtube.LibraryTest do
 
     import Elixirtube.LibraryFixtures
 
-    @invalid_attrs %{description: nil, title: nil, source: nil, media_type: nil, slug: nil, raw_title: nil, speaker_names: nil, urls: nil, thumbnails: nil, published_at: nil}
+    @invalid_attrs %{
+      description: nil,
+      title: nil,
+      source: nil,
+      media_type: nil,
+      slug: nil,
+      raw_title: nil,
+      speaker_names: nil,
+      urls: nil,
+      thumbnails: nil,
+      published_at: nil
+    }
 
     test "list_media/0 returns all media" do
       media = media_fixture()
@@ -277,7 +366,18 @@ defmodule Elixirtube.LibraryTest do
     end
 
     test "create_media/1 with valid data creates a media" do
-      valid_attrs = %{description: "some description", title: "some title", source: "some source", media_type: :video, slug: "some slug", raw_title: "some raw_title", speaker_names: ["option1", "option2"], urls: ["option1", "option2"], thumbnails: %{}, published_at: ~U[2023-11-18 13:38:00Z]}
+      valid_attrs = %{
+        description: "some description",
+        title: "some title",
+        source: "some source",
+        media_type: :video,
+        slug: "some slug",
+        raw_title: "some raw_title",
+        speaker_names: ["option1", "option2"],
+        urls: ["option1", "option2"],
+        thumbnails: %{},
+        published_at: ~U[2023-11-18 13:38:00Z]
+      }
 
       assert {:ok, %Media{} = media} = Library.create_media(valid_attrs)
       assert media.description == "some description"
@@ -298,7 +398,19 @@ defmodule Elixirtube.LibraryTest do
 
     test "update_media/2 with valid data updates the media" do
       media = media_fixture()
-      update_attrs = %{description: "some updated description", title: "some updated title", source: "some updated source", media_type: :audio, slug: "some updated slug", raw_title: "some updated raw_title", speaker_names: ["option1"], urls: ["option1"], thumbnails: %{}, published_at: ~U[2023-11-19 13:38:00Z]}
+
+      update_attrs = %{
+        description: "some updated description",
+        title: "some updated title",
+        source: "some updated source",
+        media_type: :audio,
+        slug: "some updated slug",
+        raw_title: "some updated raw_title",
+        speaker_names: ["option1"],
+        urls: ["option1"],
+        thumbnails: %{},
+        published_at: ~U[2023-11-19 13:38:00Z]
+      }
 
       assert {:ok, %Media{} = media} = Library.update_media(media, update_attrs)
       assert media.description == "some updated description"

@@ -47,27 +47,6 @@ defmodule Elixirtube.LibraryFixtures do
       |> Enum.into(%{
         description: "some description",
         locations: ["some location"],
-        published_at: ~U[2023-11-18 13:05:00Z],
-        slug: "some slug",
-        source: "some source",
-        thumbnails: %{},
-        title: "some title",
-        urls: ["option1", "option2"]
-      })
-      |> Elixirtube.Library.create_playlist()
-
-    playlist
-  end
-
-  @doc """
-  Generate a playlist.
-  """
-  def playlist_fixture(attrs \\ %{}) do
-    {:ok, playlist} =
-      attrs
-      |> Enum.into(%{
-        description: "some description",
-        locations: ["some location"],
         published_at: ~U[2023-11-18 13:06:00Z],
         slug: "some slug",
         source: "some source",

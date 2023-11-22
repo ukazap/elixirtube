@@ -64,10 +64,7 @@ defmodule Elixirtube.Data do
   defp import_transaction(commit_sha, changes) do
     Repo.transaction(fn ->
       # Insert data import
-      data_import =
-        %DataImport{}
-        |> DataImport.changeset(%{git_commit_sha: commit_sha})
-        |> Repo.insert!()
+      data_import = insert_data_import!(commit_sha)
 
       # Upsert data
       Enum.reduce(@schemas, %{DataImport => data_import}, fn schema, acc ->
@@ -83,13 +80,20 @@ defmodule Elixirtube.Data do
         schema
         |> Repo.insert_all(entries, opts)
         |> case do
-          result when is_tuple(result) ->
-            accumulate_result(acc, schema, result)
+          {count, returned} when is_integer(count) ->
+            accumulate_result(acc, schema, {count, returned})
+
           error ->
             Repo.rollback(error)
         end
       end)
     end)
+  end
+
+  defp insert_data_import!(commit_sha) do
+    %DataImport{}
+    |> DataImport.changeset(%{git_commit_sha: commit_sha})
+    |> Repo.insert!()
   end
 
   defp construct_entries(Speaker, raw_data_list, acc) do

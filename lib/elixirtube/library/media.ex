@@ -16,7 +16,8 @@ defmodule Elixirtube.Library.Media do
     field :title, :string
     field :raw_title, :string
     field :description, :string
-    field :speaker_names, {:array, :string} # denormalized for fast retrieval
+    # denormalized for fast retrieval
+    field :speaker_names, {:array, :string}
     field :urls, {:array, :string}
     field :thumbnails, :map
     field :published_at, :utc_datetime
@@ -27,8 +28,29 @@ defmodule Elixirtube.Library.Media do
   @doc false
   def changeset(media, attrs) do
     media
-    |> cast(attrs, [:media_type, :slug, :source, :title, :raw_title, :description, :speaker_names, :urls, :thumbnails, :published_at])
-    |> validate_required([:media_type, :slug, :source, :title, :raw_title, :description, :speaker_names, :urls, :published_at])
+    |> cast(attrs, [
+      :media_type,
+      :slug,
+      :source,
+      :title,
+      :raw_title,
+      :description,
+      :speaker_names,
+      :urls,
+      :thumbnails,
+      :published_at
+    ])
+    |> validate_required([
+      :media_type,
+      :slug,
+      :source,
+      :title,
+      :raw_title,
+      :description,
+      :speaker_names,
+      :urls,
+      :published_at
+    ])
     |> unique_constraint([:playlist_id, :slug])
   end
 end

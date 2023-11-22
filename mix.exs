@@ -53,7 +53,8 @@ defmodule Elixirtube.MixProject do
       {:bandit, ">= 0.0.0"},
       {:git_cli, "~> 0.3.0"},
       {:slugify, "~> 1.3"},
-      {:yaml_elixir, "~> 2.9"}
+      {:yaml_elixir, "~> 2.9"},
+      {:credo, "~> 1.7", only: [:dev, :test], runtime: false}
     ]
   end
 
