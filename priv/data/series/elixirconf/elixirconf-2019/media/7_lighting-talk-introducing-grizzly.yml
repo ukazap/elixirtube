@@ -2,7 +2,8 @@ video:
   title: "Lighting Talk - Introducing Grizzly"
   raw_title: "ElixirConf 2019 - Lighting Talk -  Introducing Grizzly"
   description: ""
-  speaker_names: []
+  speaker_names:
+    - Matt Ludwigs
   source: youtube:nsf3DkJxOIk
   thumbnails:
     xs: https://i.ytimg.com/vi/nsf3DkJxOIk/default.jpg

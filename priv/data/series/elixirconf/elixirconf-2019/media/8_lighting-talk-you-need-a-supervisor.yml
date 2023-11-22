@@ -2,7 +2,8 @@ video:
   title: "Lighting Talk - You need a Supervisor"
   raw_title: "ElixirConf 2019 - Lighting Talk - You need a Supervisor"
   description: ""
-  speaker_names: []
+  speaker_names:
+    - John Palgut
   source: youtube:NbJhworOFjU
   thumbnails:
     xs: https://i.ytimg.com/vi/NbJhworOFjU/default.jpg

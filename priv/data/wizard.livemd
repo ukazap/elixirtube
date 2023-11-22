@@ -419,6 +419,11 @@ series = %Series{
   |> Kino.Input.read()
   |> YouTube.extract_playlist_data()
 
+result =
+  Map.update(result, :videos, [], fn videos ->
+    Enum.uniq_by(videos, & &1.source)
+  end)
+
 data =
   data
   |> Map.put(:series, series)
@@ -541,8 +546,13 @@ video_data_inputs =
   Enum.map(videos, fn video ->
     frame = Kino.Frame.new()
 
+    video_url =
+      case video.source do
+        "youtube:" <> id -> "https://youtu.be/#{id}"
+      end
+
     """
-    ![](#{video.thumbnails.s})
+    [![](#{video.thumbnails.s})](#{video_url})
 
     <small>Original title:</small>
 
@@ -623,4 +633,4 @@ Kino.Markdown.new(
 SaveData.write_all_overwriting_duplicates!(data)
 ```
 
-<!-- livebook:{"offset":14939,"stamp":{"token":"XCP.BNh1mfQjGUuCHLHHmArpSXKQjbCFGZ6zwP8LztV92E1vRKR5HNsnEPjpUefv0bXIYriqixLzYnlA_bynuYc2vhAOE1zzbLhRdCTZCUxzdmo8sFbaW7yPec43qeRNPh0GmSSi8BprpgSE7o9s04tFRBjpODPM7xvVqcdCc3ZJ3rBwdrBhmmQabVLkEjAYfsw","version":2}} -->
+<!-- livebook:{"offset":15138,"stamp":{"token":"XCP.NjYk0o2jx71IaxMIHegbYVRuRCLEaD4nkhfRpYn50PiC-cqRKxpBgPS3R21d-2aTg3U7v-cFFdMKwlluyvRCk7zLo8USYZoCZMwda2ugqAi8Osywu-uJJvSCdO8-CfYZdwK4DY_hU6lrGrDpVx4xMHKnlK_5pvgjpd9wXhu7YxeO5LSjYD9D7Zj32y8W0XI","version":2}} -->

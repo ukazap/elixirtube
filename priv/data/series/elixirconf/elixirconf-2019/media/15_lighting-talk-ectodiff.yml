@@ -1,8 +1,9 @@
 video:
-  title: "Lighting Talk -  Chris Dose"
+  title: "Lighting Talk - EctoDiff"
   raw_title: "ElixirConf 2019 - Lighting Talk - Chris Dose"
   description: ""
-  speaker_names: []
+  speaker_names:
+    - Chris Dosé
   source: youtube:CtfcLdlUY7A
   thumbnails:
     xs: https://i.ytimg.com/vi/CtfcLdlUY7A/default.jpg

@@ -1,8 +1,9 @@
 video:
-  title: "Lighting Talk -  Nerves @ 433 MHZ"
+  title: "Lighting Talk - Nerves @ 433 MHZ"
   raw_title: "ElixirConf 2019 - Lighting Talk - Nerves @ 433 MHZ"
   description: ""
-  speaker_names: []
+  speaker_names:
+    - Jon Carstens
   source: youtube:PEheIY6gGhY
   thumbnails:
     xs: https://i.ytimg.com/vi/PEheIY6gGhY/default.jpg
