@@ -44,16 +44,47 @@ defmodule Elixirtube.Data do
     |> Repo.one()
   end
 
-  @doc "Imports data from Elixirtube remote Git repository."
-  @spec import_data!() :: map() | :noop
-  def import_data! do
+  @doc """
+    Imports data from Elixirtube remote Git repository.
+
+    Options
+
+    * `:dry_run` - set to `true` to prevent committing the import into the database; optional, defaults to `false` if not set.
+
+    ## Examples
+
+      iex> import_data!(dry_run: false)
+      {:ok,
+        %{
+          Elixirtube.Library.Media => 0,
+          Elixirtube.Library.Playlist => 0,
+          Elixirtube.Data.DataImport => %Elixirtube.Data.DataImport{
+            __meta__: #Ecto.Schema.Metadata<:loaded, "data_imports">,
+            git_commit_sha: "afb4b47f90e03666bd14887cd70f5d1437fd8900",
+            inserted_at: ~U[2023-11-22 10:23:15Z]
+          },
+          Elixirtube.Library.MediaSpeaker => 0,
+          Elixirtube.Library.Series => 1,
+          Elixirtube.Library.Speaker => 0
+        }
+      }
+
+      iex> import_data!(dry_run: false)
+      :noop
+  """
+  @spec import_data!(Keyword.t()) :: map() | :noop
+  def import_data!(opts \\ [dry_run: false]) do
+    dry_run? = Keyword.get(opts, :dry_run, false)
+
     with data_import <- get_last_data_import(),
          since_commit_sha <- current_commit_sha(data_import),
          {latest_commit_sha, [_ | _] = changes} <- GitRepo.fetch_changes!(since_commit_sha),
-         changes <- Enum.group_by(changes, fn %RawData{schema: s} -> s end) do
-      import_transaction(latest_commit_sha, changes)
+         changes <- Enum.group_by(changes, fn %RawData{schema: s} -> s end),
+         {:ok, _} = trx_result <- execute_import_transaction(latest_commit_sha, changes, dry_run?) do
+      trx_result
     else
       {sha, []} when is_binary(sha) -> :noop
+      {:error, {:dry_run_success, result}} -> {:ok, result}
     end
   end
 
@@ -61,32 +92,40 @@ defmodule Elixirtube.Data do
   defp current_commit_sha(_), do: nil
 
   @schemas [Speaker, Series, Playlist, Media, MediaSpeaker]
-  defp import_transaction(commit_sha, changes) do
+  defp execute_import_transaction(commit_sha, changes, dry_run?) do
     Repo.transaction(fn ->
       # Insert data import
       data_import = insert_data_import!(commit_sha)
 
+      acc = %{DataImport => data_import}
+
       # Upsert data
-      Enum.reduce(@schemas, %{DataImport => data_import}, fn schema, acc ->
-        raw_data_list = Map.get(changes, schema, [])
-        {entries, acc} = construct_entries(schema, raw_data_list, acc)
+      result =
+        Enum.reduce(@schemas, acc, fn schema, acc ->
+          raw_data_list = Map.get(changes, schema, [])
+          {entries, acc} = construct_entries(schema, raw_data_list, acc)
 
-        opts = [
-          on_conflict: {:replace_all_except, [:id, :inserted_at]},
-          conflict_target: conflict_target(schema),
-          returning: returning(schema)
-        ]
+          opts = [
+            on_conflict: {:replace_all_except, [:id, :inserted_at]},
+            conflict_target: conflict_target(schema),
+            returning: returning(schema)
+          ]
 
-        schema
-        |> Repo.insert_all(entries, opts)
-        |> case do
-          {count, returned} when is_integer(count) ->
-            accumulate_result(acc, schema, {count, returned})
+          schema
+          |> Repo.insert_all(entries, opts)
+          |> case do
+            {count, returned} when is_integer(count) ->
+              accumulate_result(acc, schema, {count, returned})
 
-          error ->
-            Repo.rollback(error)
-        end
-      end)
+            error ->
+              Repo.rollback(error)
+          end
+        end)
+
+      case dry_run? do
+        true -> Repo.rollback({:dry_run_success, result})
+        false -> result
+      end
     end)
   end
 
