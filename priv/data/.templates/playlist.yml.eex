@@ -1,6 +1,7 @@
 playlist:
   title: <%= inspect(@title) %>
-  location: <%= inspect(@location) %>
+  locations:<%= if Enum.empty?(@locations) do %> []<% else %><%= for location <- @locations do %>
+    - <%= location %><% end %><% end %>
   description: <%= inspect(@description) %>
   urls:<%= if Enum.empty?(@urls) do %> []<% else %><%= for url <- @urls do %>
     - <%= url %><% end %><% end %>

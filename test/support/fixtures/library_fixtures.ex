@@ -46,7 +46,7 @@ defmodule Elixirtube.LibraryFixtures do
       attrs
       |> Enum.into(%{
         description: "some description",
-        location: "some location",
+        locations: ["some location"],
         published_at: ~U[2023-11-18 13:05:00Z],
         slug: "some slug",
         source: "some source",
@@ -67,7 +67,7 @@ defmodule Elixirtube.LibraryFixtures do
       attrs
       |> Enum.into(%{
         description: "some description",
-        location: "some location",
+        locations: ["some location"],
         published_at: ~U[2023-11-18 13:06:00Z],
         slug: "some slug",
         source: "some source",

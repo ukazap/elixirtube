@@ -1,6 +1,8 @@
 playlist:
   title: "ElixirConf 2021"
-  location: "Austin, TX + Virtual"
+  locations:
+    - Austin, TX
+    - Virtual
   description: "ElixirConf US 2021 in Austin, TX, and Online, October 12-15."
   urls:
     - https://elixirconf.com/2020

@@ -54,7 +54,7 @@ end
 defmodule Playlist do
   defstruct [
     :title,
-    :location,
+    :locations,
     :source,
     :thumbnails,
     :published_at,
@@ -443,12 +443,12 @@ input_playlist_title =
   Kino.Input.textarea("Title", default: result.playlist.title)
   |> tap(&Kino.render/1)
 
-input_playlist_location =
-  Kino.Input.textarea("Location", default: result.playlist.location)
-  |> tap(&Kino.render/1)
-
 input_playlist_description =
   Kino.Input.textarea("Description", default: result.playlist.description)
+  |> tap(&Kino.render/1)
+
+input_playlist_locations =
+  Kino.Input.textarea("Locations (one per line)", default: result.playlist.locations)
   |> tap(&Kino.render/1)
 
 input_playlist_urls =
@@ -460,7 +460,12 @@ playlist =
   %{
     result.playlist
     | title: input_playlist_title |> Kino.Input.read() |> String.trim(),
-      location: input_playlist_location |> Kino.Input.read() |> String.trim(),
+      locations:
+        input_playlist_locations
+        |> Kino.Input.read()
+        |> String.trim()
+        |> String.split("\n")
+        |> Enum.map(&String.trim/1),
       description: input_playlist_description |> Kino.Input.read() |> String.trim(),
       urls:
         input_playlist_urls
@@ -633,4 +638,4 @@ Kino.Markdown.new(
 SaveData.write_all_overwriting_duplicates!(data)
 ```
 
-<!-- livebook:{"offset":15138,"stamp":{"token":"XCP.NjYk0o2jx71IaxMIHegbYVRuRCLEaD4nkhfRpYn50PiC-cqRKxpBgPS3R21d-2aTg3U7v-cFFdMKwlluyvRCk7zLo8USYZoCZMwda2ugqAi8Osywu-uJJvSCdO8-CfYZdwK4DY_hU6lrGrDpVx4xMHKnlK_5pvgjpd9wXhu7YxeO5LSjYD9D7Zj32y8W0XI","version":2}} -->
+<!-- livebook:{"offset":15249,"stamp":{"token":"XCP.DLQEuX46O4NAUHeQ6Ey1RvqJhXwwH1rYZekvQE3_Z6WXWgyNYoY7JGq9aB-HIK9eTZqRqjv2kvlsw5l6Rwxq6dW948a3ObMgZ8bSbAZL3NsAtCk5pBMVDHCFgYbXVXaxw4L-rY_jrutbUjU3hYBdovEDP-jyHH1O71Z8dfQcuajMZhR_gOzhDn_jWZmNksU","version":2}} -->

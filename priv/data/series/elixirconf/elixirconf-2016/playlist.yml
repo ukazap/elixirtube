@@ -1,6 +1,7 @@
 playlist:
   title: "ElixirConf 2016"
-  location: "Orlando, FL"
+  locations:
+    - Orlando, FL
   description: ""
   urls: []
   source: youtube:PLE7tQUdRKcyYoiEKWny0Jj72iu564bVFD
