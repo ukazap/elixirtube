@@ -20,6 +20,6 @@ defmodule Elixirtube.Library.Speaker do
   def changeset(speaker, attrs) do
     speaker
     |> cast(attrs, [:slug, :name, :bio, :urls])
-    |> validate_required([:slug, :name, :bio, :urls])
+    |> validate_required([:slug, :name])
   end
 end

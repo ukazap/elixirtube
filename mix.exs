@@ -50,7 +50,10 @@ defmodule Elixirtube.MixProject do
       {:gettext, "~> 0.20"},
       {:jason, "~> 1.2"},
       {:dns_cluster, "~> 0.1.1"},
-      {:bandit, ">= 0.0.0"}
+      {:bandit, ">= 0.0.0"},
+      {:git_cli, "~> 0.3.0"},
+      {:slugify, "~> 1.3"},
+      {:yaml_elixir, "~> 2.9"}
     ]
   end
 

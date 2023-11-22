@@ -17,6 +17,7 @@ defmodule Elixirtube.Repo.Migrations.CreatePlaylists do
     end
 
     create unique_index(:playlists, [:slug])
+    create unique_index(:playlists, [:source])
     create index(:playlists, [:series_id])
   end
 end

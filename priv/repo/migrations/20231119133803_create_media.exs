@@ -18,6 +18,7 @@ defmodule Elixirtube.Repo.Migrations.CreateMedia do
       timestamps(type: :utc_datetime)
     end
 
+    create unique_index(:media, [:source])
     create unique_index(:media, [:playlist_id, :slug])
     create index(:media, [:playlist_id])
   end
