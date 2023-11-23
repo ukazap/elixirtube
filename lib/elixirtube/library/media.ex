@@ -1,4 +1,5 @@
 defmodule Elixirtube.Library.Media do
+  @moduledoc false
   use Ecto.Schema
   import Ecto.Changeset
 
@@ -16,7 +17,7 @@ defmodule Elixirtube.Library.Media do
     field :title, :string
     field :raw_title, :string
     field :description, :string
-    # denormalized for fast retrieval
+    # denormalized speaker names for fast retrieval
     field :speaker_names, {:array, :string}
     field :urls, {:array, :string}
     field :thumbnails, :map
@@ -51,6 +52,6 @@ defmodule Elixirtube.Library.Media do
       :urls,
       :published_at
     ])
-    |> unique_constraint([:playlist_id, :slug])
+    |> unique_constraint([:slug])
   end
 end

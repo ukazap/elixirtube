@@ -5,15 +5,18 @@ defmodule Elixirtube.Data do
 
   import Ecto.Query, warn: false
 
+  alias Ecto.Multi
+  alias Elixirtube.Data.BulkMediaSpeakerAssociation
+  alias Elixirtube.Data.BulkUpdate
   alias Elixirtube.Data.DataImport
   alias Elixirtube.Data.GitRepo
-  alias Elixirtube.Data.RawData
   alias Elixirtube.Library.Media
-  alias Elixirtube.Library.MediaSpeaker
   alias Elixirtube.Library.Playlist
   alias Elixirtube.Library.Series
   alias Elixirtube.Library.Speaker
   alias Elixirtube.Repo
+
+  @type import_opts :: [{:dry_run, boolean()}]
 
   @doc """
   Returns the list of Data Imports.
@@ -40,202 +43,128 @@ defmodule Elixirtube.Data do
 
   """
   def get_last_data_import() do
-    from(d in DataImport, order_by: [desc: d.inserted_at], limit: 1)
+    query_last_import()
     |> Repo.one()
   end
 
   @doc """
     Imports data from Elixirtube remote Git repository.
 
-    Options
+    ## Options
 
     * `:dry_run` - set to `true` to prevent committing the import into the database; optional, defaults to `false` if not set.
 
     ## Examples
 
-      iex> import_data!(dry_run: false)
+      iex> run_data_import()
       {:ok,
-        %{
-          Elixirtube.Library.Media => 0,
-          Elixirtube.Library.Playlist => 0,
-          Elixirtube.Data.DataImport => %Elixirtube.Data.DataImport{
-            __meta__: #Ecto.Schema.Metadata<:loaded, "data_imports">,
-            git_commit_sha: "afb4b47f90e03666bd14887cd70f5d1437fd8900",
-            inserted_at: ~U[2023-11-22 10:23:15Z]
-          },
-          Elixirtube.Library.MediaSpeaker => 0,
-          Elixirtube.Library.Series => 1,
-          Elixirtube.Library.Speaker => 0
-        }
-      }
+      %{
+        last_import: nil,
+        new_import: %Elixirtube.Data.DataImport{
+          __meta__: #Ecto.Schema.Metadata<:loaded, "data_imports">,
+          git_commit_sha: "eca9c98a59240b07b7f55a362106856811c23c20",
+          inserted_at: ~U[2023-11-24 03:51:32Z]
+        },
+        changes: [
+          speakers: [upserts: 289],
+          series: [upserts: 1],
+          playlists: [upserts: 9],
+          media: [upserts: 381],
+          media_speakers: [upserts: 417]
+        ]
+      }}
 
-      iex> import_data!(dry_run: false)
-      :noop
+      iex> run_data_import()
+      {:noop,
+      %{
+        last_import: %Elixirtube.Data.DataImport{
+          __meta__: #Ecto.Schema.Metadata<:loaded, "data_imports">,
+          git_commit_sha: "eca9c98a59240b07b7f55a362106856811c23c20",
+          inserted_at: ~U[2023-11-24 03:51:32Z]
+        },
+        changes: []
+      }}
   """
-  @spec import_data!(Keyword.t()) :: map() | :noop
-  def import_data!(opts \\ [dry_run: false]) do
-    dry_run? = Keyword.get(opts, :dry_run, false)
+  @spec run_data_import(import_opts()) :: {:ok, map()} | {:noop, map} | {:error, any()}
+  def run_data_import(opts \\ [dry_run: false]) do
+    multi =
+      Multi.new()
+      |> Multi.one(:last_import, query_last_import())
+      |> Multi.run(:data_changes, fn _, %{last_import: last_import} ->
+        case GitRepo.fetch_changes!(_since = git_rev(last_import)) do
+          {_latest_rev, nil} -> {:error, nil}
+          {_latest_rev, %{}} = value -> {:ok, value}
+        end
+      end)
+      |> Multi.insert(:new_import, fn %{data_changes: {latest_rev, _changes}} ->
+        DataImport.new_import_changeset(latest_rev)
+      end)
+      |> BulkUpdate.run(:speakers, Speaker)
+      |> BulkUpdate.run(:series, Series)
+      |> BulkUpdate.run(:playlists, Playlist, parent: {Series, "series_slug"})
+      |> BulkUpdate.run(:media, Media,
+        parent: {Playlist, "playlist_slug"},
+        insert_all: [
+          # for use in BulkMediaSpeakerAssociation
+          returning: [:id, :speaker_names]
+        ]
+      )
+      |> BulkMediaSpeakerAssociation.run()
 
-    with data_import <- get_last_data_import(),
-         since_commit_sha <- current_commit_sha(data_import),
-         {latest_commit_sha, [_ | _] = changes} <- GitRepo.fetch_changes!(since_commit_sha),
-         changes <- Enum.group_by(changes, fn %RawData{schema: s} -> s end),
-         {:ok, _} = trx_result <- execute_import_transaction(latest_commit_sha, changes, dry_run?) do
-      trx_result
-    else
-      {sha, []} when is_binary(sha) -> :noop
-      {:error, {:dry_run_success, result}} -> {:ok, result}
+    multi =
+      case Keyword.get(opts, :dry_run) do
+        true -> Multi.run(multi, :dry_run?, fn _, _ -> {:error, true} end)
+        _ -> multi
+      end
+
+    case Repo.transaction(multi) do
+      {:error, :data_changes, nil, result} ->
+        {:noop, present_result(result)}
+
+      {:error, :dry_run?, true, result} ->
+        {:dry_run, present_result(result)}
+
+      {:ok, result} ->
+        {:ok, present_result(result)}
     end
   end
 
-  defp current_commit_sha(%DataImport{git_commit_sha: sha}), do: sha
-  defp current_commit_sha(_), do: nil
-
-  @schemas [Speaker, Series, Playlist, Media, MediaSpeaker]
-  defp execute_import_transaction(commit_sha, changes, dry_run?) do
-    Repo.transaction(fn ->
-      # Insert data import
-      data_import = insert_data_import!(commit_sha)
-
-      acc = %{DataImport => data_import}
-
-      # Upsert data
-      result =
-        Enum.reduce(@schemas, acc, fn schema, acc ->
-          raw_data_list = Map.get(changes, schema, [])
-          {entries, acc} = construct_entries(schema, raw_data_list, acc)
-
-          opts = [
-            on_conflict: {:replace_all_except, [:id, :inserted_at]},
-            conflict_target: conflict_target(schema),
-            returning: returning(schema)
-          ]
-
-          schema
-          |> Repo.insert_all(entries, opts)
-          |> case do
-            {count, returned} when is_integer(count) ->
-              accumulate_result(acc, schema, {count, returned})
-
-            error ->
-              Repo.rollback(error)
-          end
-        end)
-
-      case dry_run? do
-        true -> Repo.rollback({:dry_run_success, result})
-        false -> result
-      end
-    end)
+  defp query_last_import do
+    from(d in DataImport, order_by: [desc: d.inserted_at], limit: 1)
   end
 
-  defp insert_data_import!(commit_sha) do
-    %DataImport{}
-    |> DataImport.changeset(%{git_commit_sha: commit_sha})
-    |> Repo.insert!()
+  defp git_rev(%DataImport{git_commit_sha: rev}), do: rev
+  defp git_rev(_), do: nil
+
+  defp present_result(result) do
+    result
+    |> Map.delete(:data_changes)
+    |> report_changes(:speakers)
+    |> report_changes(:series)
+    |> report_changes(:playlists)
+    |> report_changes(:media)
+    |> report_changes(:media_speakers)
   end
 
-  defp construct_entries(Speaker, raw_data_list, acc) do
-    {Enum.map(raw_data_list, &RawData.to_entry/1), acc}
-  end
+  defp report_changes(result, key) do
+    counts =
+      result
+      |> Map.get(key, [])
+      |> Enum.map(fn {op, {count, _}} -> {op, count} end)
+      |> Enum.filter(fn {_, count} -> count > 0 end)
 
-  defp construct_entries(Series, raw_data_list, acc) do
-    {Enum.map(raw_data_list, &RawData.to_entry/1), acc}
-  end
+    changes =
+      result
+      |> Map.get(:changes, [])
+      |> then(
+        &case counts do
+          [] -> &1
+          _ -> &1 ++ [{key, counts}]
+        end
+      )
 
-  defp construct_entries(Playlist, raw_data_list, acc) do
-    parent_slug_to_id = create_parent_slug_to_id_lookup(raw_data_list, Series)
-
-    entries =
-      Enum.map(raw_data_list, fn %{parent: {_, parent_slug}} = raw_data ->
-        raw_data
-        |> RawData.to_entry()
-        |> Map.put(:series_id, Map.get(parent_slug_to_id, parent_slug))
-      end)
-
-    {entries, acc}
-  end
-
-  defp construct_entries(Media, raw_data_list, acc) do
-    parent_slug_to_id = create_parent_slug_to_id_lookup(raw_data_list, Playlist)
-
-    entries =
-      Enum.map(raw_data_list, fn %{parent: {_, parent_slug}} = raw_data ->
-        raw_data
-        |> RawData.to_entry()
-        |> Map.put(:playlist_id, Map.get(parent_slug_to_id, parent_slug))
-      end)
-
-    {entries, acc}
-  end
-
-  defp construct_entries(
-         MediaSpeaker,
-         _raw_data_list,
-         %{Media => {_, media_list}} = acc
-       ) do
-    media_and_speaker_slugs =
-      Enum.map(media_list, fn %Media{speaker_names: speaker_names} = media ->
-        {media, Enum.map(speaker_names, &Slug.slugify/1)}
-      end)
-
-    speaker_slugs =
-      media_and_speaker_slugs
-      |> Enum.flat_map(fn {_, speaker_slugs} -> speaker_slugs end)
-      |> Enum.uniq()
-
-    speaker_slug_to_id =
-      from(s in Speaker, select: {s.slug, s.id}, where: s.slug in ^speaker_slugs)
-      |> Repo.all()
-      |> Enum.into(%{})
-
-    entries =
-      media_and_speaker_slugs
-      |> Enum.flat_map(fn {%Media{id: media_id}, speaker_slugs} ->
-        Enum.map(speaker_slugs, fn speaker_slug ->
-          %{
-            media_id: media_id,
-            speaker_id: Map.get(speaker_slug_to_id, speaker_slug)
-          }
-        end)
-      end)
-
-    {entries, acc}
-  end
-
-  defp create_parent_slug_to_id_lookup(raw_data_list, schema) do
-    parent_slugs =
-      raw_data_list
-      |> Stream.map(fn %{parent: {^schema, slug}} -> slug end)
-      |> Stream.filter(&is_binary/1)
-      |> Enum.uniq()
-
-    from(s in schema, select: {s.slug, s.id}, where: s.slug in ^parent_slugs)
-    |> Repo.all()
-    |> Enum.into(%{})
-  end
-
-  defp conflict_target(Speaker), do: [:slug]
-  defp conflict_target(Series), do: [:slug]
-  defp conflict_target(Playlist), do: [:source]
-  defp conflict_target(Media), do: [:source]
-  defp conflict_target(MediaSpeaker), do: [:media_id, :speaker_id]
-
-  defp returning(Media), do: [:id, :speaker_names]
-  defp returning(_), do: false
-
-  def accumulate_result(acc, Media, {_, _} = result) do
-    Map.put(acc, Media, result)
-  end
-
-  def accumulate_result(%{Media => {media_count, _}} = acc, MediaSpeaker, {count, _}) do
-    Map.merge(acc, %{
-      MediaSpeaker => count,
-      Media => media_count
-    })
-  end
-
-  def accumulate_result(acc, schema, {count, _}) do
-    Map.put(acc, schema, count)
+    result
+    |> Map.delete(key)
+    |> Map.put(:changes, changes)
   end
 end

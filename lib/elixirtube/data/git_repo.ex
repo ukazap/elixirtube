@@ -4,23 +4,21 @@ defmodule Elixirtube.Data.GitRepo do
   and parse changed files in `priv/data` directory.
   """
 
-  alias Elixirtube.Data.RawData
+  alias Elixirtube.Data.DataChange
 
-  @type commit_sha :: String.t()
+  @type commit :: String.t() | nil
 
-  @spec fetch_changes!(commit_sha() | nil) :: {commit_sha(), [RawData.t()]}
-  def fetch_changes!(before_commit) do
-    branch = Keyword.get(config(), :branch, "main")
-    path = Keyword.get(config(), :path, "/tmp/elixirtube")
-    remote_url = Keyword.get(config(), :remote_url, "https://github.com/elixirtube/elixirtube.git")
+  @spec fetch_changes!(commit(), commit()) :: {commit(), map() | nil}
+  def fetch_changes!(before_commit, after_commit \\ nil) do
+    branch = config(:branch, "main")
+    path = config(:path, "/tmp/elixirtube")
+    remote_url = config(:remote_url, "https://github.com/elixirtube/elixirtube.git")
     repo = %Git.Repository{path: path}
 
     with {:error, _} <- Git.rev_parse(repo),
          {:ok, _} <- File.rm_rf(repo.path),
          {:ok, ^repo} <- Git.clone([remote_url, repo.path]) do
       :ok
-    else
-      {:ok, _} -> :noop
     end
 
     Git.clean!(repo, ~w[-d -f])
@@ -35,29 +33,36 @@ defmodule Elixirtube.Data.GitRepo do
       end
 
     after_commit =
-      repo
-      |> Git.rev_parse!([branch])
-      |> String.trim()
+      case after_commit do
+        nil -> repo |> Git.rev_parse!([branch]) |> String.trim()
+        _ -> after_commit
+      end
 
     case after_commit do
       ^before_commit ->
-        {after_commit, []}
+        {after_commit, nil}
+
       _ ->
         changes =
           repo
           |> Git.diff!(~w[--name-only #{before_commit} #{after_commit}])
           |> String.split("\n")
           |> Stream.filter(fn
-            "priv/data" <> _ = p -> Path.extname(p) == ".yml"
+            "priv/data/" <> _ = p -> Path.extname(p) == ".yml"
             _ -> false
           end)
-          |> Stream.map(&RawData.load!(repo, &1))
-          |> Enum.to_list()
+          |> Stream.map(fn "priv/data/" <> path -> DataChange.load(repo, path) end)
+          |> Enum.group_by(fn %DataChange{schema: s} -> s end)
+          |> Enum.reduce(%{}, fn {schema, list}, acc ->
+            Map.put(acc, schema, Enum.group_by(list, & &1.op))
+          end)
+
         {after_commit, changes}
     end
   end
 
-  defp config do
+  defp config(key, default) do
     Application.get_env(:elixirtube, :git_repo, [])
+    |> Keyword.get(key, default)
   end
 end

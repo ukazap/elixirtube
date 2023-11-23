@@ -153,103 +153,7 @@ defmodule Elixirtube.LibraryTest do
     @invalid_attrs %{
       description: nil,
       title: nil,
-      location: nil,
-      source: nil,
-      slug: nil,
-      urls: nil,
-      thumbnails: nil,
-      published_at: nil
-    }
-
-    test "list_playlists/0 returns all playlists" do
-      playlist = playlist_fixture()
-      assert Library.list_playlists() == [playlist]
-    end
-
-    test "get_playlist!/1 returns the playlist with given id" do
-      playlist = playlist_fixture()
-      assert Library.get_playlist!(playlist.id) == playlist
-    end
-
-    test "create_playlist/1 with valid data creates a playlist" do
-      valid_attrs = %{
-        description: "some description",
-        title: "some title",
-        locations: ["some location"],
-        source: "some source",
-        slug: "some slug",
-        urls: ["option1", "option2"],
-        thumbnails: %{},
-        published_at: ~U[2023-11-18 13:05:00Z]
-      }
-
-      assert {:ok, %Playlist{} = playlist} = Library.create_playlist(valid_attrs)
-      assert playlist.description == "some description"
-      assert playlist.title == "some title"
-      assert playlist.location == "some location"
-      assert playlist.source == "some source"
-      assert playlist.slug == "some slug"
-      assert playlist.urls == ["option1", "option2"]
-      assert playlist.thumbnails == %{}
-      assert playlist.published_at == ~U[2023-11-18 13:05:00Z]
-    end
-
-    test "create_playlist/1 with invalid data returns error changeset" do
-      assert {:error, %Ecto.Changeset{}} = Library.create_playlist(@invalid_attrs)
-    end
-
-    test "update_playlist/2 with valid data updates the playlist" do
-      playlist = playlist_fixture()
-
-      update_attrs = %{
-        description: "some updated description",
-        title: "some updated title",
-        locations: ["some updated location"],
-        source: "some updated source",
-        slug: "some updated slug",
-        urls: ["option1"],
-        thumbnails: %{},
-        published_at: ~U[2023-11-19 13:05:00Z]
-      }
-
-      assert {:ok, %Playlist{} = playlist} = Library.update_playlist(playlist, update_attrs)
-      assert playlist.description == "some updated description"
-      assert playlist.title == "some updated title"
-      assert playlist.location == "some updated location"
-      assert playlist.source == "some updated source"
-      assert playlist.slug == "some updated slug"
-      assert playlist.urls == ["option1"]
-      assert playlist.thumbnails == %{}
-      assert playlist.published_at == ~U[2023-11-19 13:05:00Z]
-    end
-
-    test "update_playlist/2 with invalid data returns error changeset" do
-      playlist = playlist_fixture()
-      assert {:error, %Ecto.Changeset{}} = Library.update_playlist(playlist, @invalid_attrs)
-      assert playlist == Library.get_playlist!(playlist.id)
-    end
-
-    test "delete_playlist/1 deletes the playlist" do
-      playlist = playlist_fixture()
-      assert {:ok, %Playlist{}} = Library.delete_playlist(playlist)
-      assert_raise Ecto.NoResultsError, fn -> Library.get_playlist!(playlist.id) end
-    end
-
-    test "change_playlist/1 returns a playlist changeset" do
-      playlist = playlist_fixture()
-      assert %Ecto.Changeset{} = Library.change_playlist(playlist)
-    end
-  end
-
-  describe "playlists" do
-    alias Elixirtube.Library.Playlist
-
-    import Elixirtube.LibraryFixtures
-
-    @invalid_attrs %{
-      description: nil,
-      title: nil,
-      location: nil,
+      locations: nil,
       source: nil,
       slug: nil,
       urls: nil,
@@ -282,7 +186,7 @@ defmodule Elixirtube.LibraryTest do
       assert {:ok, %Playlist{} = playlist} = Library.create_playlist(valid_attrs)
       assert playlist.description == "some description"
       assert playlist.title == "some title"
-      assert playlist.location == "some location"
+      assert playlist.locations == ["some location"]
       assert playlist.source == "some source"
       assert playlist.slug == "some slug"
       assert playlist.urls == ["option1", "option2"]
@@ -311,7 +215,7 @@ defmodule Elixirtube.LibraryTest do
       assert {:ok, %Playlist{} = playlist} = Library.update_playlist(playlist, update_attrs)
       assert playlist.description == "some updated description"
       assert playlist.title == "some updated title"
-      assert playlist.location == "some updated location"
+      assert playlist.locations == ["some updated location"]
       assert playlist.source == "some updated source"
       assert playlist.slug == "some updated slug"
       assert playlist.urls == ["option1"]

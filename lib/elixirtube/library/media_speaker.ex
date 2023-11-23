@@ -1,4 +1,5 @@
 defmodule Elixirtube.Library.MediaSpeaker do
+  @moduledoc false
   use Ecto.Schema
   import Ecto.Changeset
 
