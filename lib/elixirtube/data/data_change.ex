@@ -35,28 +35,24 @@ defmodule Elixirtube.Data.DataChange do
   @spec to_entry(t(), map) :: map()
   def to_entry(%DataChange{schema: schema, attrs: attrs}, parent_id_lookup \\ %{}) do
     now = DateTime.utc_now(:second)
-    attrs = set_parent_id(schema, attrs, parent_id_lookup)
 
     schema
     |> struct!([])
     |> schema.changeset(attrs)
     |> Map.get(:changes)
     |> Map.merge(%{inserted_at: now, updated_at: now})
+    |> put_parent_id(schema, attrs, parent_id_lookup)
   end
 
-  defp set_parent_id(Playlist, %{"series_slug" => slug} = attrs, id_lookup) do
-    attrs
-    |> Map.delete("series_slug")
-    |> Map.put("series_id", Map.get(id_lookup, slug))
+  defp put_parent_id(entry, Playlist, %{"series_slug" => slug}, id_lookup) do
+    Map.put(entry, :series_id, Map.get(id_lookup, slug))
   end
 
-  defp set_parent_id(Media, %{"playlist_slug" => slug} = attrs, id_lookup) do
-    attrs
-    |> Map.delete("playlist_slug")
-    |> Map.put("playlist_id", Map.get(id_lookup, slug))
+  defp put_parent_id(entry, Media, %{"playlist_slug" => slug}, id_lookup) do
+    Map.put(entry, :playlist_id, Map.get(id_lookup, slug))
   end
 
-  defp set_parent_id(_, attrs, _), do: attrs
+  defp put_parent_id(entry, _, _, _), do: entry
 
   # Update operations
 
@@ -85,7 +81,12 @@ defmodule Elixirtube.Data.DataChange do
     slug = "#{playlist_slug}-#{slug}"
 
     attrs =
-      Map.merge(attrs, %{"slug" => slug, "playlist_slug" => playlist_slug, "media_type" => :video, "position" => position})
+      Map.merge(attrs, %{
+        "slug" => slug,
+        "playlist_slug" => playlist_slug,
+        "media_type" => :video,
+        "position_in_playlist" => position
+      })
 
     %DataChange{path: path, op: :update, schema: Media, attrs: attrs}
   end

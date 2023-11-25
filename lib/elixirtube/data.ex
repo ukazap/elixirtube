@@ -43,7 +43,7 @@ defmodule Elixirtube.Data do
 
   """
   def get_last_data_import() do
-    query_last_import()
+    query_last_data_import()
     |> Repo.one()
   end
 
@@ -89,7 +89,7 @@ defmodule Elixirtube.Data do
   def run_data_import(opts \\ [dry_run: false]) do
     multi =
       Multi.new()
-      |> Multi.one(:last_import, query_last_import())
+      |> Multi.one(:last_import, query_last_data_import())
       |> Multi.run(:data_changes, fn _, %{last_import: last_import} ->
         case GitRepo.fetch_changes!(_since = git_rev(last_import)) do
           {_latest_rev, nil} -> {:error, nil}
@@ -101,10 +101,14 @@ defmodule Elixirtube.Data do
       end)
       |> BulkUpdate.run(:speakers, Speaker)
       |> BulkUpdate.run(:series, Series)
-      |> BulkUpdate.run(:playlists, Playlist, parent: {Series, "series_slug"})
+      |> BulkUpdate.run(:playlists, Playlist,
+        parent: {Series, "series_slug"},
+        insert_all: [conflict_target: [:source]]
+      )
       |> BulkUpdate.run(:media, Media,
         parent: {Playlist, "playlist_slug"},
         insert_all: [
+          conflict_target: [:source],
           # for use in BulkMediaSpeakerAssociation
           returning: [:id, :speaker_names]
         ]
@@ -129,7 +133,7 @@ defmodule Elixirtube.Data do
     end
   end
 
-  defp query_last_import do
+  defp query_last_data_import do
     from(d in DataImport, order_by: [desc: d.inserted_at], limit: 1)
   end
 
