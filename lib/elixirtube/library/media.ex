@@ -14,6 +14,7 @@ defmodule Elixirtube.Library.Media do
     field :source, :string
     field :media_type, Ecto.Enum, values: [:video, :audio]
     field :slug, :string
+    field :position_in_playlist, :integer
     field :title, :string
     field :raw_title, :string
     field :description, :string
@@ -32,6 +33,7 @@ defmodule Elixirtube.Library.Media do
     |> cast(attrs, [
       :media_type,
       :slug,
+      :position_in_playlist,
       :source,
       :title,
       :raw_title,
@@ -44,6 +46,7 @@ defmodule Elixirtube.Library.Media do
     |> validate_required([
       :media_type,
       :slug,
+      :position_in_playlist,
       :source,
       :title,
       :raw_title,

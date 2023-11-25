@@ -81,11 +81,11 @@ defmodule Elixirtube.Data.DataChange do
   defp to_data_change(
          {%{"video" => attrs}, ["series", _, playlist_slug, "media", filename] = path}
        ) do
-    [_, slug] = filename |> Path.basename(".yml") |> String.split("_")
+    [position, slug] = filename |> Path.basename(".yml") |> String.split("_")
     slug = "#{playlist_slug}-#{slug}"
 
     attrs =
-      Map.merge(attrs, %{"slug" => slug, "playlist_slug" => playlist_slug, "media_type" => :video})
+      Map.merge(attrs, %{"slug" => slug, "playlist_slug" => playlist_slug, "media_type" => :video, "position" => position})
 
     %DataChange{path: path, op: :update, schema: Media, attrs: attrs}
   end
